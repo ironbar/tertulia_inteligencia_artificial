@@ -1,1 +1,52 @@
-site_name: My Docs
+site_name: La TertulIA
+site_url: https://ironbar.github.io/tertulia_inteligencia_artificial/
+
+# Configuration
+theme:
+  name: material
+  language: en
+  palette:
+    primary: blue
+    accent: blue
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+  logo: res/brain-20-256.png
+  favicon: res/brain-20-256.png
+
+markdown_extensions:
+  - admonition
+  - pymdownx.tasklist
+  - footnotes
+  - tables
+
+plugins:
+    - search
+    - awesome-pages
+    - git-revision-date
+
+extra:
+  generator: false
+  # social:
+  #   - icon: fontawesome/brands/linkedin
+  #     link: https://www.linkedin.com/in/guillermobarbadillo/
+  #   - icon: fontawesome/brands/twitter
+  #     link: https://twitter.com/_ironbar_
+  #   - icon: fontawesome/brands/youtube
+  #     link: https://www.youtube.com/channel/UCOHmUwHnd2hmUpiDzaQ1Isg
+  #   - icon: fontawesome/brands/kaggle
+  #     link: https://www.kaggle.com/ironbar
+  analytics:
+    provider: google
+    property: G-B7YZ9MMVYB
+
+repo_url: https://github.com/ironbar/tertulia_inteligencia_artificial
