@@ -1,17 +1,7 @@
-# Welcome to MkDocs
+# La Tertulia de la Inteligencia Artificial
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Objetivo
 
-## Commands
+Tener una excusa para reunirnos periódicamente y hablar en profundidad de Inteligencia Artificial.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+La idea sería intentar hacer un programa mensual en el que trataríamos uno o varios temas relacionados con la Inteligencia Artificial.
