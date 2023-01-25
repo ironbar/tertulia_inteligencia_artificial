@@ -1,5 +1,7 @@
 # La Tertulia de la Inteligencia Artificial
 
+TODO: link al podcast
+
 ## Objetivo
 
 Tener una excusa para reunirnos periódicamente y hablar en profundidad de Inteligencia Artificial.
