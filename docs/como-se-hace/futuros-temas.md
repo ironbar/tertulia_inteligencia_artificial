@@ -10,3 +10,5 @@ Aquí guardaremos los posibles temas a tratar en futuros programas.
 - Singularidad
 - F Chollet y la definición de IA
 - 5G, blockchain e IA
+- Causalidad, The Book of Why, Judea Perl
+- Pensar rápido, pensar despacio, Kanneman
