@@ -1,4 +1,4 @@
-# Como hacemos la TertulIA
+# Como hacemos la TERTULia
 
 ## Links
 

@@ -1,4 +1,4 @@
-# La TertulIA
+# La TERTULia
 
 En este repositorio crearemos la [web](https://ironbar.github.io/tertulia_inteligencia_artificial/) de "La Tertul**IA**", un podcast de Inteligencia Artificial.
 
