@@ -1,4 +1,4 @@
-# La Tertulia de la Inteligencia Artificial
+# La TERTULia de la Inteligencia Artificial
 
 TODO: link al podcast
 
