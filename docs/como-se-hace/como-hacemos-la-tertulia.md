@@ -21,3 +21,16 @@ Sería necesario que los roles puedan ser realizados por varias personas porque 
 ### Edición
 
 - Editar el podcast para que suene bien, eliminar los silencios, añadir música de fondo, etc.
+
+## Otras experiencias
+
+El 26/01/2023 grabamos un podcast interno de la empresa Veridas con Iker Gómez que antes había hecho
+el pocast Bigdateame. Usamos el micrófono [Talk Go](https://www.amazon.es/JLab-Audio-Talk-Black-W125781587/dp/B0885C9FLV).
+Al día siguiente me lo he traído a casa para hacer pruebas y diría que se escucha bastante bien si
+se usa correctamente (la posición natural no es la que hay que utilizar [Manual](https://cdn.shopify.com/s/files/1/0240/9337/files/Talk_GO_Microphone_Manual.pdf?v=1621028683))
+Este micrófono cuesta 40 euros por lo que puede ser una opción económica para empezar el podcast.
+
+Para grabar el podcast estabamos 3 personas y cada uno tenía su micrófono y su ordenador. Hay que tener
+cuidado que los ordenadores sean silenciosos porque el de Íñigo se puso a ventilar y habrá que ver
+como quedó el podcast. Para grabar todos los audios a la vez y tenerlos sincronizados usamos la web
+de [zencastr](https://zencastr.com/)
