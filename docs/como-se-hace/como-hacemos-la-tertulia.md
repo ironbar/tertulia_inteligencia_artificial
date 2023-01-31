@@ -34,3 +34,20 @@ Para grabar el podcast estabamos 3 personas y cada uno tenía su micrófono y su
 cuidado que los ordenadores sean silenciosos porque el de Íñigo se puso a ventilar y habrá que ver
 como quedó el podcast. Para grabar todos los audios a la vez y tenerlos sincronizados usamos la web
 de [zencastr](https://zencastr.com/)
+
+## Consejos de Chelus
+
+Aspectos a tener en cuenta para elegir una sala de grabación:
+
+- El cristal es malo, refleja mucho el sonido, hay que cubrirlo con cortinas
+- Los azulejos también reflejan mucho, por lo que el baño o la cocina son malos sitios
+- Evitar superficies paralelas
+
+Aspectos a tener en cuenta en la edición:
+
+- Eliminar el ruido. Para esto se puede grabar 20s de silencio al principio de la sesión que sirvan para calcular el perfil de ruido. (Noise Reduction en Audacity)
+- Noise Gate. Todo el audio que está por debajo de cierta potencia lo silencia automáticamente. 
+- Mutear a los que no hablan.
+
+Sobre el micrófono supercardioide es mejor que cardioide. Me he comprado el [Razer Seiren Mini](https://www.mediamarkt.es/es/product/_micr%C3%B3fono-razer-seiren-mini-mercury-usb-para-pc-mac-ps4-110-db-blanco-1495613.html) por 40 euros para hacer pruebas.
+
