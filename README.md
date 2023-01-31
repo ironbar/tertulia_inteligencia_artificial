@@ -7,7 +7,7 @@ Esta web está creada con [Mkdocs](https://www.mkdocs.org/getting-started/)
 ## TODO
 
 - [ ] Aprender como se hace un podcast
-- [ ] Crear logo para el programa
-- [ ] Crear cuenta en Ivoox o similar
+- [x] Crear logo para el programa
+- [x] Crear cuenta en Ivoox o similar
 - [ ] Crear cuenta en twitter
 - [ ] Arrancar el programa
