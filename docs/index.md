@@ -2,7 +2,7 @@
 
 Podcast mensual en el que hablamos en profundidad sobre temas relacionados con la Inteligencia Artificial
 
-TODO: link al podcast
+[Link al podcast](https://go.ivoox.com/sq/1815311)
 
 ## Objetivo
 
