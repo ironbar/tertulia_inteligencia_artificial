@@ -1,5 +1,7 @@
 # La TERTULia de la Inteligencia Artificial
 
+Podcast mensual en el que hablamos en profundidad sobre temas relacionados con la Inteligencia Artificial
+
 TODO: link al podcast
 
 ## Objetivo
