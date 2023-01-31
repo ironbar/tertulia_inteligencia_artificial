@@ -20,8 +20,8 @@ theme:
     - navigation.expand
     - navigation.indexes
     - navigation.top
-  logo: res/brain-20-256.png
-  favicon: res/brain-20-256.png
+  logo: res/logo-podcast-favicon.png
+  favicon: res/logo-podcast-favicon.png
 
 markdown_extensions:
   - admonition
