@@ -1,5 +1,7 @@
 # La TERTULia de la Inteligencia Artificial
 
+![logo-podcast](res/logo-podcast.png)
+
 Podcast mensual en el que hablamos en profundidad sobre temas relacionados con la Inteligencia Artificial
 
 [Link al podcast](https://go.ivoox.com/sq/1815311)
