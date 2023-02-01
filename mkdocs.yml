@@ -36,15 +36,15 @@ plugins:
 
 extra:
   generator: false
-  # social:
-  #   - icon: fontawesome/brands/linkedin
-  #     link: https://www.linkedin.com/in/guillermobarbadillo/
-  #   - icon: fontawesome/brands/twitter
-  #     link: https://twitter.com/_ironbar_
-  #   - icon: fontawesome/brands/youtube
-  #     link: https://www.youtube.com/channel/UCOHmUwHnd2hmUpiDzaQ1Isg
-  #   - icon: fontawesome/brands/kaggle
-  #     link: https://www.kaggle.com/ironbar
+  social:
+    - icon: fontawesome/brands/spotify
+      link: https://open.spotify.com/show/2yxHFbLvZC16ZV8Of7I7qH
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/TERTUL_ia
+    - icon: fontawesome/brands/apple
+      link: https://podcasts.apple.com/us/podcast/la-tertulia-de-la-inteligencia-artificial/id1669083682
+    - icon: fontawesome/solid/microphone
+      link: https://go.ivoox.com/sq/1815311
   analytics:
     provider: google
     property: G-B7YZ9MMVYB
