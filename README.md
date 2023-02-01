@@ -1,6 +1,6 @@
 # La TERTULia
 
-![logo-podcast](res/logo-podcast.png)
+![logo-podcast](docs/res/logo-podcast.png)
 
 En este repositorio crearemos la [web](https://ironbar.github.io/tertulia_inteligencia_artificial/) de "La TERTULia", un podcast de Inteligencia Artificial.
 
