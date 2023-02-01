@@ -10,4 +10,5 @@ Esta web está creada con [Mkdocs](https://www.mkdocs.org/getting-started/)
 - [x] Crear logo para el programa
 - [x] Crear cuenta en Ivoox o similar
 - [x] Crear cuenta en twitter
+- [ ] Crear grupo de whatsapp o Telegram para coordinar el podcast y lanzar ideas para programas
 - [ ] Arrancar el programa
