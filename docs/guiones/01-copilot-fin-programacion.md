@@ -17,6 +17,15 @@
 4. Caso de Dalle y el arte
 5. ¿Puede pasar lo mismo con la programación?
 
+## Ideas peregrinas
+
+### Generación de código guiada por diseño
+
+- Desde hace al menos dos décadas que se lleva estudiando la generación automática de código basada en diagramas o modelos de alto nivel ([como podría ser UML](https://www.ajol.info/index.php/swj/article/view/183612)).
+- En la Universitat Politècnica de València hay un grupo que ha trabajado en esto durante años.
+- Unificar el análisis semántico del diseño de una aplicación, y apoyar la generación de trozos de código en el uso de Copilot (o similares), seguro que es un campo de estudio e investigación de gran interés. Copilot puede centrarse a generar cógido de  componentes más o menos atómicos descritos en los diagramas de alto nivel generados por personas.
+- Finalmente, siempre hará falta un proceso de revisión y refinamiento del código generado.
+
 ## Recomendaciones
 
 ## Despedida
