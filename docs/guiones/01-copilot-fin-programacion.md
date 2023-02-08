@@ -11,15 +11,16 @@
 
 ## Tema en profundidad
 
-1. ¿Qué es Copilot? [https://github.com/features/copilot](https://github.com/features/copilot)
-2. ¿Qué es ChatGPT? [https://openai.com/blog/instruction-following/](https://openai.com/blog/instruction-following/)
-3. ¿Qué es programar?
-4. Caso de Dalle y el arte
-5. ¿Puede pasar lo mismo con la programación?
+1. Caso de Dalle, stable diffusion y el arte
+2. ¿Puede pasar lo mismo con la programación?
+   1. ¿Qué es Copilot? [https://github.com/features/copilot](https://github.com/features/copilot)
+   2. ¿Qué es ChatGPT? [https://openai.com/blog/instruction-following/](https://openai.com/blog/instruction-following/)
+   3. ¿Qué es programar?
+   4. Futuro de la programación
 
-## Ideas peregrinas
+### Ideas peregrinas
 
-### Generación de código guiada por diseño
+#### Generación de código guiada por diseño
 
 - Desde hace al menos dos décadas que se lleva estudiando la generación automática de código basada en diagramas o modelos de alto nivel ([como podría ser UML](https://www.ajol.info/index.php/swj/article/view/183612)).
 - En la Universitat Politècnica de València hay un grupo que ha trabajado en esto durante años.
