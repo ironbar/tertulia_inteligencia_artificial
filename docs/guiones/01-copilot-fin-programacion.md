@@ -15,8 +15,8 @@
 2. ¿Puede pasar lo mismo con la programación?
    1. ¿Qué es Copilot? [https://github.com/features/copilot](https://github.com/features/copilot)
    2. ¿Qué es ChatGPT? [https://openai.com/blog/instruction-following/](https://openai.com/blog/instruction-following/)
-   3. ¿Qué es programar?
-   4. Futuro de la programación
+   3. ¿Qué es programar/desarrollo de software?
+   4. Futuro de la programación/desarrollo de software
 
 ### Ideas peregrinas
 
