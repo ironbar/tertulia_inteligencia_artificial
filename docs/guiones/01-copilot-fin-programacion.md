@@ -3,7 +3,7 @@
 ## Introducción
 
 - Entradilla (todavía por hacer)
-- Bienvenidos a la tertulia de la inteligencia artificial. IA en profundidad
+- Bienvenidos a la tertulia de la inteligencia artificial. tratamos en profundidad temas relacionados con la IA
 - Presentar el tema del día
 - 1º programa, paciencia
 - 1 programa al mes
