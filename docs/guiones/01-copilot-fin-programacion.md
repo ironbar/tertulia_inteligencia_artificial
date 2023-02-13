@@ -2,10 +2,13 @@
 
 ## Introducción
 
-- Entradilla
-- Presentación Tertulianos
-- Presentación programa
-- Recordatorio de que respondemos preguntas (podemos pedir algunas por adelantado en el vespertino)
+- Entradilla (todavía por hacer)
+- Bienvenidos a la tertulia de la inteligencia artificial. IA en profundidad
+- Presentar el tema del día
+- 1º programa, paciencia
+- 1 programa al mes
+- Presentación Tertulianos. Honor y agradecimientos. Orden en la mesa.
+- Recordatorio de que respondemos preguntas en twitter(podemos pedir algunas por adelantado en el vespertino) Inaugurar la cuenta
 
 ## Preguntas de los oyentes
 
