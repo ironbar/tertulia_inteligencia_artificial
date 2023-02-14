@@ -14,12 +14,27 @@
 
 ## Tema en profundidad
 
-1. Caso de Dalle, stable diffusion y el arte
-2. ¿Puede pasar lo mismo con la programación?
-   1. ¿Qué es Copilot? [https://github.com/features/copilot](https://github.com/features/copilot) [https://openai.com/blog/openai-codex/](https://openai.com/blog/openai-codex/)
-   2. ¿Qué es ChatGPT? [https://openai.com/blog/instruction-following/](https://openai.com/blog/instruction-following/)
-   3. ¿Qué es programar/desarrollo de software?
-   4. Futuro de la programación/desarrollo de software
+### Caso de Dalle, stable diffusion y el arte
+
+### ¿Puede pasar lo mismo con la programación?
+
+#### ¿Qué es Copilot? 
+
+- [https://github.com/features/copilot](https://github.com/features/copilot)
+- [https://openai.com/blog/openai-codex/](https://openai.com/blog/openai-codex/)
+- 12B of parameters vs 175B GPT3
+- 3x contextual memory vs GPT3
+- All github, around 159GB after cleaning
+- Fine-tune GPT
+- Changes in the tokenizer to deal with whitespaces
+
+#### ¿Qué es ChatGPT?
+
+[https://openai.com/blog/instruction-following/](https://openai.com/blog/instruction-following/)
+
+#### ¿Qué es programar/desarrollo de software?
+
+#### Futuro de la programación/desarrollo de software
 
 ### Ideas peregrinas
 
