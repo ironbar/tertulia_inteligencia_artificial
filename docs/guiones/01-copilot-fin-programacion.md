@@ -30,7 +30,10 @@
 
 #### ¿Qué es ChatGPT?
 
-[https://openai.com/blog/instruction-following/](https://openai.com/blog/instruction-following/)
+- [https://openai.com/blog/instruction-following/](https://openai.com/blog/instruction-following/)
+- [https://openai.com/blog/chatgpt/](https://openai.com/blog/chatgpt/)
+- No hay paper de ChatGPT, seguimos el de instructgpt que dice ser hermano
+- Seguir lo subrayado en el paper
 
 #### ¿Qué es programar/desarrollo de software?
 
