@@ -36,9 +36,7 @@
 
 #### Futuro de la programación/desarrollo de software
 
-### Ideas peregrinas
-
-#### Generación de código guiada por diseño
+##### Generación de código guiada por diseño
 
 - Desde hace al menos dos décadas que se lleva estudiando la generación automática de código basada en diagramas o modelos de alto nivel ([como podría ser UML](https://www.ajol.info/index.php/swj/article/view/183612)).
 - En la Universitat Politècnica de València hay un grupo que ha trabajado en esto durante años.
