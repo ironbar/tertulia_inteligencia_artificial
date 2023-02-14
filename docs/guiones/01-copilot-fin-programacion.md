@@ -16,7 +16,7 @@
 
 1. Caso de Dalle, stable diffusion y el arte
 2. ¿Puede pasar lo mismo con la programación?
-   1. ¿Qué es Copilot? [https://github.com/features/copilot](https://github.com/features/copilot)
+   1. ¿Qué es Copilot? [https://github.com/features/copilot](https://github.com/features/copilot) [https://openai.com/blog/openai-codex/](https://openai.com/blog/openai-codex/)
    2. ¿Qué es ChatGPT? [https://openai.com/blog/instruction-following/](https://openai.com/blog/instruction-following/)
    3. ¿Qué es programar/desarrollo de software?
    4. Futuro de la programación/desarrollo de software
