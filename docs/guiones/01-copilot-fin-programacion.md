@@ -16,9 +16,13 @@
 
 ### Caso de Dalle, stable diffusion y el arte
 
+`iolcoz y pzamora`
+
 ### ¿Puede pasar lo mismo con la programación?
 
 #### ¿Qué es Copilot? 
+
+`gbarbadillo`
 
 - [https://github.com/features/copilot](https://github.com/features/copilot)
 - [https://openai.com/blog/openai-codex/](https://openai.com/blog/openai-codex/)
@@ -30,6 +34,8 @@
 
 #### ¿Qué es ChatGPT?
 
+`parte técnica:gbarbadillo, pzamora, experiencia: vgoni, iolcoz`
+
 - [https://openai.com/blog/instruction-following/](https://openai.com/blog/instruction-following/)
 - [https://openai.com/blog/chatgpt/](https://openai.com/blog/chatgpt/)
 - No hay paper de ChatGPT, seguimos el de instructgpt que dice ser hermano
@@ -38,6 +44,8 @@
 #### ¿Qué es programar/desarrollo de software?
 
 #### Futuro de la programación/desarrollo de software
+
+`vgoni, pzamora`
 
 ##### Generación de código guiada por diseño
 
