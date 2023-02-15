@@ -56,6 +56,9 @@
 
 ## Recomendaciones
 
+- Markus Gabriel. Porque el mundo no existe 
+- Radio Skylab
+
 ## Despedida
 
 ## Otras referencias
