@@ -13,8 +13,11 @@ Puedes escucharnos en:
 
 Déjanos tus preguntas en [Twitter](https://twitter.com/TERTUL_ia) y las responderemos al principio de cada programa!
 
+<!--
+
 ## Objetivo
 
 Tener una excusa para reunirnos periódicamente y hablar en profundidad de Inteligencia Artificial.
 
 La idea sería intentar hacer un programa mensual en el que trataríamos uno o varios temas relacionados con la Inteligencia Artificial.
+-->
