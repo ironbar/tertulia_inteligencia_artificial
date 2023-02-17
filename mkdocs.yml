@@ -45,6 +45,8 @@ extra:
       link: https://podcasts.apple.com/us/podcast/la-tertulia-de-la-inteligencia-artificial/id1669083682
     - icon: fontawesome/solid/microphone
       link: https://go.ivoox.com/sq/1815311
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@tertul_ia
   analytics:
     provider: google
     property: G-B7YZ9MMVYB
