@@ -19,6 +19,7 @@ Aquí guardaremos los posibles temas a tratar en futuros programas.
 - ¿El uso de la IA en las artes escénicas? (teatro, performances, ..., no en el cine)
 - Uso de la IA en el cine.
 - La IA en la educación y el uso ChatGPT en las aulas.
+- Sesgos en la IA. Problemas éticos.
 
 ## Temas ya desarrollados
 
