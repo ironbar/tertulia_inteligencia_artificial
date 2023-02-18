@@ -26,8 +26,58 @@ se oye eco porque los audios no están perfectamente alineados y además el desa
 el ruido de fondo y otra palmada para empezar el programa.
 - Si hay errores en la grabación señalizarlos con palmadas para que sea más fácil localizarlos en la edición
 - Cuando termina el programa verificar que todos los audios se han grabado bien en zencastr.
+- Durante el programa el técnico de sonido verifica que todo va bien y que nos estamos acordando de desilenciarnos y silenciarnos.
+- Levantar la mano durante el programa para tener un turno ordenador de palabra
 
 ## Edición
+
+La mejor edición es la que no hace falta hacer, por ello mutearse cuando no hablamos es muy buena práctica.
+
+### Voz
+
+1. Importamos todos los audios a [Audacity](https://www.audacityteam.org/), cada audio va a ser una pista diferente.
+1. `Normalize` todos los audios para que tengan un volumen parecido. Se puede ir reaplicando la normalización conforme vamos limpiando los audios.
+1. `Noise reduction` a cada pista por separado. Se calcula un perfil de ruido en base al silencio del inicio del podcast y luego se limpia todo el audio.
+1. Alinear las pistas. Una pista se usa como referencia y las otras se alinean usando como referencia
+las palmadas. Esto no es perfecto porque he observado que el desalineamiento evoluciona a lo largo del audio.
+Quizá tendría sentido entonces partir los audios en trozos y alinear por secciones. El desalineamiento
+provoca que se oiga eco si hay dos micrófonos activos al mismo tiempo.
+1. Para agilizar la revisión fijarse únicamente cuando cambia la persona que habla. Aplicar silencio
+a la persona que no está hablando. **TODO** es posible que esto pueda hacerse automáticamente con algún plugin.
+1. Eliminar silencios innecesarios.
+1. Eliminar meteduras de pata, si hemos dado palmadas cuando ha sucedido será más fácil de editar.
+
+### Música
+
+Para que el programa quede más profesional es buena idea meterle una música de fondo. Sólo se puede
+usar música sin derechos de autor. En [Free Music Archive](https://freemusicarchive.org) hay un catálogo
+bastante grande. P.e. en el primer programa hemos usado [esta canción](https://freemusicarchive.org/music/oriondrive/the-matrix/matrix-a/)
+
+Para compaginar la música y la voz hemos usado estos filtros:
+
+1. Adjustable Fade 100 -> 1%
+1. Amplify -30db
+
+### Miniatura
+
+Lo más sencillo para generar una miniatura es utilizar Dalle o stable-diffusion.
+
+### Título y Descripción
+
+El título ya lo tendremos preparado en el guión, la descripción será breve y comentará quienes
+son los participantes, link a la web y créditos a la música.
+
+Ejemplo del primer programa:
+
+```text
+El año pasado la irrupción de Dalle2 y Stable Diffusion pusieron patas arriba el mundo del arte. En el programa de hoy analizamos el impacto que herramientas como ChatGPT o Copilot pueden llegar a tener en el mundo de la programación.
+
+Participan en la tertulia Íñigo Olcoz, Víctor Goñi, Paco Zamora y Guillermo Barbadillo. Iker Gómez nos ayuda con la parte técnica.
+
+Créditos:
+<https://ironbar.github.io/tertulia_inteligencia_artificial/guiones/01-copilot-fin-programacion/>
+<https://freemusicarchive.org/music/oriondrive/the-matrix/matrix-a/>
+```
 
 ## Links
 
