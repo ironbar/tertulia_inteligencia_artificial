@@ -47,6 +47,11 @@ a la persona que no está hablando. **TODO** es posible que esto pueda hacerse a
 1. Eliminar silencios innecesarios.
 1. Eliminar meteduras de pata, si hemos dado palmadas cuando ha sucedido será más fácil de editar.
 
+**TODO** Herramientas a mirar para el próximo podcast:
+
+- [Auto duck](https://manual.audacityteam.org/man/auto_duck.html), baja el volumen de una pista cuando en la otra pista estamos hablando. Importante fijar bien los umbrales.
+- [Noise gate](https://manual.audacityteam.org/man/noise_gate.html), silencia todo lo que este por debajo de un umbral de energía
+
 ### Música
 
 Para que el programa quede más profesional es buena idea meterle una música de fondo. Sólo se puede
