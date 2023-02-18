@@ -1,5 +1,34 @@
 # Como hacemos la TERTULia
 
+## Grabación
+
+### Preparar la sala
+
+- Estamos grabando en la sala Endor de das-Nano que creemos que es la de mejor acústica del edificio
+- Cerrar las cortinas para minimizar los rebotes de sonido en los cristales
+- Cubrir la tele con un abrigo también para minimizar los rebotes
+- Traer percheros con abrigos y ponerlos en las esquinas para minimizar eco
+- Servir líquidos a los tertulianos
+
+### Equipo de grabación
+
+- Cada tertuliano necesita un portátil silencioso
+- En el primer podcast hemos usado 2 [Razer Seiren Mini](https://www.mediamarkt.es/es/product/_micr%C3%B3fono-razer-seiren-mini-mercury-usb-para-pc-mac-ps4-110-db-blanco-1495613.html) y 2 micrófonos [Talk Go](https://www.amazon.es/JLab-Audio-Talk-Black-W125781587/dp/B0885C9FLV)
+- Usamos [zencastr](https://zencastr.com/) para grabar el podcast
+
+### Grabación del programa
+
+- Asegurarse de que el volumen de los micrófonos es el adecuado. Aquí creo que habría que centrarse en que
+el volumen es adecuado y no satura. Luego en la edición es muy fácil equilibrar los micrófonos si hay diferencias.
+- Una práctica que facilita mucho la edición es silenciarse cuando no estamos hablando. De lo contrario
+se oye eco porque los audios no están perfectamente alineados y además el desalineamiento cambia con el tiempo.
+- Al inicio del programa dar una palmada para alinear audios, luego 20s de silencio para poder modelar
+el ruido de fondo y otra palmada para empezar el programa.
+- Si hay errores en la grabación señalizarlos con palmadas para que sea más fácil localizarlos en la edición
+- Cuando termina el programa verificar que todos los audios se han grabado bien en zencastr.
+
+## Edición
+
 ## Links
 
 - [Ivoox solo envia los 20 ultimos podcasts a Spotify con el plan gratuito](http://www.todosobrepodcast.com/2020/08/por-que-solo-llegan-20-episodios-de-tu.html)
