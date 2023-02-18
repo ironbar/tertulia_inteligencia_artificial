@@ -2,7 +2,6 @@
 
 Aquí guardaremos los posibles temas a tratar en futuros programas.
 
-- Copilot y el fin de la programación
 - Tensorflow vs Pytorch
 - Historia de la IA
 - Computación cuántica (Elías)
@@ -20,3 +19,7 @@ Aquí guardaremos los posibles temas a tratar en futuros programas.
 - ¿El uso de la IA en las artes escénicas? (teatro, performances, ..., no en el cine)
 - Uso de la IA en el cine.
 - La IA en la educación y el uso ChatGPT en las aulas.
+
+## Temas ya desarrollados
+
+- Copilot y el fin de la programación
