@@ -20,6 +20,7 @@ Aquí guardaremos los posibles temas a tratar en futuros programas.
 - Uso de la IA en el cine.
 - La IA en la educación y el uso ChatGPT en las aulas.
 - Sesgos en la IA. Problemas éticos.
+- IA Fuerte. Test de Turing. IA & Inteligencia humana.
 
 ## Temas ya desarrollados
 
