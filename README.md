@@ -8,11 +8,12 @@ Esta web está creada con [Mkdocs](https://www.mkdocs.org/getting-started/)
 
 ## TODO
 
-- [ ] Aprender como se hace un podcast
+- [x] Aprender como se hace un podcast
 - [x] Crear logo para el programa
 - [x] Crear cuenta en Ivoox o similar
 - [x] Crear cuenta en twitter
 - [x] Crear grupo de whatsapp o Telegram para coordinar el podcast y lanzar ideas para programas
 - [x] Añadir requirements al repo
 - [x] Hacer que la web se construya automaticamente con cada commit (https://github.com/marketplace/actions/deploy-mkdocs)
-- [ ] Arrancar el programa
+- [x] Arrancar el programa
+- [ ] Lanzar un podcast mensualmente durante todo 2023
