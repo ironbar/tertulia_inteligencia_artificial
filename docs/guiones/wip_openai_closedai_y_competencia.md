@@ -1,4 +1,4 @@
-# Título
+# WIP: La evolución de OpenAI y quién es la empresa más abierta
 
 ## Introducción
 
