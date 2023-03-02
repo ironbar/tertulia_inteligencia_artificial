@@ -9,6 +9,8 @@
 Vamos a hablar de como OpenAI ha pasado de ser una ONG, de los miedos de publicar GPT2, de pasar a monetizar GPT3 y ser comprada por Microsoft. 
 Luego lo comparamos con las otras grandes empresas y vemos como se compara en "Open"
 
+He escrito esta lista de memoria, si sale este tema elegido habría que hacer una revisión para asegurarnos que sea lo más completa posible.
+
 ### Openai/Microsoft
 
 #### Open 
