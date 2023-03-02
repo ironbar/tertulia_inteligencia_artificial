@@ -16,6 +16,9 @@ Luego lo comparamos con las otras grandes empresas y vemos como se compara en "O
 - Whisper
 - CLIP
 - GPT2
+- BERT
+- BiT
+- ViT
 
 #### Commercial
 
