@@ -11,25 +11,58 @@ Luego lo comparamos con las otras grandes empresas y vemos como se compara en "O
 
 ### Openai/Microsoft
 
+#### Open 
+
 - Whisper
+- CLIP
+- GPT2
+
+#### Commercial
+
 - Dalle
-- GPT3, ChatGPT
+- GPT3
+- ChatGPT
+- Copilot
 
 ### Google/Deepmind
 
+#### Open 
+
+- [Alphafold](https://github.com/deepmind/alphafold)
+- T5
+- Tensorflow
+
+#### Closed
+
+- SayCan
+- CoCa
 - Chinchilla
 - Flamingo
-- Imagen, Parti, Imagen-Video
-- Alphafold
+- Imagen, Parti, Imagen-Video, Dreambooth
 - AlphaGo, AlphaStar...
+- LaMDA
+- PaLM
+- AudioLM, MusicLM
+- Minerva
+- Alphacode
+- Gato
 
 ### Meta
 
-- Llama
-- Galactica
+#### Open
+
 - OPT
+- Llama*
+- Pytorch
+
+#### Closed
+
+- Galactica
+- Cicero
 
 ### Stability AI
+
+#### Open 
 
 - Stable Diffusion
 - OpenClip
