@@ -54,6 +54,7 @@ Luego lo comparamos con las otras grandes empresas y vemos como se compara en "O
 - OPT
 - Llama*
 - Pytorch
+- [No language left behind](https://github.com/facebookresearch/fairseq/tree/nllb/)
 
 #### Closed
 
