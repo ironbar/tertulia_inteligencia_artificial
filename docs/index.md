@@ -2,7 +2,7 @@
 
 ![logo-podcast](res/logo-podcast.png)
 
-Podcast mensual en el que hablamos en profundidad sobre temas relacionados con la Inteligencia Artificial
+Podcast mensual en el que hablamos **en profundidad** sobre temas relacionados con la Inteligencia Artificial
 
 Puedes escucharnos en:
 
