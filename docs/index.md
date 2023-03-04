@@ -1,4 +1,4 @@
-# La TERTULia de la Inteligencia Artificial
+# La TERTUL**ia** de la Inteligencia Artificial
 
 ![logo-podcast](res/logo-podcast.png)
 
