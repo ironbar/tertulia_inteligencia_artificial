@@ -41,4 +41,6 @@ https://www.lesswrong.com/posts/semvkn56ZFcXBNc2d/superintelligence-5-forms-of-s
 
 ## Recomendaciones
 
+- Superintelligence de Nick Bostrom. Fringe y Música clásica de Jaime Altozano
+
 ## Despedida
