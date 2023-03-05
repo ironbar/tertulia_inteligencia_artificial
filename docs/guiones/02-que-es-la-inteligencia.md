@@ -1,4 +1,6 @@
-# WIP: ¿Qué es la Inteligencia?
+# ¿Qué es la Inteligencia?
+
+_15/03/2023_
 
 ## Introducción
 

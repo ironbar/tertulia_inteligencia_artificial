@@ -1,5 +1,7 @@
 # Copilot, ChatGPT y el fin de la programación
 
+_15/02/2023_
+
 ## Introducción
 
 - Entradilla (todavía por hacer)
