@@ -25,11 +25,19 @@ En los albores de la IA se propuso un test de para poder medir cuando una IA era
 
 Estos modelos han ganado a los campeones del mundo, ¿pero nos han enseñado algo acerca de la inteligencia?
 
+#### Watson Jeopardy
+
+Ibm desarolló una IA para ganar un concurso de preguntas americano
+
 #### Abstract and Reasoning Challenge
 
 [On the Measure of Intelligence, François Chollet](https://arxiv.org/abs/1911.01547)
 
 Discutir los puntos de vista del paper y el test que plantea.
+
+#### Test Wozniak
+
+Hacer un café en una cocina cualquiera
 
 ### IA vs Inteligencia Humana
 
