@@ -12,6 +12,7 @@ _15/03/2023_
 
 - Chollet
 - Agente inteligente. Consigue sus objetivos, maximiza la recompensa. 
+- Inteligencia animal
 
 ### Tests de inteligencia
 
