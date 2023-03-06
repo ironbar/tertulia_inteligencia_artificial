@@ -8,17 +8,24 @@ _15/03/2023_
 
 ## Tema en profundidad
 
-### Test de Turing
+### Definiciones de Inteligencia
+
+- Chollet
+- Agente inteligente. Consigue sus objetivos, maximiza la recompensa. 
+
+### Tests de inteligencia
+
+#### Test de Turing
 
 En los albores de la IA se propuso un test de para poder medir cuando una IA era comparable a la humana.
 
 ¿Hemos superado el test de Turing? Google LaMDA, ChatGPT
 
-### Deep Blue | Alphago
+#### Deep Blue | Alphago
 
 Estos modelos han ganado a los campeones del mundo, ¿pero nos han enseñado algo acerca de la inteligencia?
 
-### Abstract and Reasoning Challenge
+#### Abstract and Reasoning Challenge
 
 [On the Measure of Intelligence, François Chollet](https://arxiv.org/abs/1911.01547)
 
