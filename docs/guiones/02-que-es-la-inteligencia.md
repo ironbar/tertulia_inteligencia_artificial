@@ -60,6 +60,8 @@ En los albores de la IA se propuso un test de para poder medir cuando una IA era
 
 _¿Hemos superado el test de Turing? Google LaMDA, ChatGPT_
 
+[Habitación china de searle](https://es.wikipedia.org/wiki/Habitaci%C3%B3n_china)
+
 #### Deep Blue | Alphago
 
 Estos modelos han ganado a los campeones del mundo, _¿pero nos han enseñado algo acerca de la inteligencia?_
