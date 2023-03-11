@@ -10,10 +10,29 @@ _15/03/2023_
 
 ### Definiciones de Inteligencia
 
-- Chollet
-- Agente inteligente. Consigue sus objetivos, maximiza la recompensa. 
-- Inteligencia animal
-- [RAE](https://dle.rae.es/inteligencia)
+Presentar distintas definiciones y discutir sobre su bondad y limitaciones
+
+#### [RAE](https://dle.rae.es/inteligencia)
+
+> 1. Capacidad de entender o comprender
+> 2. Capacidad de resolver problemas
+
+<!-- -->
+
+> Inteligencia artificial: Disciplina científica que se ocupa de crear programas informáticos que ejecutan operaciones comparables a las que realiza la mente humana, como el aprendizaje o el razonamiento lógico.
+
+#### [Agente inteligente](https://es.wikipedia.org/wiki/Agente_inteligente_(inteligencia_artificial))
+
+> Un agente inteligente es una entidad capaz de percibir su entorno, procesar tales percepciones y responder o actuar en su entorno de manera racional, es decir, de manera correcta y tendiendo a maximizar un resultado esperado
+
+_Discutir sobre el hecho de actuar y maximizar un objetivo_
+
+#### [Inteligencia animal]()
+
+TODO:
+
+#### [Chollet](https://arxiv.org/abs/1911.01547)
+
 
 ### Tests de inteligencia
 
@@ -21,15 +40,19 @@ _15/03/2023_
 
 En los albores de la IA se propuso un test de para poder medir cuando una IA era comparable a la humana.
 
-¿Hemos superado el test de Turing? Google LaMDA, ChatGPT
+_¿Hemos superado el test de Turing? Google LaMDA, ChatGPT_
 
 #### Deep Blue | Alphago
 
-Estos modelos han ganado a los campeones del mundo, ¿pero nos han enseñado algo acerca de la inteligencia?
+Estos modelos han ganado a los campeones del mundo, _¿pero nos han enseñado algo acerca de la inteligencia?_
+
+_¿Hay tests que pueden tener sentido en humanos pero no en máquinas?_
 
 #### Watson Jeopardy
 
 Ibm desarolló una IA para ganar un concurso de preguntas americano
+
+#### [AnimalAI](https://proceedings.mlr.press/v123/crosby20a.html)
 
 #### Abstract and Reasoning Challenge
 
