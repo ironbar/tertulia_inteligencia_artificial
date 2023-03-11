@@ -43,6 +43,14 @@ TODO:
 
 > Luego, articulamos una nueva definición formal de la inteligencia basada en la Teoría de la Información Algorítmica, describiendo la inteligencia como eficiencia en la adquisición de habilidades y destacando los conceptos de alcance, dificultad de generalización, conocimientos previos y experiencia, como piezas críticas que deben ser consideradas al caracterizar sistemas inteligentes. 
 
+> Agregar cada vez más datos a un sistema de aprendizaje de generalización local es ciertamente una estrategia adecuada si el objetivo final es la habilidad en la tarea considerada, pero no llevará a una generalización más allá de los datos que el sistema ha visto.
+
+Esto parece ser cierto en el caso de ImageNet. Si extendemos el conjunto de datos buscando más imágenes para cada categoría, es muy probable que mejoremos la habilidad del sistema, pero no será más inteligente.
+
+Sin embargo, no estoy seguro si esto es cierto para los Grandes Modelos de Lenguaje. Estos se entrenan con un objetivo muy general: predecir la siguiente palabra. Parece que para resolver esa tarea, el modelo necesita desarrollar muchas habilidades. En el artículo de Palm, dicen que si escalan el modelo y los datos, ven que emergen nuevas capacidades en el modelo.
+
+_¿Y en el caso de las personas? ¿Me hace más inteligente aprender mucho sobre un tema, p.e. ajedrez? ¿Me hace más inteligente aprender sobre muchas tareas variadas?_
+
 
 ### Tests de inteligencia
 
