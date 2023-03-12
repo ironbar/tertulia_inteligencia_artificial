@@ -21,6 +21,14 @@ Presentar distintas definiciones y discutir sobre su bondad y limitaciones
 
 > Inteligencia artificial: Disciplina científica que se ocupa de crear programas informáticos que ejecutan operaciones comparables a las que realiza la mente humana, como el aprendizaje o el razonamiento lógico.
 
+#### Chatgpt
+
+> La inteligencia puede definirse como la habilidad para adquirir, procesar y aplicar conocimiento y habilidades para resolver problemas, razonar, aprender y adaptarse a nuevas situaciones
+
+#### Bing
+
+> Inteligencia es la capacidad de aprender, entender y formar juicios u opiniones basados en la razón. 
+
 #### [Agente inteligente](https://es.wikipedia.org/wiki/Agente_inteligente_(inteligencia_artificial))
 
 > Un agente inteligente es una entidad capaz de percibir su entorno, procesar tales percepciones y responder o actuar en su entorno de manera racional, es decir, de manera correcta y tendiendo a maximizar un resultado esperado
