@@ -43,6 +43,8 @@ TODO:
 
 > Luego, articulamos una nueva definición formal de la inteligencia basada en la Teoría de la Información Algorítmica, describiendo la inteligencia como eficiencia en la adquisición de habilidades y destacando los conceptos de alcance, dificultad de generalización, conocimientos previos y experiencia, como piezas críticas que deben ser consideradas al caracterizar sistemas inteligentes. 
 
+Un sistema es inteligente si resuelve problemas nuevos. Cuanto más se aleje el problema de la experiencia previa más inteligente es el sistema.
+
 > Agregar cada vez más datos a un sistema de aprendizaje de generalización local es ciertamente una estrategia adecuada si el objetivo final es la habilidad en la tarea considerada, pero no llevará a una generalización más allá de los datos que el sistema ha visto.
 
 Esto parece ser cierto en el caso de ImageNet. Si extendemos el conjunto de datos buscando más imágenes para cada categoría, es muy probable que mejoremos la habilidad del sistema, pero no será más inteligente.
