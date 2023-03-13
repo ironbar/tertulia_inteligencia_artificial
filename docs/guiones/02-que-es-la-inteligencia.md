@@ -67,6 +67,26 @@ Sin embargo, no estoy seguro si esto es cierto para los Grandes Modelos de Lengu
 
 _¿Y en el caso de las personas? ¿Me hace más inteligente aprender mucho sobre un tema, p.e. ajedrez? ¿Me hace más inteligente aprender sobre muchas tareas variadas?_
 
+Si consideramos dos sistemas que:
+
+- empiezan con un conjunto similar de conocimientos y sesgos
+- tienen el mismo tiempo para practicar una serie de tareas que no no se conocían de antenamo
+
+Al terminar el tiempo de práctica el sistema que demuestre una mayor habilidad en esas tareas es el más inteligente.
+
+_p.e. si coges a una clase de niños, y les dejas practicar algunas tareas que no han hecho nunca: tocar el harpa, escribir en un teclado dvorak, aprender un idioma nuevo... y luego les haces un examen; el niño que saque mejor nota es el más inteligente. El problema aquí es que la premisa de que los conocimientos y sesgos iniciales son los mismos es muy dificil que se cumpla_
+
+_los test de inteligencia intentan ser así, son pequeñas tareas que no hacemos con frecuencia. Si practicaramos para hacer mejor los tests de inteligencia conseguiríamos sacar mejores notas. Chascarrillo PAI del cole. Claro luego nos harían test de inteligencia a los del cole y seríamos los más inteligentes del mundo._
+
+##### Generalización
+
+La generalización es la capacidad de manejar situaciones (o tareas) diferentes de las que nos hemos encontrado hasta el momento
+
+Tipos de generalización:
+- Local o robustez. La capacidad de funcionar ante casos nuevos de una distribución ya conocida.
+- Amplia o flexibilidad. La capacidad de manejar situaciones que no han podido ser predichas por los creadores del sistema. P.e. conducción autónoma.
+- Extrema. La capacidad de realizar tareas que solo comparten relaciones abstractas con las situaciones previamente encontradas
+
 ### Definiciones de inteligencia artificial
 
 #### RAE
