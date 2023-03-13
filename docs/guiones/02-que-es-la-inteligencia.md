@@ -4,7 +4,10 @@ _15/03/2023_
 
 ## Introducción
 
-## Preguntas de los oyentes
+- Bienvenidos a la tertulia de la inteligencia artificial.
+- Presentar tema del día
+- Presentación Tertulianos (no olvidarme de mí mismo XD)
+- Preguntas y sugerencias de temas en twitter
 
 ## Tema en profundidad
 
@@ -106,6 +109,8 @@ Hacer un café en una cocina cualquiera
 Ibm desarolló una IA para ganar un concurso de preguntas americano
 
 #### [AnimalAI 2019](https://proceedings.mlr.press/v123/crosby20a.html)
+
+![animalai](https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs42256-019-0050-3/MediaObjects/42256_2019_50_Figa_HTML.jpg)
 
 #### Abstract and Reasoning Challenge
 
