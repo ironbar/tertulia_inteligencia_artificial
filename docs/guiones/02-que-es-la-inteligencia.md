@@ -17,15 +17,9 @@ Presentar distintas definiciones y discutir sobre su bondad y limitaciones
 > 1. Capacidad de entender o comprender
 > 2. Capacidad de resolver problemas
 
-<!-- -->
-
-
-
 #### [Legg and Hutter](https://arxiv.org/abs/0706.3639)
 
-> La inteligencia mide la habilidad de una agente de alcanzar metas en un amplio rango de ambientes
-
-
+> La inteligencia mide la habilidad de un agente de alcanzar metas en un amplio rango de ambientes
 
 #### Chatgpt
 
@@ -33,7 +27,7 @@ Presentar distintas definiciones y discutir sobre su bondad y limitaciones
 
 #### Bing
 
-> Inteligencia es la capacidad de aprender, entender y formar juicios u opiniones basados en la razón. 
+> Inteligencia es la capacidad de aprender, entender y formar juicios u opiniones basados en la razón.
 
 #### [Agente inteligente](https://es.wikipedia.org/wiki/Agente_inteligente_(inteligencia_artificial))
 
@@ -47,15 +41,15 @@ TODO:
 
 #### [Chollet](https://arxiv.org/abs/1911.01547)
 
-> Para avanzar deliberadamente hacia sistemas artificiales más inteligentes y más parecidos a los humanos, necesitamos seguir una señal de retroalimentación adecuada: debemos ser capaces de definir y evaluar la inteligencia de una manera que permita comparaciones entre dos sistemas, así como comparaciones con los humanos. 
+> Para avanzar deliberadamente hacia sistemas artificiales más inteligentes y más parecidos a los humanos, necesitamos seguir una señal de retroalimentación adecuada: debemos ser capaces de definir y evaluar la inteligencia de una manera que permita comparaciones entre dos sistemas, así como comparaciones con los humanos.
 
 <!-- -->
 
 > Observamos que, en la práctica, la comunidad contemporánea de IA todavía tiende a evaluar la inteligencia comparando la habilidad exhibida por las IA y los humanos en tareas específicas, como juegos de mesa y videojuegos. Sostenemos que medir únicamente la habilidad en cualquier tarea dada no es suficiente para medir la inteligencia, porque la habilidad está fuertemente modulada por el conocimiento previo y la experiencia: los conocimientos previos ilimitados o los datos de entrenamiento ilimitados permiten a los experimentadores "comprar" niveles arbitrarios de habilidades para un sistema, de manera que oculta su propia capacidad de generalización.
- 
+
 <!-- -->
 
-> Luego, articulamos una nueva definición formal de la inteligencia basada en la Teoría de la Información Algorítmica, describiendo la inteligencia como eficiencia en la adquisición de habilidades y destacando los conceptos de alcance, dificultad de generalización, conocimientos previos y experiencia, como piezas críticas que deben ser consideradas al caracterizar sistemas inteligentes. 
+> Luego, articulamos una nueva definición formal de la inteligencia basada en la Teoría de la Información Algorítmica, describiendo la inteligencia como eficiencia en la adquisición de habilidades y destacando los conceptos de alcance, dificultad de generalización, conocimientos previos y experiencia, como piezas críticas que deben ser consideradas al caracterizar sistemas inteligentes.
 
 Un sistema es inteligente si resuelve problemas nuevos. Cuanto más se aleje el problema de la experiencia previa más inteligente es el sistema.
 
@@ -103,7 +97,7 @@ Tipos de generalización:
 
 #### El Efecto IA
 
-Las metas se van moviendo cada vez que hay un progreso en IA. 
+Las metas se van moviendo cada vez que hay un progreso en IA.
 
 > Cuando averiguamos como una máquina puede hacer algo "inteligente", deja de ser considerado inteligente.
 
@@ -135,7 +129,7 @@ Ibm desarolló una IA para ganar un concurso de preguntas americano
 
 Discutir los puntos de vista del paper y el test que plantea.
 
-> Luego, articulamos una nueva definición formal de la inteligencia basada en la Teoría de la Información Algorítmica, describiendo la inteligencia como eficiencia en la adquisición de habilidades y destacando los conceptos de alcance, dificultad de generalización, conocimientos previos y experiencia, como piezas críticas que deben ser consideradas al caracterizar sistemas inteligentes. 
+> Luego, articulamos una nueva definición formal de la inteligencia basada en la Teoría de la Información Algorítmica, describiendo la inteligencia como eficiencia en la adquisición de habilidades y destacando los conceptos de alcance, dificultad de generalización, conocimientos previos y experiencia, como piezas críticas que deben ser consideradas al caracterizar sistemas inteligentes.
 > Utilizando esta definición, proponemos un conjunto de directrices sobre cómo debería ser un benchmark de IA general. Finalmente, presentamos un nuevo benchmark que sigue de cerca estas directrices, el Corpus de Abstracción y Razonamiento (ARC), construido sobre un conjunto explícito de conocimientos previos diseñados para ser lo más cercanos posible a los conocimientos previos humanos innatos. Sostenemos que ARC puede ser utilizado para medir una forma de inteligencia fluida general similar a la humana y que permite comparaciones justas de inteligencia general entre sistemas de IA y humanos.
 
 #### Test Wozniak
