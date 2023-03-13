@@ -21,14 +21,6 @@ Presentar distintas definiciones y discutir sobre su bondad y limitaciones
 
 > La inteligencia mide la habilidad de un agente de alcanzar metas en un amplio rango de ambientes
 
-#### Chatgpt
-
-> La inteligencia puede definirse como la habilidad para adquirir, procesar y aplicar conocimiento y habilidades para resolver problemas, razonar, aprender y adaptarse a nuevas situaciones
-
-#### Bing
-
-> Inteligencia es la capacidad de aprender, entender y formar juicios u opiniones basados en la razón.
-
 #### [Agente inteligente](https://es.wikipedia.org/wiki/Agente_inteligente_(inteligencia_artificial))
 
 > Un agente inteligente es una entidad capaz de percibir su entorno, procesar tales percepciones y responder o actuar en su entorno de manera racional, es decir, de manera correcta y tendiendo a maximizar un resultado esperado
@@ -41,6 +33,12 @@ TODO:
 
 #### [Chollet](https://arxiv.org/abs/1911.01547)
 
+La inteligencia es la eficiencia en la adquisición de habilidades nuevas. Para poder medir la inteligencia hay que tener en cuenta:
+
+- los conocimientos y experiencias previas
+- dificultad de generalización
+- alcance
+
 > Para avanzar deliberadamente hacia sistemas artificiales más inteligentes y más parecidos a los humanos, necesitamos seguir una señal de retroalimentación adecuada: debemos ser capaces de definir y evaluar la inteligencia de una manera que permita comparaciones entre dos sistemas, así como comparaciones con los humanos.
 
 <!-- -->
@@ -49,7 +47,7 @@ TODO:
 
 <!-- -->
 
-> Luego, articulamos una nueva definición formal de la inteligencia basada en la Teoría de la Información Algorítmica, describiendo la inteligencia como eficiencia en la adquisición de habilidades y destacando los conceptos de alcance, dificultad de generalización, conocimientos previos y experiencia, como piezas críticas que deben ser consideradas al caracterizar sistemas inteligentes.
+> La inteligencia es la eficiencia en la adquisición de habilidades y destacando los conceptos de alcance, dificultad de generalización, conocimientos previos y experiencia, como piezas críticas que deben ser consideradas al caracterizar sistemas inteligentes.
 
 Un sistema es inteligente si resuelve problemas nuevos. Cuanto más se aleje el problema de la experiencia previa más inteligente es el sistema.
 
@@ -63,7 +61,7 @@ _¿Y en el caso de las personas? ¿Me hace más inteligente aprender mucho sobre
 
 Si consideramos dos sistemas que:
 
-- empiezan con un conjunto similar de conocimientos y sesgos
+- empiezan con un conjunto similar de conocimientos y experiencias previas
 - tienen el mismo tiempo para practicar una serie de tareas que no no se conocían de antenamo
 
 Al terminar el tiempo de práctica el sistema que demuestre una mayor habilidad en esas tareas es el más inteligente.
