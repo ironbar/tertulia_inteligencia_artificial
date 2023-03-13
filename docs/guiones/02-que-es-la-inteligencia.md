@@ -81,6 +81,12 @@ _¿Y en el caso de las personas? ¿Me hace más inteligente aprender mucho sobre
 
 > IA es la ciencia e ingeniería de hacer que las máquinas hagan tareas que nunca han visto y para las que no las han preparado de antemano
 
+#### El Efecto IA
+
+Las metas se van moviendo cada vez que hay un progreso en IA. 
+
+> Cuando averiguamos como una máquina puede hacer algo "inteligente", deja de ser considerado inteligente.
+
 ### Tests de inteligencia
 
 #### Test de Turing
@@ -120,6 +126,8 @@ Hacer un café en una cocina cualquiera
 
 - Es inteligente un modelo que reconoce números? (NIST)
 - Modelos generativos basados en texto. El lenguage permite una generalización mucho mayor que enfoques anteriores.
+
+> Como humanos solo podemos demostrar una gran habilidad en una tarea específica si tenemos la facultad de adquirir habilidades en general. Si una persona juega muy bien al ajederez podemos asumir que esa persona es inteligente, porque implicitamente sabemos que ha usado su inteligencia general para adquirir esta habilidad durante su vida (por lo que podría adquirir otras habilidades de la misma manera). Pero esta misma asunción no podemos hacerla a un sistema no humano.
 
 ### Superinteligencia (Nick Bostrom)
 
