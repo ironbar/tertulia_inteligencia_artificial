@@ -97,15 +97,15 @@ Estos modelos han ganado a los campeones del mundo, _¿pero nos han enseñado al
 
 _¿Hay tests que pueden tener sentido en humanos pero no en máquinas?_
 
+#### Test Wozniak
+
+Hacer un café en una cocina cualquiera
+
 #### Watson Jeopardy
 
 Ibm desarolló una IA para ganar un concurso de preguntas americano
 
 #### [AnimalAI 2019](https://proceedings.mlr.press/v123/crosby20a.html)
-
-#### Test Wozniak
-
-Hacer un café en una cocina cualquiera
 
 #### Abstract and Reasoning Challenge
 
@@ -131,7 +131,9 @@ _¿Y en el caso de las personas? ¿Me hace más inteligente aprender mucho sobre
 
 > Corpus de Abstracción y Razonamiento (ARC), construido sobre un conjunto explícito de conocimientos previos diseñados para ser lo más cercanos posible a los conocimientos previos humanos innatos. Sostenemos que ARC puede ser utilizado para medir una forma de inteligencia fluida general similar a la humana y que permite comparaciones justas de inteligencia general entre sistemas de IA y humanos.
 
-TODO: fotos y propiedades del ARC
+![arc_corpus_image](res/arc_corpus_image.png)
+
+Conocimientos previos: objetos, movimiento, contar, geometría básica, orientación a conseguir objetivos
 
 ### IA vs Inteligencia Humana
 
@@ -142,9 +144,7 @@ TODO: fotos y propiedades del ARC
 
 ### Superinteligencia (Nick Bostrom)
 
-https://www.lesswrong.com/posts/semvkn56ZFcXBNc2d/superintelligence-5-forms-of-superintelligence
-
-3 tipos de superinteligencia:
+[3 tipos de superinteligencia](https://www.lesswrong.com/posts/semvkn56ZFcXBNc2d/superintelligence-5-forms-of-superintelligence):
 
 - Más rápida. Una inteligencia humana pero que fuera 10, 100 veces más rápida.
 - Colectiva. Una persona contra una empresa o un país.
