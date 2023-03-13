@@ -19,19 +19,13 @@ Presentar distintas definiciones y discutir sobre su bondad y limitaciones
 
 <!-- -->
 
-> Inteligencia artificial: Disciplina científica que se ocupa de crear programas informáticos que ejecutan operaciones comparables a las que realiza la mente humana, como el aprendizaje o el razonamiento lógico.
+
 
 #### [Legg and Hutter](https://arxiv.org/abs/0706.3639)
 
 > La inteligencia mide la habilidad de una agente de alcanzar metas en un amplio rango de ambientes
 
-#### Marvin Minsky
 
-> IA es la ciencia de hacer máquinas capaces de hacer tareas que requirirían inteligencia si las hicieran los humanos.
-
-#### John McCarthy
-
-> IA es la ciencia e ingeniería de hacer que las máquinas hagan tareas que nunca han visto y para las que no las han preparado de antemano
 
 #### Chatgpt
 
@@ -73,6 +67,19 @@ Sin embargo, no estoy seguro si esto es cierto para los Grandes Modelos de Lengu
 
 _¿Y en el caso de las personas? ¿Me hace más inteligente aprender mucho sobre un tema, p.e. ajedrez? ¿Me hace más inteligente aprender sobre muchas tareas variadas?_
 
+### Definiciones de inteligencia artificial
+
+#### RAE
+
+> Inteligencia artificial: Disciplina científica que se ocupa de crear programas informáticos que ejecutan operaciones comparables a las que realiza la mente humana, como el aprendizaje o el razonamiento lógico.
+
+#### Marvin Minsky
+
+> IA es la ciencia de hacer máquinas capaces de hacer tareas que requirirían inteligencia si las hicieran los humanos.
+
+#### John McCarthy
+
+> IA es la ciencia e ingeniería de hacer que las máquinas hagan tareas que nunca han visto y para las que no las han preparado de antemano
 
 ### Tests de inteligencia
 
