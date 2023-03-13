@@ -25,11 +25,7 @@ Presentar distintas definiciones y discutir sobre su bondad y limitaciones
 
 > Un agente inteligente es una entidad capaz de percibir su entorno, procesar tales percepciones y responder o actuar en su entorno de manera racional, es decir, de manera correcta y tendiendo a maximizar un resultado esperado
 
-_Discutir sobre el hecho de actuar y maximizar un objetivo_
-
-#### [Inteligencia animal]()
-
-TODO:
+_Discutir sobre el hecho de actuar y maximizar un objetivo. ¿Un buda que no se mueve es inteligente?_
 
 #### [Chollet](https://arxiv.org/abs/1911.01547)
 
@@ -45,7 +41,7 @@ Cuanto más rápido aprenda el sistema más inteligente es.
 Si consideramos dos sistemas que:
 
 - empiezan con un conjunto similar de conocimientos y experiencias previas
-- tienen el mismo tiempo para practicar una serie de tareas que no no se conocían de antenamo
+- tienen el mismo tiempo para practicar una serie de tareas que no se conocían de antenamo
 
 Al terminar el tiempo de práctica el sistema que demuestre una mayor habilidad en esas tareas es el más inteligente.
 
@@ -55,12 +51,12 @@ _los test de inteligencia intentan ser así, son pequeñas tareas que no hacemos
 
 ##### Generalización
 
-La generalización es la capacidad de manejar situaciones (o tareas) diferentes de las que nos hemos encontrado hasta el momento
+> La generalización es la capacidad de manejar situaciones (o tareas) diferentes de las que nos hemos encontrado hasta el momento
 
 Tipos de generalización:
 
 - Local o robustez. La capacidad de funcionar ante casos nuevos de una distribución ya conocida.
-- Amplia o flexibilidad. La capacidad de manejar situaciones que no han podido ser predichas por los creadores del sistema. P.e. conducción autónoma.
+- Amplia o flexibilidad. La capacidad de manejar situaciones que no han podido ser previstas por los creadores del sistema. P.e. conducción autónoma.
 - Extrema. La capacidad de realizar tareas que solo comparten relaciones abstractas con las situaciones previamente encontradas
 
 ### Definiciones de inteligencia artificial
@@ -83,9 +79,11 @@ Las metas se van moviendo cada vez que hay un progreso en IA.
 
 > Cuando averiguamos como una máquina puede hacer algo "inteligente", deja de ser considerado inteligente.
 
+_cambio en la percepción de las personas cuando una tarea está resuelta por la IA_
+
 ### Tests de inteligencia
 
-#### Test de Turing
+#### [Test de Turing](https://es.wikipedia.org/wiki/Prueba_de_Turing)
 
 En los albores de la IA se propuso un test de para poder medir cuando una IA era comparable a la humana.
 
