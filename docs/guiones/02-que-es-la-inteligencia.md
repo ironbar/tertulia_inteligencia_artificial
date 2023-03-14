@@ -7,6 +7,7 @@ _15/03/2023_
 - Bienvenidos a la tertulia de la inteligencia artificial.
 - Presentar tema del día
 - Presentación Tertulianos (no olvidarme de mí mismo XD)
+- Agradecer acogida y consejos para mejorar
 - Preguntas y sugerencias de temas en twitter
 
 ## Tema en profundidad
