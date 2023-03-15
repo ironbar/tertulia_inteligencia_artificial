@@ -101,11 +101,11 @@ Estos modelos han ganado a los campeones del mundo, _¿pero nos han enseñado al
 
 _¿Hay tests que pueden tener sentido en humanos pero no en máquinas?_
 
-#### Test Wozniak
+#### Test Wozniak 2010?
 
 Hacer un café en una cocina cualquiera
 
-#### Watson Jeopardy
+#### [Watson Jeopardy 2011](https://en.wikipedia.org/wiki/IBM_Watson)
 
 Ibm desarolló una IA para ganar un concurso de preguntas americano
 
