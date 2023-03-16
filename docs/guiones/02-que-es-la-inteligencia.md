@@ -159,5 +159,7 @@ Conocimientos previos: objetos, movimiento, contar, geometría básica, orientac
 ## Recomendaciones
 
 - Superintelligence de Nick Bostrom. Fringe y Música clásica de Jaime Altozano
+- Solaris de Stanisław Lem
+- La guía del autoestopista galáctico
 
 ## Despedida
