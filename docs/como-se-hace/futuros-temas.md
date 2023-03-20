@@ -7,7 +7,6 @@ Aquí guardaremos los posibles temas a tratar en futuros programas.
 - Computación cuántica (Elías)
 - Problemas de la IA, (Gary Markus)
 - Singularidad
-- F Chollet y la definición de IA
 - 5G, blockchain e IA
 - Causalidad, The Book of Why, Judea Perl
 - Pensar rápido, pensar despacio, Kanneman
@@ -20,8 +19,10 @@ Aquí guardaremos los posibles temas a tratar en futuros programas.
 - Uso de la IA en el cine.
 - La IA en la educación y el uso ChatGPT en las aulas.
 - Sesgos en la IA. Problemas éticos.
-- IA Fuerte. Test de Turing. IA & Inteligencia humana.
+
 
 ## Temas ya desarrollados
 
 - Copilot y el fin de la programación
+- F Chollet y la definición de IA
+- IA Fuerte. Test de Turing. IA & Inteligencia humana.
