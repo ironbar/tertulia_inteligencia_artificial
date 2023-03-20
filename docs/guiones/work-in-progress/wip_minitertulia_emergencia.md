@@ -17,9 +17,15 @@ La idea es que está tertulia sea más corta, algunos de los oyentes piden tertu
 - Hormigas
 - Neuronas
 
-### Palm, capacidades emergentes
+### Emergencia en IA
+
+#### Palm, capacidades emergentes
 
 Modelos de lenguaje y escalado
+
+#### Theory of Mind 
+
+https://www.youtube.com/watch?v=4MGCQOAxgv4
 
 ### Futuro IA: scale is all you need?
 
