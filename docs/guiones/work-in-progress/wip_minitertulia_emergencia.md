@@ -21,6 +21,8 @@ La idea es que está tertulia sea más corta, algunos de los oyentes piden tertu
 
 #### Palm, capacidades emergentes
 
+https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html?m=1
+
 Modelos de lenguaje y escalado
 
 #### Theory of Mind 
