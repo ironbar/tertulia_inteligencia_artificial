@@ -16,6 +16,7 @@ La idea es que está tertulia sea más corta, algunos de los oyentes piden tertu
 - Pájaros bandada
 - Hormigas
 - Neuronas
+- [Juego de la vida](https://es.wikipedia.org/wiki/Juego_de_la_vida)
 
 ### Emergencia en IA
 
