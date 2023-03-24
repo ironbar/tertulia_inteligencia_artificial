@@ -22,7 +22,8 @@ La idea es que está tertulia sea más corta, algunos de los oyentes piden tertu
 
 #### Palm, capacidades emergentes
 
-https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html?m=1
+- https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html?m=1
+- [What's Left Before AGI? PaLM-E, 'GPT 4' and Multi-Modality](https://www.youtube.com/watch?v=EzEuylNSn-Q)
 
 Modelos de lenguaje y escalado
 
