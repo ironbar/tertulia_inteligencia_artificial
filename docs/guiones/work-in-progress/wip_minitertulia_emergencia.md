@@ -47,6 +47,7 @@ https://www.youtube.com/watch?v=4MGCQOAxgv4
 Basta con ordenadores más potentes y entrenar con todo internet: audio, video, fotos, texto...?
 - Nando freitas [game over flamingo](https://twitter.com/NandoDF/status/1523591529671012354)
 - [DeepMind’s astounding new ‘Gato’ AI makes me fear humans will never achieve AGI](https://thenextweb.com/news/deepminds-astounding-new-gato-ai-makes-fear-humans-will-never-achieve-agi)
+- [Is the human brain just a scaled primate brain?](https://twitter.com/Tim_Dettmers/status/1637594465065119744?s=20)
 
 ## Recomendaciones
 
