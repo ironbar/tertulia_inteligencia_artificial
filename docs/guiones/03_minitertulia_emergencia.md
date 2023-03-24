@@ -1,4 +1,4 @@
-# WIP: Minitertulia - Emergencia
+#  Emergencia
 
 La idea es que está tertulia sea más corta, algunos de los oyentes piden tertulias más cortas. Esto sería una prueba para ver que tal funciona un formato distinto. Debería ser de menos de una hora.
 
