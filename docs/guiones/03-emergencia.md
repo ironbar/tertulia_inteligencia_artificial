@@ -1,4 +1,6 @@
-# Emergencia
+# Emergencia, ¿Hasta donde nos lleva escalar la IA actual?
+
+_12/04/2023_
 
 La idea es que está tertulia sea más corta, algunos de los oyentes piden tertulias más cortas. Esto sería una prueba para ver que tal funciona un formato distinto. Debería ser de menos de una hora.
 
@@ -33,8 +35,13 @@ La idea es que está tertulia sea más corta, algunos de los oyentes piden tertu
 
 - ¿ Qué es Google PALM ?
   - [PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/pdf/2204.02311.pdf)
+  - [Characterizing Emergent Phenomena in Large Language Models](https://ai.googleblog.com/2022/11/characterizing-emergent-phenomena-in.html)
 - https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html?m=1
 - [What's Left Before AGI? PaLM-E, 'GPT 4' and Multi-Modality](https://www.youtube.com/watch?v=EzEuylNSn-Q)
+
+![emergent_capacities](res/emergent_capacities.png)
+
+> The ability to perform multi-step arithmetic (left), succeed on college-level exams (middle), and identify the intended meaning of a word in context (right) all emerge only for models of sufficiently large scale. The models shown include LaMDA, GPT-3, Gopher, Chinchilla, and PaLM.
 
 Modelos de lenguaje y escalado
 
@@ -49,6 +56,8 @@ Basta con ordenadores más potentes y entrenar con todo internet: audio, video, 
 - Nando freitas [game over flamingo](https://twitter.com/NandoDF/status/1523591529671012354)
 - [DeepMind’s astounding new ‘Gato’ AI makes me fear humans will never achieve AGI](https://thenextweb.com/news/deepminds-astounding-new-gato-ai-makes-fear-humans-will-never-achieve-agi)
 - [Is the human brain just a scaled primate brain?](https://twitter.com/Tim_Dettmers/status/1637594465065119744?s=20)
+
+![comparison_primate_brains](res/comparison_primate_brains.png)
 
 ## Recomendaciones
 
