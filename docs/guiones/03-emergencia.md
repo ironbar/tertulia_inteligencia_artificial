@@ -54,6 +54,20 @@ Basta con ordenadores más potentes y entrenar con todo internet: audio, video, 
 
 ![comparison_primate_brains](res/comparison_primate_brains.png)
 
+#### Escala en la sociedad
+
+| año   | población |
+|-------|-----------|
+| -8000 | 8e6       |
+| 0     | 2e8       |
+| 2022  | 8e9       |
+
+https://ourworldindata.org/grapher/population?yScale=log
+
+La escala permite una mayor especialización de los trabajos. También aumenta el número de genios que pueden contribuir a avanzar la ciencia.
+
+¿Como sería el ritmo del avance científico si fueramos 1e11 personas? ¿O una civilización interplanetaria con 1e12?
+
 <!-- 
 
 Esto lo dejo comentado por el momento porque la idea es hacer una tertulia más corta que las anteriores
