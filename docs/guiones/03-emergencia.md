@@ -26,8 +26,9 @@ La idea es que está tertulia sea más corta, algunos de los oyentes piden tertu
 - Células -ser vivo
 - Pájaros bandada
 - Hormigas
-- Neuronas
+- Mente vs Neuronas
 - [Juego de la vida](https://es.wikipedia.org/wiki/Juego_de_la_vida)
+- Sociedad vs persona (cohetes)
 
 ### Emergencia en IA
 
