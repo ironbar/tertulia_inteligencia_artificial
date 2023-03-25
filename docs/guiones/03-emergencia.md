@@ -10,18 +10,11 @@ La idea es que está tertulia sea más corta, algunos de los oyentes piden tertu
 
 ## Tema en profundidad
 
-### Noticias de las últimas semanas
-
-- GPT-4
-- [Google Bard](https://bard.google.com/)
-- [An important next step on our AI journey](https://blog.google/technology/ai/bard-google-ai-search-updates/)
-
 ### Que es la emergencia
 
 - [Emergencia Wikipedia](https://es.wikipedia.org/wiki/Emergencia_(filosof%C3%ADa))
-- [Social behaviour as an emergent property of embodied curiosity: a robotics perspective](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6452242/)
 
-#### Ejemplos en el mundo real
+#### Ejemplos emergencia
 
 - Células -ser vivo
 - Pájaros bandada
@@ -29,6 +22,7 @@ La idea es que está tertulia sea más corta, algunos de los oyentes piden tertu
 - Mente vs Neuronas
 - [Juego de la vida](https://es.wikipedia.org/wiki/Juego_de_la_vida)
 - Sociedad vs persona (cohetes)
+- [Social behaviour as an emergent property of embodied curiosity: a robotics perspective](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6452242/)
 
 ### Emergencia en IA
 
@@ -59,6 +53,18 @@ Basta con ordenadores más potentes y entrenar con todo internet: audio, video, 
 - [Is the human brain just a scaled primate brain?](https://twitter.com/Tim_Dettmers/status/1637594465065119744?s=20)
 
 ![comparison_primate_brains](res/comparison_primate_brains.png)
+
+<!-- 
+
+Esto lo dejo comentado por el momento porque la idea es hacer una tertulia más corta que las anteriores
+
+## Noticias de las últimas semanas
+
+- GPT-4
+- [Google Bard](https://bard.google.com/)
+- [An important next step on our AI journey](https://blog.google/technology/ai/bard-google-ai-search-updates/)
+
+-->
 
 ## Recomendaciones
 
