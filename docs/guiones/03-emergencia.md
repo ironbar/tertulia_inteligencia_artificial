@@ -1,4 +1,4 @@
-# WIP: Minitertulia - Emergencia
+# Emergencia
 
 La idea es que está tertulia sea más corta, algunos de los oyentes piden tertulias más cortas. Esto sería una prueba para ver que tal funciona un formato distinto. Debería ser de menos de una hora.
 
@@ -10,7 +10,7 @@ La idea es que está tertulia sea más corta, algunos de los oyentes piden tertu
 
 ### Noticias de las últimas semanas
 
-- GPT-4 
+- GPT-4
 - [Google Bard](https://bard.google.com/)
 - [An important next step on our AI journey](https://blog.google/technology/ai/bard-google-ai-search-updates/)
 
@@ -38,13 +38,14 @@ La idea es que está tertulia sea más corta, algunos de los oyentes piden tertu
 
 Modelos de lenguaje y escalado
 
-#### Theory of Mind 
+#### Theory of Mind
 
 https://www.youtube.com/watch?v=4MGCQOAxgv4
 
 ### Futuro IA: scale is all you need?
 
 Basta con ordenadores más potentes y entrenar con todo internet: audio, video, fotos, texto...?
+
 - Nando freitas [game over flamingo](https://twitter.com/NandoDF/status/1523591529671012354)
 - [DeepMind’s astounding new ‘Gato’ AI makes me fear humans will never achieve AGI](https://thenextweb.com/news/deepminds-astounding-new-gato-ai-makes-fear-humans-will-never-achieve-agi)
 - [Is the human brain just a scaled primate brain?](https://twitter.com/Tim_Dettmers/status/1637594465065119744?s=20)
