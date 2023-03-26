@@ -24,6 +24,20 @@ La idea es que está tertulia sea más corta, algunos de los oyentes piden tertu
 - Sociedad vs persona (cohetes)
 - [Social behaviour as an emergent property of embodied curiosity: a robotics perspective](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6452242/)
 
+#### Escala en la sociedad
+
+| año   | población |
+|-------|-----------|
+| -8000 | 8e6       |
+| 0     | 2e8       |
+| 2022  | 8e9       |
+
+https://ourworldindata.org/grapher/population?yScale=log
+
+La escala permite una mayor especialización de los trabajos. También aumenta el número de genios que pueden contribuir a avanzar la ciencia.
+
+¿Como sería el ritmo del avance científico si fueramos 1e11 personas? ¿O una civilización interplanetaria con 1e12?
+
 ### Emergencia en IA
 
 #### Palm, capacidades emergentes
@@ -58,19 +72,9 @@ Basta con ordenadores más potentes y entrenar con todo internet: audio, video, 
 
 ![comparison_primate_brains](res/comparison_primate_brains.png)
 
-#### Escala en la sociedad
+#### ¿Hay límites en el escalado de los LLM?
 
-| año   | población |
-|-------|-----------|
-| -8000 | 8e6       |
-| 0     | 2e8       |
-| 2022  | 8e9       |
-
-https://ourworldindata.org/grapher/population?yScale=log
-
-La escala permite una mayor especialización de los trabajos. También aumenta el número de genios que pueden contribuir a avanzar la ciencia.
-
-¿Como sería el ritmo del avance científico si fueramos 1e11 personas? ¿O una civilización interplanetaria con 1e12?
+#### LLM -> Large World Models
 
 <!-- 
 
