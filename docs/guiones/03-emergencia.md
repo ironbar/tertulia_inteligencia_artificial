@@ -1,4 +1,4 @@
-# Emergencia, ¿Hasta donde nos lleva escalar la IA actual?
+# Escala y Emergencia. ¿Destellos de Inteligencia Artificial General?
 
 _12/04/2023_
 
