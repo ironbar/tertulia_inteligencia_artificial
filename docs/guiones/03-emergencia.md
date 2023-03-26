@@ -44,6 +44,10 @@ Modelos de lenguaje y escalado
 
 https://www.youtube.com/watch?v=4MGCQOAxgv4
 
+#### GPT4
+
+[AI Explained Video: Sparks of AGI'](https://youtu.be/Mqg3aTGNxZ0)
+
 ### Futuro IA: scale is all you need?
 
 Basta con ordenadores más potentes y entrenar con todo internet: audio, video, fotos, texto...?
