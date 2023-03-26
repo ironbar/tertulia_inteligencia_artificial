@@ -42,25 +42,33 @@ La escala permite una mayor especialización de los trabajos. También aumenta e
 
 #### Palm, capacidades emergentes
 
-- ¿ Qué es Google PALM ?
-  - [PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/pdf/2204.02311.pdf)
-  - [Characterizing Emergent Phenomena in Large Language Models](https://ai.googleblog.com/2022/11/characterizing-emergent-phenomena-in.html)
-- https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html?m=1
-- [What's Left Before AGI? PaLM-E, 'GPT 4' and Multi-Modality](https://www.youtube.com/watch?v=EzEuylNSn-Q)
+![palm_visualization](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLXCWMlipdu0gFF6hsiJHbxg1zSaEkdDWfl-8RakQuW__8RPvlOS9KGIScNCytxT4jz9isnx0GLMwbS1G0Q4WdXzT42GszgfwIIAVX1H3J-43lVWWqcb--q9cPsxCsJFFz2dRfpKgEmLe-xfIyBqQuPq1BPYcK9CtAK1_xnhgvgAAx0GeZmODJxGNMYQ/s16000/image8.gif)
+
+- [PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/abs/2204.02311)
+- [Pathways Language Model (PaLM): Scaling to 540 Billion Parameters for Breakthrough Performance](https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html?m=1)
+- [Characterizing Emergent Phenomena in Large Language Models](https://ai.googleblog.com/2022/11/characterizing-emergent-phenomena-in.html)
+
+> **Scaling laws**. Scaling up the size of language models often leads to improved performance and sample efficiency on a range of downstream NLP tasks. In many cases, the performance of a large language model can be predicted by extrapolating the performance trend of smaller models. For instance, the effect of scale on language model perplexity has been empirically shown to span more than seven orders of magnitude.
+>
+> On the other hand, performance for certain other tasks does not improve in a predictable fashion. For example, the GPT-3 paper showed that the ability of language models to perform multi-digit addition has a flat scaling curve (approximately random performance) for models from 100M to 13B parameters, at which point the performance jumped substantially.
+>
+> **emergent abilities**, which we define as abilities that are not present in small models but are present in larger models. The existence of such emergent abilities raises the question of whether additional scaling could potentially further expand the range of capabilities of language models.
 
 ![emergent_capacities](res/emergent_capacities.png)
 
 > The ability to perform multi-step arithmetic (left), succeed on college-level exams (middle), and identify the intended meaning of a word in context (right) all emerge only for models of sufficiently large scale. The models shown include LaMDA, GPT-3, Gopher, Chinchilla, and PaLM.
 
-Modelos de lenguaje y escalado
+Algunas de las capacidades emergentes de PaLM:
 
-#### Theory of Mind
-
-https://www.youtube.com/watch?v=4MGCQOAxgv4
+- Aritmetica de multiples pasos
+- Preguntas de examen universitario
+- Significado de una palabra según el contexto
+- Explicaciones paso a paso “chain-of-thought prompting”
 
 #### GPT4
 
-[AI Explained Video: Sparks of AGI'](https://youtu.be/Mqg3aTGNxZ0)
+- [AI Explained Video: Sparks of AGI](https://youtu.be/Mqg3aTGNxZ0)
+- [AI Explained Video: Theory of Mind](https://www.youtube.com/watch?v=4MGCQOAxgv4)
 
 ### Futuro IA: scale is all you need?
 
@@ -76,6 +84,8 @@ Basta con ordenadores más potentes y entrenar con todo internet: audio, video, 
 
 #### LLM -> Large World Models
 
+- [AI Explained Video: What's Left Before AGI? PaLM-E, 'GPT 4' and Multi-Modality](https://www.youtube.com/watch?v=EzEuylNSn-Q)
+
 <!-- 
 
 Esto lo dejo comentado por el momento porque la idea es hacer una tertulia más corta que las anteriores
@@ -89,5 +99,7 @@ Esto lo dejo comentado por el momento porque la idea es hacer una tertulia más 
 -->
 
 ## Recomendaciones
+
+- [AI Explained Youtube channel](https://www.youtube.com/@ai-explained-)
 
 ## Despedida
