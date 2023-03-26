@@ -5,6 +5,7 @@ install: # install python dependencies
 	pip install mkdocs mkdocs-material mkdocs-awesome-pages-plugin mkdocs-git-revision-date-plugin
 
 deploy:
+	git fetch origin gh-pages
 	git push
 	mkdocs gh-deploy
 	make clean
