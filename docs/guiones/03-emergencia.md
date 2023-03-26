@@ -67,10 +67,14 @@ Algunas de las capacidades emergentes de PaLM:
 
 #### GPT4
 
+TODO:
+
 - [AI Explained Video: Sparks of AGI](https://youtu.be/Mqg3aTGNxZ0)
 - [AI Explained Video: Theory of Mind](https://www.youtube.com/watch?v=4MGCQOAxgv4)
 
 ### Futuro IA: scale is all you need?
+
+TODO:
 
 Basta con ordenadores más potentes y entrenar con todo internet: audio, video, fotos, texto...?
 
@@ -81,6 +85,8 @@ Basta con ordenadores más potentes y entrenar con todo internet: audio, video, 
 ![comparison_primate_brains](res/comparison_primate_brains.png)
 
 #### ¿Hay límites en el escalado de los LLM?
+
+
 
 #### LLM -> Large World Models
 
