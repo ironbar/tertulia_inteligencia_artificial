@@ -69,6 +69,7 @@ Algunas de las capacidades emergentes de PaLM:
 
 TODO:
 
+- [Sparks of Artificial General Intelligence: Early experiments with GPT-4](https://arxiv.org/abs/2303.12712)
 - [Gary Markus: The Sparks of AGI? Or the End of Science?](https://garymarcus.substack.com/p/the-sparks-of-agi-or-the-end-of-science)
 - [AI Explained Video: Sparks of AGI](https://youtu.be/Mqg3aTGNxZ0)
 - [AI Explained Video: Theory of Mind](https://www.youtube.com/watch?v=4MGCQOAxgv4)
