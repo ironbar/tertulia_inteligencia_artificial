@@ -24,7 +24,7 @@ La idea es que está tertulia sea más corta, algunos de los oyentes piden tertu
 - Sociedad vs persona (cohetes)
 - [Social behaviour as an emergent property of embodied curiosity: a robotics perspective](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6452242/)
 
-#### Escala en la sociedad
+#### Escala en la sociedad humana
 
 | año   | población |
 |-------|-----------|
@@ -69,6 +69,7 @@ Algunas de las capacidades emergentes de PaLM:
 
 TODO:
 
+- [Gary Markus: The Sparks of AGI? Or the End of Science?](https://garymarcus.substack.com/p/the-sparks-of-agi-or-the-end-of-science)
 - [AI Explained Video: Sparks of AGI](https://youtu.be/Mqg3aTGNxZ0)
 - [AI Explained Video: Theory of Mind](https://www.youtube.com/watch?v=4MGCQOAxgv4)
 
