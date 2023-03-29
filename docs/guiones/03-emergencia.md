@@ -106,6 +106,12 @@ Esto lo dejo comentado por el momento porque la idea es hacer una tertulia más 
 
 -->
 
+#### Petición para paralizar entrenamiento de modelos más grandes que GPT4
+
+Firmada por Gary Markus, Elon Musk...
+
+https://futureoflife.org/open-letter/pause-giant-ai-experiments/
+
 ## Recomendaciones
 
 - [AI Explained Youtube channel](https://www.youtube.com/@ai-explained-)
