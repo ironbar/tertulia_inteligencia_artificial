@@ -65,7 +65,14 @@ Algunas de las capacidades emergentes de PaLM:
 - Significado de una palabra según el contexto
 - Explicaciones paso a paso “chain-of-thought prompting”
 
-#### GPT4
+#### [GPT4](https://openai.com/research/gpt-4)
+
+- Multimodal
+- Clara mejora respecto a 3 y 3.5
+- Desconocemos su tamaño, arquitectura, entrenamiento...
+
+> It passes a simulated bar (lawyer) exam with a score around the top 10% of test takers; in contrast, GPT-3.5’s score was around the bottom 10%. (un examen que hace falta pasar para poder ejercer como abogado
+> In a casual conversation, the distinction between GPT-3.5 and GPT-4 can be subtle. The difference comes out when the complexity of the task reaches a sufficient threshold—GPT-4 is more reliable, creative, and able to handle much more nuanced instructions than GPT-3.5.
 
 TODO:
 
