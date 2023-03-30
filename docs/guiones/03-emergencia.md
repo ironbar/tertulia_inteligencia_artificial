@@ -79,6 +79,15 @@ TODO:
 - [Sparks of Artificial General Intelligence: Early experiments with GPT-4](https://arxiv.org/abs/2303.12712) 450 hojas!
 - [Gary Markus: The Sparks of AGI? Or the End of Science?](https://garymarcus.substack.com/p/the-sparks-of-agi-or-the-end-of-science)
 - [AI Explained Video: Sparks of AGI](https://youtu.be/Mqg3aTGNxZ0)
+  - Unrestricted GPT4 model, not finetuned for safety
+  - Able to use tools with minimal instructions
+  - Generates images from text (SVG, TikZ, Javascript)
+  - GPT-4 passes all stages of mock interviews for major tech companies (programming exercises)
+  - 3d game development
+  - virtual handyman
+  - able to draw maps from descriptions
+  - Theory of mind. Can build a mental model of what other people are thinking
+  - Fails at jokes
 - [AI Explained Video: Theory of Mind](https://www.youtube.com/watch?v=4MGCQOAxgv4)
 
 ### Futuro IA: scale is all you need?
