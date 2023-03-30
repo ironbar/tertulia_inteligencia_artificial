@@ -104,7 +104,7 @@ https://futureoflife.org/open-letter/pause-giant-ai-experiments/
 
 > This does not mean a pause on AI development in general, merely a stepping back from the dangerous race to ever-larger unpredictable black-box models with emergent capabilities.
 
-_Implicitamente están diciendo que "scale is all you need", ¿Es peligroso GPT4? ¿Hay que parar los entrenamientos?_
+_Implicitamente están diciendo que "scale is all you need", ¿Es peligroso GPT4? ¿Hay que parar los entrenamientos? ¿Es realista pensar que una pausa es posible? ¿Va a parar China o va a redoblar esfuerzos?_
 
 ## Recomendaciones
 
