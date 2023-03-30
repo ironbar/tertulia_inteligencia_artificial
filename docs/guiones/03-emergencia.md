@@ -94,6 +94,24 @@ Basta con ordenadores más potentes y entrenar con todo internet: audio, video, 
 
 - [AI Explained Video: What's Left Before AGI? PaLM-E, 'GPT 4' and Multi-Modality](https://www.youtube.com/watch?v=EzEuylNSn-Q)
 
+
+
+#### Petición para paralizar entrenamiento de modelos más grandes que GPT4
+
+Firmada por Gary Markus, Elon Musk...
+
+https://futureoflife.org/open-letter/pause-giant-ai-experiments/
+
+> This does not mean a pause on AI development in general, merely a stepping back from the dangerous race to ever-larger unpredictable black-box models with emergent capabilities.
+
+_Implicitamente están diciendo que "scale is all you need", ¿Es peligroso GPT4? ¿Hay que parar los entrenamientos?_
+
+## Recomendaciones
+
+- [AI Explained Youtube channel](https://www.youtube.com/@ai-explained-) Se ha creado en Enero de 2023 y ya tiene ~100k suscriptores.
+
+## Despedida
+
 <!-- 
 
 Esto lo dejo comentado por el momento porque la idea es hacer una tertulia más corta que las anteriores
@@ -105,15 +123,3 @@ Esto lo dejo comentado por el momento porque la idea es hacer una tertulia más 
 - [An important next step on our AI journey](https://blog.google/technology/ai/bard-google-ai-search-updates/)
 
 -->
-
-#### Petición para paralizar entrenamiento de modelos más grandes que GPT4
-
-Firmada por Gary Markus, Elon Musk...
-
-https://futureoflife.org/open-letter/pause-giant-ai-experiments/
-
-## Recomendaciones
-
-- [AI Explained Youtube channel](https://www.youtube.com/@ai-explained-)
-
-## Despedida
