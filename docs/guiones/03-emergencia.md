@@ -89,6 +89,9 @@ TODO:
   - Theory of mind. Can build a mental model of what other people are thinking
   - Fails at jokes
 - [AI Explained Video: Theory of Mind](https://www.youtube.com/watch?v=4MGCQOAxgv4)
+  - Theory of mind (ToM), or the ability to impute unobservable mental states to others, is central to human social interactions, communication, empathy, self-consciousness, and morality.
+  - We tested several language models using 40 classic false-belief tasks widely used to test ToM in humans. The models published before 2020 showed virtually no ability to solve ToM tasks. Yet, the first version of GPT-3 ("davinci-001"), published in May 2020, solved about 40% of false-belief tasks-performance comparable with 3.5-year-old children. Its second version ("davinci-002"; January 2022) solved 70% of false-belief tasks, performance comparable with six-year-olds. Its most recent version, GPT-3.5 ("davinci-003"; November 2022), solved 90% of false-belief tasks, at the level of seven-year-olds. GPT-4 published in March 2023 solved nearly all the tasks (95%). These findings suggest that ToM-like ability (thus far considered to be uniquely human) may have spontaneously emerged as a byproduct of language models' improving language skills.
+  - Empathy and theory of mind are two different concepts that are often used interchangeably but they are not the same thing. Theory of mind (ToM) refers to the ability to attribute mental states to others, such as beliefs, intentions and desires1. Empathy, on the other hand, refers to the ability to infer and share the emotional experiences of another
 
 ### Futuro IA: scale is all you need?
 
