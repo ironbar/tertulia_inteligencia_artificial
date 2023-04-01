@@ -47,6 +47,7 @@ _¿Como sería el ritmo del avance científico si fueramos 1e11 personas? ¿O un
 - [PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/abs/2204.02311)
 - [Pathways Language Model (PaLM): Scaling to 540 Billion Parameters for Breakthrough Performance](https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html?m=1)
 - [Characterizing Emergent Phenomena in Large Language Models](https://ai.googleblog.com/2022/11/characterizing-emergent-phenomena-in.html)
+- [Emergent Abilities of Large Language Models](https://openreview.net/pdf?id=yzkSU5zdwD)
 
 > **Scaling laws**. Scaling up the size of language models often leads to improved performance and sample efficiency on a range of downstream NLP tasks. In many cases, the performance of a large language model can be predicted by extrapolating the performance trend of smaller models. For instance, the effect of scale on language model perplexity has been empirically shown to span more than seven orders of magnitude.
 >
