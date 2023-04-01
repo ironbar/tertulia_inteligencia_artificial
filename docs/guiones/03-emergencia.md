@@ -105,13 +105,17 @@ Basta con ordenadores más potentes y entrenar con todo internet: audio, video, 
 
 #### ¿Hay límites en el escalado de los LLM?
 
+Los LLM tienen una visión muy reducida del mundo. Por ejemplo muchas cosas de sentido común no se ponen por escrito por ser obvias. (Proyecto Cyc)
 
+Una analogía muy mala sería una persona completamente ciega de nacimiento que en su vida solo hubiera escuchado una voz que le lee todo el conocimiento escrito de internet. Sin poder preguntar ni interactuar, solo escuchar lo que le dice la voz y teniendo que aprender a predecir la siguiente palabra. A esta pobre persona le faltaría mucho conocimiento básico de nuestro mundo. (El sentido común)
 
 #### LLM -> Large World Models
 
 - [AI Explained Video: What's Left Before AGI? PaLM-E, 'GPT 4' and Multi-Modality](https://www.youtube.com/watch?v=EzEuylNSn-Q)
 
+Al igual que entrenamos un LLM para predecir la siguiente palabra, podemos entrenar un LWM para predecir el próximo frame de un video (o el frame dentro de x tiempo). Esto es lo que hace nuestro cerebro inconscientemente en segundo plano. Y si algo no se ajusta a lo predicho atrae nuestra atención consciente.
 
+GPT3 was trained on around 45TB of text. Every day 200k hours of video are uploaded to youtube which weight around 1PB, so when working with video the scale is totally different. Storage becomes an issue.
 
 #### Petición para paralizar entrenamiento de modelos más grandes que GPT4
 
