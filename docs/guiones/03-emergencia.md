@@ -4,6 +4,10 @@ _12/04/2023_
 
 La idea es que está tertulia sea más corta, algunos de los oyentes piden tertulias más cortas. Esto sería una prueba para ver que tal funciona un formato distinto. Debería ser de menos de una hora.
 
+## Resumen
+
+En los últimos años hemos visto la evolución de GPT2, GPT3 y ahora GPT4. Estos modelos han ido creciendo en tamaño y habilidades. ¿Es suficiente para llegar a la Inteligencia Artificial General continuar esta senda de entrenar modelos más grandes en cada vez más datos?
+
 ## Introducción
 
 ## Preguntas de los oyentes
