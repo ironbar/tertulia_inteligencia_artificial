@@ -10,6 +10,10 @@ En los últimos años hemos visto la evolución de GPT2, GPT3 y ahora GPT4. Esto
 
 ## Introducción
 
+- Bienvenidos a la tertulia de la inteligencia artificial.
+- Presentar tema del día (Resumen arriba)
+- Este programa es posible gracias a Veridas (meter cuña publicitaria)
+
 ## Preguntas de los oyentes
 
 - https://twitter.com/carloslarriu/status/1640707355204616192?s=20
