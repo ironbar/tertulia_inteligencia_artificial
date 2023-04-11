@@ -20,7 +20,7 @@ En los últimos años hemos visto la evolución de GPT2, GPT3 y ahora GPT4. Esto
 
 ## Tema en profundidad
 
-### Que es la emergencia
+### Escala y emergencia
 
 - [Emergencia Wikipedia](https://es.wikipedia.org/wiki/Emergencia_(filosof%C3%ADa))
 
@@ -48,7 +48,7 @@ La escala permite una mayor especialización de los trabajos. También aumenta e
 
 _¿Como sería el ritmo del avance científico si fueramos 1e11 personas? ¿O una civilización interplanetaria con 1e12?_
 
-### Emergencia en IA
+### Escala y emergencia en IA
 
 #### Palm, capacidades emergentes
 
