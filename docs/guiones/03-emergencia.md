@@ -104,31 +104,17 @@ Algunas de las capacidades emergentes de PaLM:
 
 ### Futuro IA: scale is all you need?
 
-TODO:
-
 Basta con ordenadores más potentes y entrenar con todo internet: audio, video, fotos, texto...?
 
+#### A favor
+
 - Nando freitas [game over flamingo](https://twitter.com/NandoDF/status/1523591529671012354)
-- [DeepMind’s astounding new ‘Gato’ AI makes me fear humans will never achieve AGI](https://thenextweb.com/news/deepminds-astounding-new-gato-ai-makes-fear-humans-will-never-achieve-agi)
 - [Is the human brain just a scaled primate brain?](https://twitter.com/Tim_Dettmers/status/1637594465065119744?s=20)
 
 ![comparison_primate_brains](res/comparison_primate_brains.png)
 
-#### ¿Hay límites en el escalado de los LLM?
 
-Los LLM tienen una visión muy reducida del mundo. Por ejemplo muchas cosas de sentido común no se ponen por escrito por ser obvias. (Proyecto Cyc)
-
-Una analogía muy mala sería una persona completamente ciega de nacimiento que en su vida solo hubiera escuchado una voz que le lee todo el conocimiento escrito de internet. Sin poder preguntar ni interactuar, solo escuchar lo que le dice la voz y teniendo que aprender a predecir la siguiente palabra. A esta pobre persona le faltaría mucho conocimiento básico de nuestro mundo. (El sentido común)
-
-#### LLM -> Large World Models
-
-- [AI Explained Video: What's Left Before AGI? PaLM-E, 'GPT 4' and Multi-Modality](https://www.youtube.com/watch?v=EzEuylNSn-Q)
-
-Al igual que entrenamos un LLM para predecir la siguiente palabra, podemos entrenar un LWM para predecir el próximo frame de un video (o el frame dentro de x tiempo). Esto es lo que hace nuestro cerebro inconscientemente en segundo plano. Y si algo no se ajusta a lo predicho atrae nuestra atención consciente.
-
-GPT3 was trained on around 45TB of text. Every day 200k hours of video are uploaded to youtube which weight around 1PB, so when working with video the scale is totally different. Storage becomes an issue.
-
-#### Petición para paralizar entrenamiento de modelos más grandes que GPT4
+##### Petición para paralizar entrenamiento de modelos más grandes que GPT4
 
 Firmada por Gary Markus, Elon Musk...
 
@@ -137,6 +123,25 @@ https://futureoflife.org/open-letter/pause-giant-ai-experiments/
 > This does not mean a pause on AI development in general, merely a stepping back from the dangerous race to ever-larger unpredictable black-box models with emergent capabilities.
 
 _Implicitamente están diciendo que "scale is all you need", ¿Es peligroso GPT4? ¿Hay que parar los entrenamientos? ¿Es realista pensar que una pausa es posible? ¿Va a parar China o va a redoblar esfuerzos?_
+
+#### En contra
+
+- [DeepMind’s astounding new ‘Gato’ AI makes me fear humans will never achieve AGI](https://thenextweb.com/news/deepminds-astounding-new-gato-ai-makes-fear-humans-will-never-achieve-agi)
+
+##### ¿Hay límites en el escalado de los LLM?
+
+Los LLM tienen una visión muy reducida del mundo. Por ejemplo muchas cosas de sentido común no se ponen por escrito por ser obvias. (Proyecto Cyc)
+
+Una analogía muy mala sería una persona completamente ciega de nacimiento que en su vida solo hubiera escuchado una voz que le lee todo el conocimiento escrito de internet. Sin poder preguntar ni interactuar, solo escuchar lo que le dice la voz y teniendo que aprender a predecir la siguiente palabra. A esta pobre persona le faltaría mucho conocimiento básico de nuestro mundo. (El sentido común)
+
+##### LLM -> Large World Models
+
+- [AI Explained Video: What's Left Before AGI? PaLM-E, 'GPT 4' and Multi-Modality](https://www.youtube.com/watch?v=EzEuylNSn-Q)
+
+Al igual que entrenamos un LLM para predecir la siguiente palabra, podemos entrenar un LWM para predecir el próximo frame de un video (o el frame dentro de x tiempo). Esto es lo que hace nuestro cerebro inconscientemente en segundo plano. Y si algo no se ajusta a lo predicho atrae nuestra atención consciente.
+
+GPT3 was trained on around 45TB of text. Every day 200k hours of video are uploaded to youtube which weight around 1PB, so when working with video the scale is totally different. Storage becomes an issue.
+
 
 ## Recomendaciones
 
