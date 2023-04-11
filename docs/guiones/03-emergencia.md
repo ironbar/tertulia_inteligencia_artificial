@@ -12,6 +12,8 @@ En los últimos años hemos visto la evolución de GPT2, GPT3 y ahora GPT4. Esto
 
 ## Preguntas de los oyentes
 
+- https://twitter.com/carloslarriu/status/1640707355204616192?s=20
+
 ## Tema en profundidad
 
 ### Que es la emergencia
