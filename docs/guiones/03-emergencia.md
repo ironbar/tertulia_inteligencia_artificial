@@ -80,6 +80,9 @@ Algunas de las capacidades emergentes de PaLM:
 
 - Multimodal
 - Clara mejora respecto a 3 y 3.5
+
+![comparison_primate_brains](res/gpt-4_tech_report_exam_results.png)
+
 - Desconocemos su tamaño, arquitectura, entrenamiento...
 
 > It passes a simulated bar (lawyer) exam with a score around the top 10% of test takers; in contrast, GPT-3.5’s score was around the bottom 10%. (un examen que hace falta pasar para poder ejercer como abogado
