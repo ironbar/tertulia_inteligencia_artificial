@@ -16,8 +16,9 @@ En los últimos años hemos visto la evolución de GPT2, GPT3 y ahora GPT4. Esto
 
 ## Preguntas de los oyentes
 
-- https://twitter.com/carloslarriu/status/1640707355204616192?s=20
-- Respuesta:
+https://twitter.com/carloslarriu/status/1640707355204616192?s=20
+
+Respuesta:
   * Efectivamente, la neurociencia lleva largo tiempo apuntando a la importancia de la emocionalidad en la inteligencia y la toma de las artificiales. Referencia a Damasio (El error de Descartes) y su crítica al dualismo cartesiano de mente-cuerpo / razón-emoción.
   * En el desarrollo de la IA podríamos pensar de forma radical en dos aproximaciones antagónicas: 1) tratar de desentrañar la esencia de la inteligencia abstrayéndonos incluso del caso potencialmente particular de la inteligencia humana y a partir de ahí construir una inteligencia artificial; 2) tratar de desentrañar la esencia del cerebro humano para tratar de replicarlo artificialmente.
   * Realmente, en muchos de los desarrollos tecnológicos conseguidos históricamente, el ser humano se ha inspirado en la naturaleza pero no a costa de replicarla tal cual (ejemplo aviación). 
