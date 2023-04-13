@@ -40,6 +40,7 @@ Respuesta:
 - Células -ser vivo
 - Pájaros bandada
 - Hormigas
+- Ecuaciones diferenciales que describen sistemas autoorganizados y que se deben resolver de forma holística. Ejemplo de ecuaciones de [Navier-Stokes]([url](https://es.wikipedia.org/wiki/Ecuaciones_de_Navier-Stokes)).
 - Mente vs Neuronas
 - Conciencia: Lo mental como la cualidad intrínseca de los procesos físicos y fisiológicos del cerebro ([Thomas Nagel]([url](https://es.wikipedia.org/wiki/Thomas_Nagel))) -> Los [qualia]([url](https://es.wikipedia.org/wiki/Qualia)): cualidades subjetivas de las experiencias individuales. ([¿Cómo es ser un murciélago?]([url](https://en.wikipedia.org/wiki/What_Is_It_Like_to_Be_a_Bat%3F)))
 - [Juego de la vida](https://es.wikipedia.org/wiki/Juego_de_la_vida)
