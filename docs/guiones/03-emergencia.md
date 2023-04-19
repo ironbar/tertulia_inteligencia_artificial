@@ -6,15 +6,18 @@ La idea es que está tertulia sea más corta, algunos de los oyentes piden tertu
 
 ## Resumen
 
-En los últimos años hemos visto la evolución de GPT2, GPT3 y ahora GPT4. Estos modelos han ido creciendo en tamaño y habilidades. ¿Es suficiente para llegar a la Inteligencia Artificial General continuar esta senda de entrenar modelos más grandes en cada vez más datos?
+En los últimos años hemos visto como han ido creciendo los modelos de lenguaje: GPT2, GPT3 y ahora GPT4. Cuando los modelos de lenguaje crecen en tamaño desarrollan nuevas habilidades de manera espontánea y no predecible, por ejemplo la capacidad de hacer calculos matemáticos. Hoy vamos a hablar sobre este fenomeno de emergencia de habilidades al aumentar la escala y discutiremos si esta senda de entrenar modelos más grandes en cada vez más datos es suficiente para llegar a la Inteligencia Artificial General.
 
 ## Introducción
 
 - Bienvenidos a la tertulia de la inteligencia artificial.
 - Presentar tema del día (Resumen arriba)
+- Presentar a los tertulianos (no olvidarme de mí)
 - Este programa es posible gracias a Veridas (meter cuña publicitaria)
 
 ## Preguntas de los oyentes
+
+Recordar que se pueden hacer preguntas o sugerencias en twitter, cada programa elegiremos las mejores y las contestaremos al inicio. TERTUL_ia
 
 https://twitter.com/carloslarriu/status/1640707355204616192?s=20
 
