@@ -9,6 +9,7 @@
 - Cubrir la tele con un abrigo también para minimizar los rebotes
 - Traer percheros con abrigos y ponerlos en las esquinas para minimizar eco
 - Servir líquidos a los tertulianos
+- Silenciar los moviles
 
 ### Equipo de grabación
 
