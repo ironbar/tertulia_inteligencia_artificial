@@ -161,7 +161,7 @@ GPT3 was trained on around 45TB of text. Every day 200k hours of video are uploa
 ## Recomendaciones
 
 - [AI Explained Youtube channel](https://www.youtube.com/@ai-explained-) Se ha creado en Enero de 2023 y ya tiene ~100k suscriptores.
-- Nueva mente del emperardor, de Roger Penrose
+- [Nueva mente del emperardor, de Roger Penrose](https://es.wikipedia.org/wiki/La_nueva_mente_del_emperador)
 - Podcast de Lex Fridman
 - Juego de la vida, videos de DotCSV, Eduardo Saenz de Cabezon, Mates Mike
 
