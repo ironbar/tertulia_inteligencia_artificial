@@ -14,23 +14,38 @@
 ### Equipo de grabación
 
 - Cada tertuliano necesita un portátil silencioso
-- En el primer podcast hemos usado 2 [Razer Seiren Mini](https://www.mediamarkt.es/es/product/_micr%C3%B3fono-razer-seiren-mini-mercury-usb-para-pc-mac-ps4-110-db-blanco-1495613.html) y 2 micrófonos [Talk Go](https://www.amazon.es/JLab-Audio-Talk-Black-W125781587/dp/B0885C9FLV)
-- Usamos [zencastr](https://zencastr.com/) para grabar el podcast
+- Estamos usando el micrófono [Razer Seiren Mini](https://www.mediamarkt.es/es/product/_micr%C3%B3fono-razer-seiren-mini-mercury-usb-para-pc-mac-ps4-110-db-blanco-1495613.html) y este [brazo](https://amzn.eu/d/3hzRJB3) para grabar.
+- Usamos [zencastr](https://zencastr.com/) para grabar el podcast. Permite centralizar la grabación del podcast pero tiene el gran problema de que los audios no están bien sincronizados y además la sincronía se pierde a los 10-15 minutos por lo que hay que alinearlos con palmadas.
 
 ### Grabación del programa
 
 - Asegurarse de que el volumen de los micrófonos es el adecuado. Aquí creo que habría que centrarse en que
 el volumen es adecuado y no satura. Luego en la edición es muy fácil equilibrar los micrófonos si hay diferencias.
-- Una práctica que facilita mucho la edición es silenciarse cuando no estamos hablando. De lo contrario
-se oye eco porque los audios no están perfectamente alineados y además el desalineamiento cambia con el tiempo.
-- Al inicio del programa dar una palmada para alinear audios, luego 20s de silencio para poder modelar
-el ruido de fondo y otra palmada para empezar el programa.
+Para poder ver esto lo mejor es abrir audacity, grabar un poco de audio y ver el nivel de energía.
+- Es buena práctica dividir el programa en secciones más pequeñas ya que eso facilita la edición.
+- Al inicio de cada sección dar 3 palmadas en el centro de la mesa para poder alinear los audios.
 - Si hay errores en la grabación señalizarlos con palmadas para que sea más fácil localizarlos en la edición
 - Cuando termina el programa verificar que todos los audios se han grabado bien en zencastr.
 - Durante el programa el técnico de sonido verifica que todo va bien y que nos estamos acordando de desilenciarnos y silenciarnos.
-- Levantar la mano durante el programa para tener un turno ordenador de palabra
+- Levantar la mano durante el programa para tener un turno ordenado de palabra
+
+Cosas que hacíamos al principio pero ya no hacemos:
+
+- Una práctica que facilita mucho la edición es silenciarse cuando no estamos hablando. De lo contrario
+se oye eco porque los audios no están perfectamente alineados y además el desalineamiento cambia con el tiempo.
+Ahora hacemos un mejor alineamiento de los audios y los dejamos abiertos para captar risas o favorecer el dinamismo del programa.
+- Grabar un poco de silencio para eliminar ruido de fondo. Esto se ha visto no necesario porque los micrófonos
+son suficienemente buenos y el ruido de fondo es muy bajo.
 
 ## Edición
+
+La edición puede dividirse en los siguientes pasos:
+
+1. Editar las secciones del programa
+2. Componer el programa juntando todas las secciones
+3. Descripción del programa
+4. Miniatura del programa
+5. Publicación del programa
 
 La mejor edición es la que no hace falta hacer, por ello mutearse cuando no hablamos es muy buena práctica.
 
