@@ -47,7 +47,16 @@ La edición puede dividirse en los siguientes pasos:
 4. Miniatura del programa
 5. Publicación del programa
 
-La mejor edición es la que no hace falta hacer, por ello mutearse cuando no hablamos es muy buena práctica.
+### Editar las secciones del programa
+
+1. Align the audios with the claps
+1. Borrar silencio y palmada inicial
+1. Borrar y corregir errores (para ello es util apuntar los minutos con problemas, o mejor aún dar palmadas)
+1. Splits the track into multiple chunks if missalingment is found at the middle or end of the audio
+1. Normalize volume
+1. Truncate silence, -30, 1, 1
+1. Export to mp3
+1. Run [whisper](https://colab.research.google.com/drive/1nq8bg4y6V8FY3IJ3qIYg1Kw785oq_9TJ#scrollTo=Cub5GGnyXgEi) on a google colab to get transcription and detect possible errors
 
 ### Voz
 
@@ -81,7 +90,8 @@ Para compaginar la música y la voz hemos usado estos filtros:
 
 ### Miniatura
 
-Lo más sencillo para generar una miniatura es utilizar Dalle o stable-diffusion.
+Lo más sencillo para generar una miniatura es utilizar [Dalle2](https://labs.openai.com/) o incluso mejor [bing](bing.com/chat).
+Utilizar como texto de entrada el título del programa o algun tema que haya salido en el programa.
 
 ### Título y Descripción
 
