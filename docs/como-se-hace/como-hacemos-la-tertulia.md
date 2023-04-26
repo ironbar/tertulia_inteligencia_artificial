@@ -49,67 +49,75 @@ La edición puede dividirse en los siguientes pasos:
 
 ### Editar las secciones del programa
 
+1. Open an audio with Audacity
+1. Import all the other audio tracks
 1. Align the audios with the claps
 1. Borrar silencio y palmada inicial
 1. Borrar y corregir errores (para ello es util apuntar los minutos con problemas, o mejor aún dar palmadas)
 1. Splits the track into multiple chunks if missalingment is found at the middle or end of the audio
 1. Normalize volume
-1. Truncate silence, -30, 1, 1
+1. Truncate silence, -30 dB, 1s, 1s
 1. Export to mp3
 1. Run [whisper](https://colab.research.google.com/drive/1nq8bg4y6V8FY3IJ3qIYg1Kw785oq_9TJ#scrollTo=Cub5GGnyXgEi) on a google colab to get transcription and detect possible errors
 
-### Voz
+Al principio solía aplicar `Noise reduction` a cada pista por separado, pero la calidad inicial es buena y no aporta nada.
 
-1. Importamos todos los audios a [Audacity](https://www.audacityteam.org/), cada audio va a ser una pista diferente.
-1. `Normalize` todos los audios para que tengan un volumen parecido. Se puede ir reaplicando la normalización conforme vamos limpiando los audios.
-1. `Noise reduction` a cada pista por separado. Se calcula un perfil de ruido en base al silencio del inicio del podcast y luego se limpia todo el audio.
-1. Alinear las pistas. Una pista se usa como referencia y las otras se alinean usando como referencia
-las palmadas. Esto no es perfecto porque he observado que el desalineamiento evoluciona a lo largo del audio.
-Quizá tendría sentido entonces partir los audios en trozos y alinear por secciones. El desalineamiento
-provoca que se oiga eco si hay dos micrófonos activos al mismo tiempo.
-1. Para agilizar la revisión fijarse únicamente cuando cambia la persona que habla. Aplicar silencio
-a la persona que no está hablando. **TODO** es posible que esto pueda hacerse automáticamente con algún plugin.
-1. Eliminar silencios innecesarios.
-1. Eliminar meteduras de pata, si hemos dado palmadas cuando ha sucedido será más fácil de editar.
+### Componer el programa juntando todas las secciones
 
-**TODO** Herramientas a mirar para el próximo podcast:
-
-- [Auto duck](https://manual.audacityteam.org/man/auto_duck.html), baja el volumen de una pista cuando en la otra pista estamos hablando. Importante fijar bien los umbrales.
-- [Noise gate](https://manual.audacityteam.org/man/noise_gate.html), silencia todo lo que este por debajo de un umbral de energía
-
-### Música
-
-Para que el programa quede más profesional es buena idea meterle una música de fondo. Sólo se puede
-usar música sin derechos de autor. En [Free Music Archive](https://freemusicarchive.org) hay un catálogo
-bastante grande. P.e. en el primer programa hemos usado [esta canción](https://freemusicarchive.org/music/oriondrive/the-matrix/matrix-a/)
+Aquí se trata simplemente de juntar todas las secciones del programa y añadir música.
 
 Para compaginar la música y la voz hemos usado estos filtros:
 
-1. Adjustable Fade 100 -> 1%
-1. Amplify -30db
+1. Adjustable Fade 100 -> 1%. Esto para hacer la transición música-voz o viceversa.
+1. Amplify -30db. Esto para que se oiga la música de fondo bajita mientras hablamos.
+
+En el primer programa hemos usado [esta canción](https://freemusicarchive.org/music/oriondrive/the-matrix/matrix-a/) que no tiene derechos de autor. En los siguientes hemos empezado a usar la canción de `Night Sentinels` (inspirados por Axel Casas) ya que en Ivoox se puede subir audio con derechos de autor. La música se pone al inicio y al final del programa, y un poquito entre transiciones de secciones.
+
+### Algunos trucos de Audacity
+
+- Stutter. Se hace con el efecto `Repeat` y tambien se le puede meter un poco de `Reverb`
+- [Auto duck](https://manual.audacityteam.org/man/auto_duck.html), baja el volumen de una pista cuando en la otra pista estamos hablando. Importante fijar bien los umbrales.
+- [Noise gate](https://manual.audacityteam.org/man/noise_gate.html), silencia todo lo que este por debajo de un umbral de energía
+- Añadir ruido de [bocinas](https://www.youtube.com/watch?v=OQ-tBvsVot8)
+- Compressor -20, -60, 3 <https://www.youtube.com/watch?v=eRunJa8fHvs>
+
+### Descripción del programa
+
+Este es un ejemplo de la descripción del 3º programa. Consta de:
+
+- Breve descripción del programa
+- Autores
+- Indice de las secciones
+- Links a la web del programa y a los guiones
+
+Debería estar incluida en el guión del programa
+
+```text
+En los últimos años hemos visto como han ido creciendo los modelos de lenguaje: GPT2, GPT3 y ahora GPT4. Cuando los modelos de lenguaje crecen en tamaño desarrollan nuevas habilidades de manera espontánea y no predecible, por ejemplo la capacidad de hacer calculos matemáticos. Hoy vamos a hablar sobre este fenomeno de emergencia de habilidades al aumentar la escala y discutiremos si esta senda de entrenar modelos más grandes en cada vez más datos es suficiente para llegar a la Inteligencia Artificial General.
+
+Participan en la tertulia Íñigo Olcoz, Paco Zamora, Josu Gorostegui y Guillermo Barbadillo.
+
+02:46 Preguntas oyentes
+17:27 Emergencia y Escala
+34:54 Emergencia y Escala en IA
+01:12:13 Futuro de la IA
+01:44:48 Recomendaciones y despedia
+
+https://ironbar.github.io/tertulia_inteligencia_artificial/
+https://ironbar.github.io/tertulia_inteligencia_artificial/guiones/03-emergencia/
+```
 
 ### Miniatura
 
 Lo más sencillo para generar una miniatura es utilizar [Dalle2](https://labs.openai.com/) o incluso mejor [bing](bing.com/chat).
 Utilizar como texto de entrada el título del programa o algun tema que haya salido en el programa.
 
-### Título y Descripción
+### Publicación del programa
 
-El título ya lo tendremos preparado en el guión, la descripción será breve y comentará quienes
-son los participantes, link a la web y créditos a la música.
+Para poder publicar en youtube hace falta convertirlo a mp4, para ello usamos esta [web](https://www.onlineconverter.com/audio-to-video)
 
-Ejemplo del primer programa:
-
-```text
-El año pasado la irrupción de Dalle2 y Stable Diffusion pusieron patas arriba el mundo del arte. En el programa de hoy analizamos el impacto que herramientas como ChatGPT o Copilot pueden llegar a tener en el mundo de la programación.
-
-Participan en la tertulia Íñigo Olcoz, Víctor Goñi, Paco Zamora y Guillermo Barbadillo. Iker Gómez nos ayuda con la parte técnica.
-
-Créditos:
-<https://ironbar.github.io/tertulia_inteligencia_artificial/guiones/01-copilot-fin-programacion/>
-<https://freemusicarchive.org/music/oriondrive/the-matrix/matrix-a/>
-```
-
+El programa se sube a Ivoox, y automáticamente se publica en Spotify y Apple Podcasts. También hay que subirlo
+a Youtube.
 ## Links
 
 - [Ivoox solo envia los 20 ultimos podcasts a Spotify con el plan gratuito](http://www.todosobrepodcast.com/2020/08/por-que-solo-llegan-20-episodios-de-tu.html)
@@ -156,8 +164,7 @@ Aspectos a tener en cuenta para elegir una sala de grabación:
 Aspectos a tener en cuenta en la edición:
 
 - Eliminar el ruido. Para esto se puede grabar 20s de silencio al principio de la sesión que sirvan para calcular el perfil de ruido. (Noise Reduction en Audacity)
-- Noise Gate. Todo el audio que está por debajo de cierta potencia lo silencia automáticamente. 
+- Noise Gate. Todo el audio que está por debajo de cierta potencia lo silencia automáticamente.
 - Mutear a los que no hablan.
 
 Sobre el micrófono supercardioide es mejor que cardioide. Me he comprado el [Razer Seiren Mini](https://www.mediamarkt.es/es/product/_micr%C3%B3fono-razer-seiren-mini-mercury-usb-para-pc-mac-ps4-110-db-blanco-1495613.html) por 40 euros para hacer pruebas.
-
