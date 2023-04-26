@@ -58,6 +58,7 @@ La edición puede dividirse en los siguientes pasos:
 1. Splits the track into multiple chunks if missalingment is found at the middle or end of the audio
 1. Normalize volume
 1. Truncate silence, -30 dB, 1s, 1s
+1. _Optional_ Compressor -20, -60, 3 [Make your audio sound GREAT with the Audacity Compressor](https://www.youtube.com/watch?v=eRunJa8fHvs). This can help to have the same volume over all the audio.
 1. Export to mp3
 1. Run [whisper](https://colab.research.google.com/drive/1nq8bg4y6V8FY3IJ3qIYg1Kw785oq_9TJ#scrollTo=Cub5GGnyXgEi) on a google colab to get transcription and detect possible errors
 
@@ -80,7 +81,6 @@ En el primer programa hemos usado [esta canción](https://freemusicarchive.org/m
 - [Auto duck](https://manual.audacityteam.org/man/auto_duck.html), baja el volumen de una pista cuando en la otra pista estamos hablando. Importante fijar bien los umbrales.
 - [Noise gate](https://manual.audacityteam.org/man/noise_gate.html), silencia todo lo que este por debajo de un umbral de energía
 - Añadir ruido de [bocinas](https://www.youtube.com/watch?v=OQ-tBvsVot8)
-- Compressor -20, -60, 3 <https://www.youtube.com/watch?v=eRunJa8fHvs>
 
 ### Descripción del programa
 
@@ -119,6 +119,8 @@ Para poder publicar en youtube hace falta convertirlo a mp4, para ello usamos es
 
 El programa se sube a Ivoox, y automáticamente se publica en Spotify y Apple Podcasts. También hay que subirlo
 a Youtube.
+
+También estoy haciendo una copia de seguridad en [Google Drive](https://drive.google.com/drive/u/1/folders/1dr8fYZERMS9wd2dRdMhkLSYyPHLI_lrv) por si acaso.
 ## Links
 
 - [Ivoox solo envia los 20 ultimos podcasts a Spotify con el plan gratuito](http://www.todosobrepodcast.com/2020/08/por-que-solo-llegan-20-episodios-de-tu.html)
