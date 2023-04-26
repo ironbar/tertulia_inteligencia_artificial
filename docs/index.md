@@ -13,6 +13,12 @@ Puedes escucharnos en:
 
 Déjanos tus preguntas en [Twitter](https://twitter.com/TERTUL_ia) y las responderemos al principio de cada programa!
 
+<br>
+
+---
+
+Este podcast está patrocinado por:  [<img src="res/veridas_logo.png" alt="Veridas" width="64" style="position: relative; top: 5px;">](https://veridas.com/)
+
 <!--
 
 ## Objetivo
