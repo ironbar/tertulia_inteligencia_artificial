@@ -7,7 +7,7 @@
 - Estamos grabando en la sala Endor de das-Nano que creemos que es la de mejor acústica del edificio
 - Cerrar las cortinas para minimizar los rebotes de sonido en los cristales
 - Cubrir la tele con un abrigo también para minimizar los rebotes
-- Traer percheros con abrigos y ponerlos en las esquinas para minimizar eco
+- Traer percheros con abrigos y ponerlos en las esquinas para minimizar eco, poner sillas en las esquinas
 - Servir líquidos a los tertulianos
 - Silenciar los moviles
 
@@ -24,6 +24,7 @@ el volumen es adecuado y no satura. Luego en la edición es muy fácil equilibra
 Para poder ver esto lo mejor es abrir audacity, grabar un poco de audio y ver el nivel de energía.
 - Es buena práctica dividir el programa en secciones más pequeñas ya que eso facilita la edición.
 - Al inicio de cada sección dar 3 palmadas en el centro de la mesa para poder alinear los audios.
+- También sería útil dar palmadas cada 10 min para corregir la perdida de sincronía
 - Si hay errores en la grabación señalizarlos con palmadas para que sea más fácil localizarlos en la edición
 - Cuando termina el programa verificar que todos los audios se han grabado bien en zencastr.
 - Durante el programa el técnico de sonido verifica que todo va bien y que nos estamos acordando de desilenciarnos y silenciarnos.
