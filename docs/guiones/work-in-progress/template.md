@@ -14,6 +14,8 @@ Participan en la tertulia: _completar_
 
 https://ironbar.github.io/tertulia_inteligencia_artificial/
 https://ironbar.github.io/tertulia_inteligencia_artificial/guiones/_completar_
+
+Este episodio ha sido patrocinado por Veridas: https://veridas.com/
 ```
 
 ## Introducción
