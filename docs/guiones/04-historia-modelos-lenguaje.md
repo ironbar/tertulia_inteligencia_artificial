@@ -104,7 +104,9 @@ resto por ponerlos en una cronología.
   
 #### Sesgos inductivos de las diferentes arquitecturas
   
-Son hipótesis sobre la estructura de los datos y el problema a resolver que ayudan a aprender más rápido. Pueden llegar a ser limitantes. La tendencia actual es reemplazar en lo posible los sesgos inductivos por un dataset más grande. Va a aprender más despacio pero sin limitaciones.
+Son hipótesis sobre la estructura de los datos y el problema a resolver que ayudan a aprender más rápido. Los sesgos inductivos limitan el espacio de búsqueda. Pueden llegar a ser limitantes. La tendencia actual es reemplazar en lo posible los sesgos inductivos por un dataset más grande. Va a aprender más despacio pero sin limitaciones.
+  
+https://towardsdatascience.com/the-inductive-bias-of-ml-models-and-why-you-should-care-about-it-979fe02a1a56#:~:text=Transformers%20have%20no%20strong%20inductive,if%20enough%20data%20is%20provided.
   
 No free lunch theorem
 
@@ -131,6 +133,8 @@ En general todas las redes neuronales tienen el sesgo inductivo de descomponer e
 - Representación distribuida. Asume que la información se puede representar distribuidamente en en un grupo de neuronas
 
 ##### Transformers
+  
+Es la arquitectura que menos sesgos inductivos tiene, por lo que es más flexible pero necesita muchos datos. No es adecuada para datasets pequeños.
 
 - Conjunto de datos no ordenado. (El orden se inyecta modificando los datos de entrada)
 - Atención. Compara los distintos elementos del conjunto entre sí.
