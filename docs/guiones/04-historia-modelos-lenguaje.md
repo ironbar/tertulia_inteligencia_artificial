@@ -34,6 +34,10 @@ Y sin más dilación, damos paso a presentar nuestros tertulianos de hoy...
 
 ## Preguntas de los oyentes
 
+Relativo al documento filtrado de Google en el que señala que el mayor enemigo no es OpenAI sino la IA open-source.
+https://twitter.com/raquelbars/status/1654769778303664131?s=20
+  
+
 ## Tema en profundidad
 
 ### ¿Qué es un modelo de lenguaje?
