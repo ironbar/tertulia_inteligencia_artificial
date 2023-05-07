@@ -107,15 +107,36 @@ resto por ponerlos en una cronología.
 Son hipótesis sobre la estructura de los datos y el problema a resolver que ayudan a aprender más rápido. Pueden llegar a ser limitantes. La tendencia actual es reemplazar en lo posible los sesgos inductivos por un dataset más grande. Va a aprender más despacio pero sin limitaciones.
   
 No free lunch theorem
+
+En general todas las redes neuronales tienen el sesgo inductivo de descomponer el problema en multiples pasos: las capas de la red.
   
 ##### Redes Convolucionales
 
-##### MLP
+- Estructura 2d de los datos (imagen)
+- Conectividad local. La información se procesa a nivel local, cada región de la imagen por separado. Solo se analizan los pixeles cercanos.
+- Invarianza a la traslación. Los filtros se repiten por toda la imagen, se asume que un filtro que es útil en la esquina superior izquierda también lo será en la esquina inferior derecha
+- Organización en canales. Asume la información puede representarse en diferentes canales.
 
 ##### RNN
   
+- Secuencias ordenadas, pueden ser de tamaño variable
+- Procesar los elementos uno a uno en orden
+- Invarianza temporal. Los pesos se repiten a lo largo del tiempo. Es lo mismo que las CNN pero aplicado a la dimensión temporal en vez de espacial.
+- Memoria. Conforme procesa la secuencia va almacenando la información en una memoria. Esto no es trivial y dificulta el aprendizaje
+ 
+##### MLP
+
+- Universal function approximation
+- Continuidad de la salida. Asume que la salida no tiene cambios abruptos.
+- Representación distribuida. Asume que la información se puede representar distribuidamente en en un grupo de neuronas
+
 ##### Transformers
 
+- Conjunto de datos no ordenado. (El orden se inyecta modificando los datos de entrada)
+- Atención. Compara los distintos elementos del conjunto entre sí.
+- Se adapta a cada caso, el MLP siempre hace el mismo procesamiento. 
+- Conectividad global. Compara todos los elementos entre sí, no solo los más cercanos. Esto hace innecesario el mecanismo de memoria de las RNN, facilitando el aprendizaje. Por otra parte al crecer cuadraticamente con el tamaño de la entrada dificulta el trabajar con secuencias muy largas (aunque se están inventando trucos y nuevos mecanismos para resolver esto).
+  
 ## Recomendaciones
 
 ## Despedida
