@@ -101,6 +101,20 @@ resto por ponerlos en una cronología.
 ### Modelos de lenguaje basados en redes neuronales
 
 ### Transformers y compañía
+  
+#### Sesgos inductivos de las diferentes arquitecturas
+  
+Son hipótesis sobre la estructura de los datos y el problema a resolver que ayudan a aprender más rápido. Pueden llegar a ser limitantes. La tendencia actual es reemplazar en lo posible los sesgos inductivos por un dataset más grande. Va a aprender más despacio pero sin limitaciones.
+  
+No free lunch theorem
+  
+##### Redes Convolucionales
+
+##### MLP
+
+##### RNN
+  
+##### Transformers
 
 ## Recomendaciones
 
