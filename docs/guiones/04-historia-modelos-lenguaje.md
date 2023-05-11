@@ -40,7 +40,44 @@ https://twitter.com/raquelbars/status/1654769778303664131?s=20
 
 ## Tema en profundidad
 
+### ¿Qué es el lenguaje?
+  
+Definición de wikipedia: https://es.wikipedia.org/wiki/Lenguaje
+  
+> El lenguaje es un sistema de comunicación estructurado para el que existe un contexto de
+> uso y ciertos principios combinatorios formales.
+  
+De la RAE: https://dle.rae.es/lenguaje
+  
+> Facultad del ser humano de expresarse y comunicarse con los demás a través del sonido
+> articulado o de otros sistemas de signos.
+>
+> Código de signos. Lenguaje formal.
+>
+> Conjunto de signos y reglas que permite la comunicación con una computadora.
+
+**TERTULIANOS, A DEBATIR**
+
+El lenguaje tiene el propósito de permitir la comunicación, la transmisión de realidades
+entre diferentes personas. Te cuento lo que estoy pensando para conseguir proyectar en
+tu mente mi mismo pensamiento. Sin embargo, para lograr este cometido debemos usar
+algo más amplio, la comunicación. La forma más efectiva de comunicar es una mezcla
+de herramientas y facultades: el uso de los gestos, de herramientas estéticas del
+lenguaje (cómo la hipérbole), apoyar la comunicación con relatos, o el uso
+de herramientas más impactantes como las audiovisuales. Todo ello permite comunicar
+mejor nuestro mensaje. No obstante, el lenguaje está en la base de toda la comunicación
+y es nuestra forma de expresión más básica, aunque no por ello la más simple.
+  
+Temas interesantes a comentar:
+  
+1. Lenguaje y comunicación.
+2. Límites del lenguaje. ¿Puede transmitirse una realidad física sólo mediante palabras?
+3. El sentido común y el lenguaje, ¿Cabe todo nuestro conocimiento de base en textos?
+   - Comentario sobre el "sentido común" según Lecun: <https://spectrum.ieee.org/ai-hallucination>
+
 ### ¿Qué es un modelo de lenguaje?
+
+<details><summary>Introducción formal</summary>
 
 Un modelo de lenguaje es una herramienta utilizada para discrimar frases o texto que
 pertence a un determinado lenguaje de aquél texto que no pertenece a dicho lenguaje.
@@ -92,19 +129,40 @@ Y por otro lado, al respecto de los diferentes tipos de modelado, tenemos:
   que con modelos binarios hace falta una mayor ingeniería para que el modelo
   permita aceptar errores en la gramática.
 
-### Prehistoria de los modelos de lenguaje (modelos binarios)
+</details>
 
+TODO: reformular la introducción técnica para hacerla más amena.
+
+### De la traducción automática... a la explosión del reconocimiento de voz
+
+El interés por el lenguaje, dentro del campo de la IA, ha sido siempre muy elevado.
+Por ser la forma de comunicación más básica que tenemos los humanos, también
+es la herramienta de comunicación más conveniente con las máquinas. Pero esto
+llega con multitud de problemas diferentes debido a las ambigüedades del lenguaje
+natural. Pero no nos adelantemos.
+  
+En el inicio, el lenguaje empezó a tratarse automáticamente para la creación de
+traductores basados en reglas (ver
+[Experimento Georgetow](https://en.wikipedia.org/wiki/Georgetown%E2%80%93IBM_experiment)).
+Estamos en los años 50, IBM que experimentó con un traductor de un dominio
+mega-restringido, que con tan sólo 6 reglas gramaticales y 250 términos léxicos,
+permitía traducir oraciones del ruso al inglés. Pasaron diez años de grandes
+inversiones de dinero público, y luego un pequeño episodio de invierno llegó
+al no alcanzar los resultados esperados a la velocidad esperada (véase
+[Invierno de la IA](https://en.wikipedia.org/wiki/AI_winter)).
+
+  
 TODO: poner aquí un breve relato sobre como llegamos a los modelos estadísticos.
 
 TODO: indicar que nuestro interés va a estar en los modelos estadísticos por ser
 los que han sido más efectivos en la historia, pero que contamos algo sobre el
 resto por ponerlos en una cronología.
 
-### Los modelos de lenguaje basados en ngramas
+### Contexto es todo lo que necesitas
 
-### Modelos de lenguaje basados en redes neuronales
+### Se nos olvidaron los espacios de variedades: modelos de lenguaje basados en redes neuronales
 
-### Transformers y compañía
+### Atención y contexto: los transformers y compañía
   
 #### Sesgos inductivos de las diferentes arquitecturas
   
