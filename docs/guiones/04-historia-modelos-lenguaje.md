@@ -131,7 +131,28 @@ Y por otro lado, al respecto de los diferentes tipos de modelado, tenemos:
 
 </details>
 
-TODO: reformular la introducción técnica para hacerla más amena.
+**Propuesta de ChatGPT** :)
+  
+¿Alguna vez has oído hablar de los modelos de lenguaje? Son como un detector de
+mentiras para el lenguaje, pero en vez de detectar mentiras, detectan si una frase
+pertenece a un lenguaje específico o no.
+
+Hay varias técnicas para construir estos modelos, y cada una tiene sus propias ventajas
+y desventajas. Por ejemplo, algunos de los primeros modelos de lenguaje utilizaban
+gramáticas y reglas para diferenciar las frases del lenguaje que querían detectar.
+Después vinieron los autómatas finitos, que eran como las gramáticas pero más compactos,
+y los modelos de "ngramas".
+
+Pero la cosa no quedó ahí, porque también tenemos las redes neuronales artificiales,
+que son una maravilla. Hay muchos tipos diferentes de redes neuronales, y han
+evolucionado mucho con el tiempo.
+
+Además, también hay diferentes formas de modelar el lenguaje. Por ejemplo, algunos
+modelos te dicen simplemente si una frase es válida o no en un lenguaje específico.
+Estos son muy útiles para cosas como reconocer matrículas de coches. Pero también
+hay modelos que te dan una puntuación o probabilidad para cada frase, lo que los
+hace mucho más flexibles para tratar con errores gramaticales y otros problemas
+comunes del lenguaje natural. ¡Son unos verdaderos campeones!
 
 ### De la traducción automática... a la explosión del reconocimiento de voz
 
