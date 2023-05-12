@@ -79,16 +79,19 @@ Temas interesantes a comentar:
 
 <details><summary>Introducción formal</summary>
 
-Un modelo de lenguaje es una herramienta utilizada para discrimar frases o texto que
-pertence a un determinado lenguaje de aquél texto que no pertenece a dicho lenguaje.
-Estos modelos se pueden distinguir por la técnica empleada para el modelado, y el
-tipo de modelado que se hace. Así, podemos encontrar diferentes técnicas con las
-que históricamente se han ido construyendo los modelos:
+Un modelo de lenguaje es una herramienta que sirve para establecer las reglas
+gramáticales válidas en un dominio. El modelo puede ser "estricto" y estar
+formado por reglas formales, y perteneciendo a alguno de los niveles
+de la [jerarquía de Chomsky](https://es.wikipedia.org/wiki/Jerarqu%C3%ADa_de_Chomsky).
+El modelo también puede ser "estocástico" y estar formado
+por reglas difusas, siendo habituales los modelos estadísticos
+que definen una distribución de probabilidad en secuencias de palabras.
+Estos modelos se pueden distinguir por la técnica empleada para el modelado:
 
 - Modelos basados en reglas. De esta categoría fueron los primeros sistemas
   de lenguaje natural, y por ende, los primeros modelos de lenguaje que
   fueron desarrollados, allá por la decada de los 50s.
-- Las gramáticas formales. Princpialmente gramáticas regulares y gramáticas
+- Las gramáticas formales. Principalmente gramáticas regulares y gramáticas
   incontextuales, pues añadir más complejidad complica la capacidad de
   aprendizaje y el cómputo requerido para el análisis.
 - Los autómatas finitos. Equivalentes a las gramáticas formales, los autómatas
@@ -98,9 +101,9 @@ que históricamente se han ido construyendo los modelos:
 - Las redes neuronales artificiales. De muy diferentes tipos, en la historia
   han ido evolucionando hasta llegar a los modelos que tenemos hoy.
 
-Y por otro lado, al respecto de los diferentes tipos de modelado, tenemos:
+Por otro lado, podemos tener diferentes tipos de modelado, como ya hemos mencionado:
 
-- Modelado binario: No se si tiene un nombre mejor, pero este es el que
+- Modelado "estricto" o binario: No se si tiene un nombre mejor, pero este es el que
   parece más adecuado. Son binarios todos los modelos de lenguaje que
   se usan para decir si una frase pertenece o no a una gramática. Es
   decir, que resuelven un problema de decisión al respecto de la
@@ -133,34 +136,24 @@ Y por otro lado, al respecto de los diferentes tipos de modelado, tenemos:
 
 **Propuesta de ChatGPT** :)
   
-¿Alguna vez has oído hablar de los modelos de lenguaje? Son como un detector de
-mentiras para el lenguaje, pero en vez de detectar mentiras, detectan si una frase
-pertenece a un lenguaje específico o no.
+Imagina que quieres enseñarle a un robot cómo hablar como tú. ¿Cómo lo harías? Podrías empezar estableciendo algunas reglas, como las que se enseñan en la escuela, por ejemplo, que un verbo siempre va acompañado de un sujeto. Pero en el lenguaje natural, no todo es tan sencillo como una regla. Por eso, existen los modelos de lenguaje.
 
-Hay varias técnicas para construir estos modelos, y cada una tiene sus propias ventajas
-y desventajas. Por ejemplo, algunos de los primeros modelos de lenguaje utilizaban
-gramáticas y reglas para diferenciar las frases del lenguaje que querían detectar.
-Después vinieron los autómatas finitos, que eran como las gramáticas pero más compactos,
-y los modelos de "ngramas".
+Los modelos de lenguaje son como la guía del robot para hablar como un humano. Pueden ser estrictos, basados en reglas formales, o estocásticos, basados en reglas difusas y probabilidades. Los primeros son como una receta: si sigues las reglas, siempre obtendrás una respuesta correcta. Los segundos son como la intuición: no siempre acertarás, pero podrás entender la mayoría de las cosas que te dicen.
 
-Pero la cosa no quedó ahí, porque también tenemos las redes neuronales artificiales,
-que son una maravilla. Hay muchos tipos diferentes de redes neuronales, y han
-evolucionado mucho con el tiempo.
+Los modelos estrictos se basan en reglas formales y matemáticas. Las gramáticas formales, los autómatas finitos y las redes neuronales son algunos ejemplos. Estos modelos son muy útiles para problemas que tienen respuestas binarias, como saber si una matrícula de coche es válida o no. Si un robot sigue las reglas, siempre sabrá si una matrícula es correcta o no.
 
-Además, también hay diferentes formas de modelar el lenguaje. Por ejemplo, algunos
-modelos te dicen simplemente si una frase es válida o no en un lenguaje específico.
-Estos son muy útiles para cosas como reconocer matrículas de coches. Pero también
-hay modelos que te dan una puntuación o probabilidad para cada frase, lo que los
-hace mucho más flexibles para tratar con errores gramaticales y otros problemas
-comunes del lenguaje natural. ¡Son unos verdaderos campeones!
+Los modelos estocásticos, por otro lado, están basados en la probabilidad. Son como una máquina tragaperras: si tienes suerte, obtendrás la respuesta correcta. Los modelos estocásticos son útiles para problemas más complejos, como entender el lenguaje hablado de una persona. Como todos sabemos, las personas no hablamos de forma perfecta todo el tiempo, y los modelos estocásticos pueden entender y decodificar incluso los errores gramaticales.
+
+En resumen, los modelos de lenguaje son como el manual de instrucciones para que un robot pueda hablar como tú. Pueden ser estrictos o estocásticos, basados en reglas formales o probabilidades, pero todos tienen un objetivo en común: hacer que la comunicación entre humanos y robots sea más efectiva y precisa.
+
 
 ### De la traducción automática... a la explosión del reconocimiento de voz
 
 El interés por el lenguaje, dentro del campo de la IA, ha sido siempre muy elevado.
-Por ser la forma de comunicación más básica que tenemos los humanos, también
-es la herramienta de comunicación más conveniente con las máquinas. Pero esto
+Es la forma de comunicación más básica entre personas, y por tanto, también
+es nuestra herramienta de comunicación más conveniente con las máquinas. Pero esto
 llega con multitud de problemas diferentes debido a las ambigüedades del lenguaje
-natural. Pero no nos adelantemos.
+natural.
   
 En el inicio, el lenguaje empezó a tratarse automáticamente para la creación de
 traductores basados en reglas (ver
@@ -172,16 +165,82 @@ inversiones de dinero público, y luego un pequeño episodio de invierno llegó
 al no alcanzar los resultados esperados a la velocidad esperada (véase
 [Invierno de la IA](https://en.wikipedia.org/wiki/AI_winter)).
 
+Durante los años 60, comenzó a surgir el interés en el reconocimiento de voz,
+primero con modelos basados en dígitos, y luego palabra a palabra. En esta época
+se inventó el algoritmo [DTW](https://en.wikipedia.org/wiki/Dynamic_time_warping)
+que ha sido utilizado para alinear y estimar la similaridad entre pares de
+secuencias con diferentes logintudes.
   
-TODO: poner aquí un breve relato sobre como llegamos a los modelos estadísticos.
+En los años 70 y principios de los 80 se desarrollaron los sistemas de reconocimiento
+de voz basados en modelos ocultos de Markov. Estos tenían la ventaja de permitir
+la combinación de diferentes fuentes de información: acústica, lenguaje, y sintáxis.
+Todo en un mismo marco probabilista. En los 80 se introdujeron también los modelos
+basados en ngramas, y durante los 80 y los 90 la inversión en sistemas de reconocimiento
+de voz se incrementó bastante, y aparecieron algunos sistemas comerciales (Dragon Dictate),
+aunque todavía quedaba mucho camino por recorrer.
+  
+Hemos mencionado a los ngramas, que a pesar de ser de los primeros modelos de lenguaje,
+estuvieron presentes en los sistemas de reconocimiento de voz hasta los primeros años
+del siglo XXI. Los ngramas son muy simples, y se estiman básicamente por conteo.
+El modelo permite calcular la probabilidad de una palabra dada una ventana fija
+de contexto previo (por ejemplo las dos palabras anteriores)
 
-TODO: indicar que nuestro interés va a estar en los modelos estadísticos por ser
-los que han sido más efectivos en la historia, pero que contamos algo sobre el
-resto por ponerlos en una cronología.
+¿Nos suena este concepto?
+  
+TERTULIANOS COMENTAN SOBRE ESTA IDEA; PONGO ALGUNOS TEMAS
+
+1. Comparar el contexto que recibe un modelo de ngramas contra un GPT.
+2. Límites del método de estimación, en los ngramas, el conteo de veces
+   que aparece una palabra detrás de una determinada secuencia de n-1
+   palabras. Maldición de la dimensionalidad.
+   - En dos secciones se comentará cómo podemos escapar de ese límite.
+3. ¿Más temas? ...
 
 ### Contexto es todo lo que necesitas
 
+Durante los años 90 el paradigma cambió poco, los modelos de ngramas estaban presentes
+en todos los sistemas de procesamiento de lenguaje natural. Incluso con valores de N muy
+pequeños, el valor del modelo de lenguaje en el reconocimiento de formas es brutal. No
+era posible generar textos con sentido, ya que el contexto era minúsculo (3gramas o
+4gramas como mucho era lo habitual). Pero la integración del lenguaje a las evidencias
+acústicas en un reconocedor de voz permitía escapar de las inmensas dificultades
+encontradas en el lenguaje hablado (fonemas mal pronunciados, elipsis de fonemas,
+intercambio de fonemas, entonaciones incorrectas, ...).
+
+En los años 90 las principales aportaciones fueron:
+
+1. Desarrollo de las técnicas de suavizado que permitieran hacer inferencia de las probabilidades
+   condicionales para contextos no vistos en el entrenamiento.
+2. Creación del concepto de "modelo de lenguaje con caché", que permitía al modelo de ngramas
+   original extender la longitud de su contexto, pudiendo capturar un resumen de la información
+   intercambiada entre una persona y una máquina durante una interacción, por ejemplo, en un
+   proceso de compra de billetes de tren usando la voz.
+3. El [suavizado Kneser-Ney](https://en.wikipedia.org/wiki/Kneser%E2%80%93Ney_smoothing) se convierte en
+   el standard de facto (1994).
+
+En paralelo a estas aportaciones, en el campo de las redes neuronales artificiales hubo
+algunos avances que luego fueron cruciales para el salto de calidad de los sistemas de
+reconocimiento. A finales de los 90 se empezaron a desarrollar las LSTMs que permitían
+mitigar los problemas de olvido de los modelos de redes neuronales artificiales
+recurrentes, aunque harían falta algunos años más para que los recursos computacionales
+y de datos permitiran aprovechar su potencial.
+
+TERTULIANOS, ATAQUEN DE NUEVO
+  
+Antes de seguir con modelos más complejos, comentamos sobre el [Huge Language Models and Stupid Backoff](https://aclanthology.org/D07-1090.pdf).
+En 2007, Google dice, dejémonos de algoritmos avanzados para suavizar los ngramas. Lo que hace falta son **muchos datos**, y yo los tengo:
+**2 trillion tokens, resulting in 5-gram language models having up to 300 billion n-grams**
+  
+> Significantly, we found that translation quality as indicated by BLEU score continues to improve with
+> increasing language model size, at even the largest sizes considered. This finding underscores
+> the value of being able to train and apply very large language models, and suggests that further
+> performance gains may be had by pursuing this direction further.
+  
+¿Qué os parece esta demostración de fuerza bruta? ¿Analogías con la realidad actual?
+ 
 ### Se nos olvidaron los espacios de variedades: modelos de lenguaje basados en redes neuronales
+
+TBD
 
 ### Atención y contexto: los transformers y compañía
   
