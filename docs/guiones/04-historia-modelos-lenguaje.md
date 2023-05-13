@@ -196,6 +196,30 @@ TERTULIANOS COMENTAN SOBRE ESTA IDEA; PONGO ALGUNOS TEMAS
    - En dos secciones se comentará cómo podemos escapar de ese límite.
 3. ¿Más temas? ...
 
+
+??? warning "Limitaciones de los ngramas"
+    N-grams have been extensively used in natural language processing and computational linguistics, but they do have several notable problems and limitations:
+
+    1. Sparsity: N-grams require a large amount of data to accurately capture language patterns. But even with massive amounts of data, many possible n-grams won't occur in the training data, leading to sparsity. As the size of the n-gram (the "n") increases, the problem gets worse because the number of potential n-grams grows exponentially.
+    1. Lack of Long-Term Dependencies: N-gram models have a fixed context length (the n-1 previous words). They can't account for dependencies outside this context window. This is a significant problem because language often contains long-range dependencies where the meaning of a word depends on words much earlier in the sentence.
+    1. Out of Vocabulary Problem: If a word doesn't appear in the training data, the model has no way of dealing with it, because n-gram models fundamentally rely on counting occurrences of words or sequences of words. This is a big problem in practice because language is always evolving, and new words are constantly being created.
+    1. Lack of Semantic Understanding: N-grams are purely statistical and don't understand the meaning of words. They only know that certain sequences of words tend to occur together. This leads to issues where n-grams can produce or fail to recognize semantically incorrect phrases if they are statistically likely.
+    1. Overfitting: Because n-grams are based on the exact sequences of words in the training data, they can overfit to that data. This means they might perform poorly on new data that has different characteristics.
+    1. Storage: Storing the count of every possible n-gram requires a lot of memory, particularly as n increases. This can make n-gram models impractical for large vocabularies or large values of n.
+
+    These limitations have led to the development of other methods for language modelling, such as neural networks, which can handle longer dependencies, have a more flexible approach to context, and can learn more abstract representations of words, alleviating some of these problems.
+
+??? success "Ventajas de los ngramas"
+
+    1. Simplicity: N-gram models are straightforward to understand and implement. They do not require complex algorithms or deep mathematical insights. You simply count the frequency of sequences of words in your data.
+    1. Efficiency: Once the model has been trained (i.e., the n-gram frequencies have been counted), generating new text or calculating the probability of a piece of text is very fast, which can be a significant advantage in some applications.
+    1. Local Context: Despite its limitations, the fact that n-gram models consider local context (the n-1 previous words) is an advantage over bag-of-words models, which ignore context altogether.
+    1. No Need for Training: Unlike neural network models, n-gram models don't need to go through a time-consuming and potentially tricky training process. Once you've counted the n-grams in your text, you're done.
+    1. Useful for Certain Tasks: Despite their limitations, n-gram models can perform well on certain tasks, especially ones that mainly rely on local word order. They have been successfully used in applications like spell-checking, keyword extraction, and some aspects of machine translation.
+    1. Interpretability: The predictions of n-gram models are relatively interpretable. If an n-gram model assigns a high probability to a particular piece of text, you can look at the n-grams in that text to see why.
+    1. Flexibility: N-gram models can be used with any sequence data, not just text. This makes them versatile tools for a wide variety of tasks in many different domains.
+
+
 ### Contexto es todo lo que necesitas
 
 Durante los años 90 el paradigma cambió poco, los modelos de ngramas estaban presentes
