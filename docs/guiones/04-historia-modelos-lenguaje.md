@@ -198,27 +198,24 @@ TERTULIANOS COMENTAN SOBRE ESTA IDEA; PONGO ALGUNOS TEMAS
 
 
 ??? warning "Limitaciones de los ngramas"
-    N-grams have been extensively used in natural language processing and computational linguistics, but they do have several notable problems and limitations:
 
-    1. Sparsity: N-grams require a large amount of data to accurately capture language patterns. But even with massive amounts of data, many possible n-grams won't occur in the training data, leading to sparsity. As the size of the n-gram (the "n") increases, the problem gets worse because the number of potential n-grams grows exponentially.
-    1. Lack of Long-Term Dependencies: N-gram models have a fixed context length (the n-1 previous words). They can't account for dependencies outside this context window. This is a significant problem because language often contains long-range dependencies where the meaning of a word depends on words much earlier in the sentence.
-    1. Out of Vocabulary Problem: If a word doesn't appear in the training data, the model has no way of dealing with it, because n-gram models fundamentally rely on counting occurrences of words or sequences of words. This is a big problem in practice because language is always evolving, and new words are constantly being created.
-    1. Lack of Semantic Understanding: N-grams are purely statistical and don't understand the meaning of words. They only know that certain sequences of words tend to occur together. This leads to issues where n-grams can produce or fail to recognize semantically incorrect phrases if they are statistically likely.
-    1. Overfitting: Because n-grams are based on the exact sequences of words in the training data, they can overfit to that data. This means they might perform poorly on new data that has different characteristics.
-    1. Storage: Storing the count of every possible n-gram requires a lot of memory, particularly as n increases. This can make n-gram models impractical for large vocabularies or large values of n.
+    1. **Sparsity**: N-grams require a large amount of data to accurately capture language patterns. But even with massive amounts of data, many possible n-grams won't occur in the training data, leading to sparsity. As the size of the n-gram (the "n") increases, the problem gets worse because the number of potential n-grams grows exponentially.
+    2. **Lack of Long-Term Dependencies**: N-gram models have a fixed context length (the n-1 previous words). They can't account for dependencies outside this context window. This is a significant problem because language often contains long-range dependencies where the meaning of a word depends on words much earlier in the sentence.
+    3. **Out of Vocabulary Problem**: If a word doesn't appear in the training data, the model has no way of dealing with it, because n-gram models fundamentally rely on counting occurrences of words or sequences of words. This is a big problem in practice because language is always evolving, and new words are constantly being created.
+    4. **Lack of Semantic Understanding**: N-grams are purely statistical and don't understand the meaning of words. They only know that certain sequences of words tend to occur together. This leads to issues where n-grams can produce or fail to recognize semantically incorrect phrases if they are statistically likely.
+    5. **Overfitting**: Because n-grams are based on the exact sequences of words in the training data, they can overfit to that data. This means they might perform poorly on new data that has different characteristics.
+    6. **Storage**: Storing the count of every possible n-gram requires a lot of memory, particularly as n increases. This can make n-gram models impractical for large vocabularies or large values of n.
 
-    These limitations have led to the development of other methods for language modelling, such as neural networks, which can handle longer dependencies, have a more flexible approach to context, and can learn more abstract representations of words, alleviating some of these problems.
 
 ??? success "Ventajas de los ngramas"
 
-    1. Simplicity: N-gram models are straightforward to understand and implement. They do not require complex algorithms or deep mathematical insights. You simply count the frequency of sequences of words in your data.
-    1. Efficiency: Once the model has been trained (i.e., the n-gram frequencies have been counted), generating new text or calculating the probability of a piece of text is very fast, which can be a significant advantage in some applications.
-    1. Local Context: Despite its limitations, the fact that n-gram models consider local context (the n-1 previous words) is an advantage over bag-of-words models, which ignore context altogether.
-    1. No Need for Training: Unlike neural network models, n-gram models don't need to go through a time-consuming and potentially tricky training process. Once you've counted the n-grams in your text, you're done.
-    1. Useful for Certain Tasks: Despite their limitations, n-gram models can perform well on certain tasks, especially ones that mainly rely on local word order. They have been successfully used in applications like spell-checking, keyword extraction, and some aspects of machine translation.
-    1. Interpretability: The predictions of n-gram models are relatively interpretable. If an n-gram model assigns a high probability to a particular piece of text, you can look at the n-grams in that text to see why.
-    1. Flexibility: N-gram models can be used with any sequence data, not just text. This makes them versatile tools for a wide variety of tasks in many different domains.
-
+    1. **Simplicity**: N-gram models are straightforward to understand and implement. They do not require complex algorithms or deep mathematical insights. You simply count the frequency of sequences of words in your data.
+    2. **Efficiency**: Once the model has been trained (i.e., the n-gram frequencies have been counted), generating new text or calculating the probability of a piece of text is very fast, which can be a significant advantage in some applications.
+    3. **Local Context**: Despite its limitations, the fact that n-gram models consider local context (the n-1 previous words) is an advantage over bag-of-words models, which ignore context altogether.
+    4. **No Need for Training**: Unlike neural network models, n-gram models don't need to go through a time-consuming and potentially tricky training process. Once you've counted the n-grams in your text, you're done.
+    5. **Useful for Certain Tasks**: Despite their limitations, n-gram models can perform well on certain tasks, especially ones that mainly rely on local word order. They have been successfully used in applications like spell-checking, keyword extraction, and some aspects of machine translation.
+    6. **Interpretability**: The predictions of n-gram models are relatively interpretable. If an n-gram model assigns a high probability to a particular piece of text, you can look at the n-grams in that text to see why.
+    7. **Flexibility**: N-gram models can be used with any sequence
 
 ### Contexto es todo lo que necesitas
 
@@ -266,8 +263,45 @@ En 2007, Google dice, dejémonos de algoritmos avanzados para suavizar los ngram
 
 TBD
 
+??? warning "Limitaciones de las RNN"
+
+    1. **Vanishing Gradient Problem**: This is a key challenge in RNNs. It arises due to the repeated multiplication of gradients through layers during backpropagation, which can result in gradients that are exponentially small. This makes it difficult for the model to learn and tune the parameters associated with the earlier layers, as they receive very little gradient update. Consequently, the network struggles to learn long-range dependencies in the data.
+    2. **Exploding Gradient Problem**: This is the opposite of the vanishing gradient problem, where the gradient becomes too large, causing an unstable learning process. While this problem can be managed through techniques like gradient clipping, it is still a challenge inherent in RNNs.
+    3. **Difficulty in Learning Long-range Dependencies**: While theoretically RNNs can capture long-range dependencies due to their recurrent nature, in practice they struggle to do so because of the vanishing gradient problem. This makes it difficult for an RNN to learn from inputs that are far apart, which is a common scenario in many language modelling tasks.
+    4. **Sequential Computation**: RNNs process data in a sequential manner, making it hard to parallelize operations. This can lead to longer training times compared to models that can process input data in parallel, such as Transformer-based models.
+    5. **Lack of Temporal Hierarchical Modelling**: In many natural language tasks, information is often presented at different scales (e.g., word-level, phrase-level, sentence-level, etc.). RNNs, however, process data at the same scale, which can make it challenging for them to effectively model these different levels of information.
+    6. **Memory Limitations**: RNNs have a limited "memory" capacity, meaning they may struggle to maintain context over long sequences of text. This is a significant limitation for many language tasks where understanding the full context is crucial.
+
+    To address some of these issues, variations of RNNs such as Long Short-Term Memory (LSTM) and Gated Recurrent Unit (GRU) networks have been developed. More recently, attention-based models like the Transformer have gained popularity due to their ability to better handle long-range dependencies and parallelize computations.
+
+??? success "Ventajas de las RNN"
+
+    1. **Handling Sequential Data**: RNNs are explicitly designed to work with sequential data. In language modeling, the order of words is critical for understanding meaning, and RNNs excel at capturing these kinds of temporal dynamics. Each output is dependent on previous computations, allowing for the propagation of information through time.
+    2. **Parameter Sharing Across Time Steps**: In an RNN, the same weights are used for each time step of the input sequence. This sharing of parameters greatly reduces the total number of parameters that the model needs to learn, making the model more efficient.
+    3. **Ability to Process Different Lengths of Sequences**: RNNs can handle input sequences of varying lengths, which is essential for many language tasks where sentences or documents can be of different lengths. The model dynamically adjusts to the length of the input sequence.
+    4. **Modelling Temporal Dependencies**: RNNs have the potential to connect previous information to the present task, such as using previous words to inform the
+
 ### Atención y contexto: los transformers y compañía
-  
+
+??? warning "Limitaciones de los Transformers"
+
+    1. **Computational resources**: Transformers require a significant amount of computational resources for both training and inference. This includes not only hardware like GPUs or TPUs, but also a large amount of electricity, which may not be sustainable in the long term.
+    2. **Data requirement**: Transformers require a massive amount of data for training. If you have a language or domain with limited data available, it could be challenging to train a Transformer model effectively.
+    3. **Understanding context**: While Transformers are good at generating coherent sentences, they can sometimes struggle with long-term dependencies and the overall context of a piece of text. This can lead to inconsistencies in the generated text, particularly over longer passages.
+    4. **Lack of common sense and world knowledge**: Despite their impressive performance on many tasks, Transformer models often lack common sense understanding and can make obvious factual mistakes. They are fundamentally statistical machines, and their understanding of the world is limited to the patterns they have learned from their training data.
+    5. **Ethical concerns**: Transformers can inadvertently generate inappropriate or harmful content, and can be biased in ways that reflect the biases in their training data. While there are techniques to mitigate these issues, they are not perfect and can sometimes lead to outputs that are problematic.
+    6. **Interpretability**: Transformer models are complex and difficult to interpret. It's often unclear why they made a particular prediction or how they arrived at a specific output.
+    7. **Overfitting to training data**: Transformers can sometimes overfit to their training data, which can lead to them generating text that is overly similar to their training data, or failing to generalize well to new contexts or prompts.
+    8. **Dependency on prompt**: The quality and relevancy of output heavily depends on how the input prompt is phrased. Small changes in the prompt can sometimes lead to very different outputs.
+    9. **Lack of incremental learning**: As of my knowledge cutoff in September 2021, Transformer models like GPT-4 cannot learn incrementally. They are trained in one shot, and then they are fixed. They cannot learn from new data or experiences without a full retraining.
+    10. **Lack of Multi-Modal capabilities**: While there are models that combine Transformers with other architectures to handle multi-modal data (like text and images together), the Transformer architecture itself is not inherently suited to multi-modal tasks.
+
+??? success "Ventajas de las Transformers"
+
+    1. **Attention Mechanism**: Transformers introduce the concept of self-attention or attention mechanism, which allows them to weigh the importance of different words in an input sequence when generating an output. This allows them to handle long-term dependencies in text better than previous architectures like RNNs or LSTMs.
+    2. **Parallelization**: Unlike RNNs and LSTMs, which process sequences step by step, Transformers process the entire sequence at once. This allows for better utilization of modern hardware and significantly speeds up training and inference times.
+    3. **Scalability**: Transformers have proven to be highly scalable with increasing amounts of data and compute. As models like GPT-3 and GPT-4 have shown, Transformers can leverage billions or even trillions of parameters to learn from vast amounts of text data.
+    4. **Versatility**: Transformers have proven to be highly versatile and have achieved state-of-the-art results across a wide range of tasks, including
 #### Sesgos inductivos de las diferentes arquitecturas
   
 Son hipótesis sobre la estructura de los datos y el problema a resolver que ayudan a aprender más rápido. Los sesgos inductivos limitan el espacio de búsqueda. Pueden llegar a ser limitantes. La tendencia actual es reemplazar en lo posible los sesgos inductivos por un dataset más grande. Va a aprender más despacio pero sin limitaciones.

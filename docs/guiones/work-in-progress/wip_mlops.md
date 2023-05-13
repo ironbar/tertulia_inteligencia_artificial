@@ -41,7 +41,10 @@ WIP
 
 ### Ciclo de vida de un servicio de ML
 
+<!-- Esta foto no esta en el repo!
 ![mlops_lifecycle](res/mlops_lifecycle.png)
+-->
+
 
 ### Experimentación
 
