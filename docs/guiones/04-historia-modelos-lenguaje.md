@@ -279,7 +279,9 @@ TBD
     1. **Handling Sequential Data**: RNNs are explicitly designed to work with sequential data. In language modeling, the order of words is critical for understanding meaning, and RNNs excel at capturing these kinds of temporal dynamics. Each output is dependent on previous computations, allowing for the propagation of information through time.
     2. **Parameter Sharing Across Time Steps**: In an RNN, the same weights are used for each time step of the input sequence. This sharing of parameters greatly reduces the total number of parameters that the model needs to learn, making the model more efficient.
     3. **Ability to Process Different Lengths of Sequences**: RNNs can handle input sequences of varying lengths, which is essential for many language tasks where sentences or documents can be of different lengths. The model dynamically adjusts to the length of the input sequence.
-    4. **Modelling Temporal Dependencies**: RNNs have the potential to connect previous information to the present task, such as using previous words to inform the
+    4. **Modelling Temporal Dependencies**: RNNs have the potential to connect previous information to the present task, such as using previous words to inform the next word in a sentence. This ability to model temporal or sequential information is crucial in language modeling.
+    5. **Online Learning**: Since RNNs process data sequentially, they can begin processing input sequences before having seen all the data. This makes them suitable for online learning tasks, where data becomes available gradually over time.
+    6. **Use in Many Applications**: RNNs have been used successfully in many language processing tasks, including machine translation, speech recognition, text generation, and sentiment analysis.
 
 ### Atención y contexto: los transformers y compañía
 
@@ -301,7 +303,13 @@ TBD
     1. **Attention Mechanism**: Transformers introduce the concept of self-attention or attention mechanism, which allows them to weigh the importance of different words in an input sequence when generating an output. This allows them to handle long-term dependencies in text better than previous architectures like RNNs or LSTMs.
     2. **Parallelization**: Unlike RNNs and LSTMs, which process sequences step by step, Transformers process the entire sequence at once. This allows for better utilization of modern hardware and significantly speeds up training and inference times.
     3. **Scalability**: Transformers have proven to be highly scalable with increasing amounts of data and compute. As models like GPT-3 and GPT-4 have shown, Transformers can leverage billions or even trillions of parameters to learn from vast amounts of text data.
-    4. **Versatility**: Transformers have proven to be highly versatile and have achieved state-of-the-art results across a wide range of tasks, including
+    4. **Versatility**: Transformers have proven to be highly versatile and have achieved state-of-the-art results across a wide range of tasks, including text generation, translation, summarization, question-answering, and more.
+    5. **Transfer Learning**: Transformers can be pre-trained on a large corpus of text and then fine-tuned on a specific task with a smaller amount of data. This allows them to leverage knowledge learned from a wide range of text and apply it to specific tasks, often resulting in strong performance even with relatively little task-specific data.
+    6. **Language Understanding**: Transformers have shown a remarkable ability to generate human-like text and to understand the structure and semantics of language. They can generate coherent and contextually relevant sentences, and even write creative content like poetry or stories.
+    7. **Contextualized Word Representations**: Unlike traditional word embeddings like Word2Vec or GloVe, Transformers generate word representations that take into account the context in which a word is used. This allows them to understand nuances of language like polysemy (words with multiple meanings), which traditional word embeddings struggle with.
+    8. **Zero-Shot and Few-Shot Learning**: Transformers, especially large ones like GPT-3 and GPT-4, have demonstrated the ability to perform tasks in a zero-shot or few-shot setting, where they generate outputs for a task they haven't been specifically trained on, guided only by a few examples or a description of the task in the input prompt.
+    9. **Multilinguality**: Many Transformer models, like GPT-3 and mBERT, are trained on text from multiple languages and can generate text in or translate between multiple languages.
+
 #### Sesgos inductivos de las diferentes arquitecturas
   
 Son hipótesis sobre la estructura de los datos y el problema a resolver que ayudan a aprender más rápido. Los sesgos inductivos limitan el espacio de búsqueda. Pueden llegar a ser limitantes. La tendencia actual es reemplazar en lo posible los sesgos inductivos por un dataset más grande. Va a aprender más despacio pero sin limitaciones.
