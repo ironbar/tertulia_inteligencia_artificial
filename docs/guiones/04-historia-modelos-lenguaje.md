@@ -258,7 +258,13 @@ En 2007, Google dice, dejémonos de algoritmos avanzados para suavizar los ngram
 > performance gains may be had by pursuing this direction further.
   
 ¿Qué os parece esta demostración de fuerza bruta? ¿Analogías con la realidad actual?
- 
+
+??? note "Comparison of training datasets sizes "
+
+    - Google Ngrams: 2 trillion tokens
+    - GPT2: 40GB, ~0.04 trillion tokens
+    - GPT3: 570GB, 0.4 trillion tokens
+
 ### Se nos olvidaron los espacios de variedades: modelos de lenguaje basados en redes neuronales
 
 TBD
