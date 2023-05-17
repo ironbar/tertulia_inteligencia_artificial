@@ -261,9 +261,10 @@ En 2007, Google dice, dejémonos de algoritmos avanzados para suavizar los ngram
 
 ??? note "Comparison of training datasets sizes "
 
-    - Google Ngrams: 2 trillion tokens
-    - GPT2: 40GB, ~0.04 trillion tokens
-    - GPT3: 570GB, 0.4 trillion tokens
+    - Google Ngrams, 2 trillion tokens, 300B ngrams
+    - GPT2: 40GB, ~0.04 trillion tokens, 1.5B parameters
+    - GPT3: 570GB, 0.4 trillion tokens, 175B parameters
+    - Google Palm: 0.78 trillion tokens, 540B parameters
 
 ### Se nos olvidaron los espacios de variedades: modelos de lenguaje basados en redes neuronales
 
