@@ -52,11 +52,11 @@ La edición puede dividirse en los siguientes pasos:
 
 1. Open an audio with Audacity
 1. Import all the other audio tracks
-1. Align the audios with the claps
+1. Align the audios with the claps. Escuchar que se haya alineado bien.
 1. Borrar silencio y palmada inicial
 1. Borrar y corregir errores (para ello es util apuntar los minutos con problemas, o mejor aún dar palmadas)
 1. Splits the track into multiple chunks if missalingment is found at the middle or end of the audio
-1. Normalize volume
+1. Normalize volume. Cuidado si hay una persona que no habla, porque amplificará mucho el ruido.
 1. Truncate silence, -30 dB, 1s, 1s
 1. _Optional_ Compressor -20, -60, 3 [Make your audio sound GREAT with the Audacity Compressor](https://www.youtube.com/watch?v=eRunJa8fHvs). This can help to have the same volume over all the audio.
 1. Export to mp3
