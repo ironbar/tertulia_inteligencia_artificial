@@ -20,13 +20,23 @@ Este episodio ha sido patrocinado por Veridas: https://veridas.com/
 
 ## Introducción
 
-Bienvenidos a la tertulia de la inteligencia artificial. En el capítulo de hoy vamos a dar
-un paso atrás en la historia, lo que nos permitirá conocer mejor una de las temáticas más
-relevantes en la inteligencia artificial moderna: los modelos de lenguaje. En los anteriores
-tres capítulos hemos hablado mucho de modelos como la familia GPT, principalmente GPT3,
-GPT4, ChatGPT, y pensamos que es un buen momento para hacer un repaso histórico para
-comprender el papel del modelado del lenguaje en la IA, y cómo de ahí hemos llegado a unos
-modelos de un propósito tan general cómo los GPT.
+!!! abstract "Intro Paco"
+
+    Bienvenidos a la tertulia de la inteligencia artificial. En el capítulo de hoy vamos a dar
+    un paso atrás en la historia, lo que nos permitirá conocer mejor una de las temáticas más
+    relevantes en la inteligencia artificial moderna: los modelos de lenguaje. En los anteriores
+    tres capítulos hemos hablado mucho de modelos como la familia GPT, principalmente GPT3,
+    GPT4, ChatGPT, y pensamos que es un buen momento para hacer un repaso histórico para
+    comprender el papel del modelado del lenguaje en la IA, y cómo de ahí hemos llegado a unos
+    modelos de un propósito tan general cómo los GPT.
+
+!!! example "Intro customizada por GPT4"
+
+    ¡Bienvenidos, fanáticos de la inteligencia artificial! Agarraos fuerte porque hoy nos vamos a montar en nuestra máquina del tiempo para un viaje de regreso a las raíces de los modelos de lenguaje.
+
+    En los últimos tres episodios, hemos estado charlando sobre los pesos pesados de la IA: los modelos GPT. Estoy seguro que te pica la curiosidad por saber de dónde salieron. ¿Cómo hemos llegado a tener estas bestias de la IA?
+
+    Hoy, vamos a desentrañar ese misterio. Vamos a bucear en la historia y descubrir cómo pasamos de simples herramientas para jugar con palabras a estos genios del lenguaje, versátiles y poderosos, que son los modelos GPT. Así que, ponte cómodo, coge tus palomitas, y prepárate para un viaje épico en el tiempo. ¡Vamos allá!
 
 Y sin más dilación, damos paso a presentar nuestros tertulianos de hoy... (no te olvides de ti mismo!)
 
