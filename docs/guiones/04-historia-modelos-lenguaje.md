@@ -261,7 +261,27 @@ En 2007, Google dice, dejémonos de algoritmos avanzados para suavizar los ngram
  
 ### Se nos olvidaron los espacios de variedades: modelos de lenguaje basados en redes neuronales
 
-TBD
+Referencia: http://www.scholarpedia.org/article/Neural_net_language_models va muy mal, pero es la referencia más completa.
+  
+En los albores del año 2000, comenzó a proponerse una forma de mitigar "la maldición de la dimensionalidad" que surfían los modelos
+de ngramas. En 2001, el paper [A Neural Probabilistic Language Model](http://www.iro.umontreal.ca/~lisa/pointeurs/BengioDucharmeVincentJauvin_jmlr.pdf).
+La inspiración de estos modelos proviene de los estudios de los 80 en el campo de las redes neuronales artificiales, donde se estudiaba cómo representar
+objetos en la forma de vectores de características, lo que ahora llamamos "embedding". Estos "embeddings" son especialmente interesantes para representar
+palabras, y el modelo de lenguaje conexionista (o neural) nace de la inferencia de una distribución de probabilidad de las palabras de un vocabulario
+sobre una secuencia de contexto donde se pone el embedding de cada palabra. Desde entonces han aparecido multitud de formas para hacer la inferencia:
+  
+- Usando modelos "feed-forward" (MLPs).
+- Usando redes recurrentes (RNNs).
+- Con modelos recurrentes tipo LSTM.
+- Con skip-grams (word2vec).
+
+Todos ellos superan las limitaciones de los ngramas gracias a los embeddings, y tal cual "Paco Zamora" lo entiende, los inicios del "deep learning"
+actual están en estos trabajos de los 80 en como representar información de forma más eficiente, y su extensión después al lenguaje. Es ahí donde
+más están reluciendo los modelos de "deep learning", como ya hemos comentado por este foro en las anteriores ediciones. Sin embargo, estos
+modelos siguen teniendo problemas importantes, sobretodo desde el punto de vista del aprendizaje. El espacio de características sobre el que
+se calcula la distribución de probabilidad de la palabra siguiente es muy grande. Escalarlo necesita estrategias más acertadas que simplemente
+concatenar embeddings.
+
 
 ??? warning "Limitaciones de las RNN"
 
@@ -283,8 +303,25 @@ TBD
     5. **Online Learning**: Since RNNs process data sequentially, they can begin processing input sequences before having seen all the data. This makes them suitable for online learning tasks, where data becomes available gradually over time.
     6. **Use in Many Applications**: RNNs have been used successfully in many language processing tasks, including machine translation, speech recognition, text generation, and sentiment analysis.
 
-### Atención y contexto: los transformers y compañía
+### Atención y contexto: seq2seq, los transformers y compañía
 
+Ya más recientemente, estos modelos empiezan a extenderse con componentes recurrentes que permiten de forma general transformar secuencias en secuencias, por
+ejemplo para traducir [2014, Sequence to Sequence Learning with Neural Networks](https://arxiv.org/abs/1409.3215). Estos superaban muchas de las limitaciones
+del aprendizaje para hacer inferencia con concatenaciones de embeddings, usando componentes GRU o LSTM para facilitar el procesado de secuencias de longitud
+arbitraria. Pero aun así, el aprendizaje de los componentes recurrentes es muy complejo y todavía no podía escalarse más allá de algunas decenas de palabras
+activas en la memoria. Y así llegamos a la época contemporánea, 2017, [Attention is all you need](https://arxiv.org/pdf/1706.03762.pdf), proponen usar
+módulos de atención y nada más, proponiendo la primera arquitectura transformer que de forma satisfactoria hacía competencia al estado del arte, y
+que se convierte en los modelos de lenguaje que tenemos ahora.
+ 
+La verdad es que, hace 10 años nadie hubiera predecido la capacidad de estos modelos de lenguaje, donde en mi humilde opinión, lo que de forma muy inteligente
+se ha sabido explotar es el contexto de las palabras. Permitir modelos que pueden procesar miles de palabras en su contexto hace que la distribución de
+probabilidad de las palabras esté muy condicionada, lo que permite al modelo producir respuestas muy acertadas ante multitud de entradas diferentes.
+Creo que en el fondo de esta historia está este propósito, desde los modelos más simples, vemos como añadir cada vez más contexto ha motivado que
+pensemos estrategias de aprendizaje y modelado que puedan escalar cada vez más lejos. Y de ahí hemos visto aparecer comportamientos emergentes que no
+eran esperables. Qué momento más emocionante para la inteligencia artificial, e importante para toda la humanidad, en tanto en cuanto como especie
+es una responsabilidad muy grande la de desarrollar estas tecnologías y saber aprovecharlas de la forma adecuada.
+
+  
 ??? warning "Limitaciones de los Transformers"
 
     1. **Computational resources**: Transformers require a significant amount of computational resources for both training and inference. This includes not only hardware like GPUs or TPUs, but also a large amount of electricity, which may not be sustainable in the long term.
@@ -310,7 +347,19 @@ TBD
     8. **Zero-Shot and Few-Shot Learning**: Transformers, especially large ones like GPT-3 and GPT-4, have demonstrated the ability to perform tasks in a zero-shot or few-shot setting, where they generate outputs for a task they haven't been specifically trained on, guided only by a few examples or a description of the task in the input prompt.
     9. **Multilinguality**: Many Transformer models, like GPT-3 and mBERT, are trained on text from multiple languages and can generate text in or translate between multiple languages.
 
-#### Sesgos inductivos de las diferentes arquitecturas
+  
+## Debate final
+  
+Y vamos a abrir un poco de debate sobre todo lo comentado
+  
+ TERTULIANOS
+  
+- ¿Hasta donde podremos escalar la adición de contexto a los modelos? 
+- ¿Qué nos depara el futuro?
+  
+Y damos paso a la discusión propuesta por Guille al respecto de los sesgos inductivos de las arquitecturas de redes neuronales.
+  
+### Sesgos inductivos de las diferentes arquitecturas
   
 Son hipótesis sobre la estructura de los datos y el problema a resolver que ayudan a aprender más rápido. Los sesgos inductivos limitan el espacio de búsqueda. Pueden llegar a ser limitantes. La tendencia actual es reemplazar en lo posible los sesgos inductivos por un dataset más grande. Va a aprender más despacio pero sin limitaciones.
   
