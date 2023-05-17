@@ -58,12 +58,12 @@ https://twitter.com/raquelbars/status/1654769778303664131?s=20
 
 ### ¿Qué es el lenguaje?
   
-Definición de wikipedia: https://es.wikipedia.org/wiki/Lenguaje
+Definición de [wikipedia](https://es.wikipedia.org/wiki/Lenguaje):
   
 > El lenguaje es un sistema de comunicación estructurado para el que existe un contexto de
 > uso y ciertos principios combinatorios formales.
   
-De la RAE: https://dle.rae.es/lenguaje
+De la [RAE](https://dle.rae.es/lenguaje):
   
 > Facultad del ser humano de expresarse y comunicarse con los demás a través del sonido
 > articulado o de otros sistemas de signos.
