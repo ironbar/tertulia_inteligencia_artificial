@@ -28,9 +28,15 @@ GPT4, ChatGPT, y pensamos que es un buen momento para hacer un repaso histórico
 comprender el papel del modelado del lenguaje en la IA, y cómo de ahí hemos llegado a unos
 modelos de un propósito tan general cómo los GPT.
 
-Y sin más dilación, damos paso a presentar nuestros tertulianos de hoy...
+Y sin más dilación, damos paso a presentar nuestros tertulianos de hoy... (no te olvides de ti mismo!)
 
-<PRESENTACIONES>
+!!! info "Cuña publicitaria"
+
+    Este podcast es posible gracias a Veridas, la empresa en la que trabajamos los tertulianos.
+
+    Veridas es una empresa líder en soluciones de identidad digital y biometría, que opera en más de 25 países y cuenta con más de 250 clientes en sectores como la banca, los seguros, las telecomunicaciones o las administraciones públicas.
+
+    Veridas está en pleno crecimiento y busca gente con talento y ganas de aprender para trabajar en proyectos de inteligencia artificial aplicada a la biometría facial, de voz y de documentos. Si te interesa el reto, visita nuestra página web Veridas.com y envíanos tu currículum. ¡Te esperamos!
 
 ## Preguntas de los oyentes
 
