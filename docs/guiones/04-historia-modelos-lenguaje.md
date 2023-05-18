@@ -420,7 +420,11 @@ Es la arquitectura que menos sesgos inductivos tiene, por lo que es más flexibl
 - Atención. Compara los distintos elementos del conjunto entre sí.
 - Se adapta a cada caso, el MLP siempre hace el mismo procesamiento. 
 - Conectividad global. Compara todos los elementos entre sí, no solo los más cercanos. Esto hace innecesario el mecanismo de memoria de las RNN, facilitando el aprendizaje. Por otra parte al crecer cuadraticamente con el tamaño de la entrada dificulta el trabajar con secuencias muy largas (aunque se están inventando trucos y nuevos mecanismos para resolver esto).
-  
+
 ## Recomendaciones
+
+- [Kurzgesagt – In a Nutshell](https://www.youtube.com/@kurzgesagt)
+- [Devs](https://www.filmaffinity.com/es/film120510.html)
+- [Bnomial](https://today.bnomial.com/)
 
 ## Despedida
