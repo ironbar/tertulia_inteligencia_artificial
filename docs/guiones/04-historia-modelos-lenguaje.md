@@ -5,15 +5,20 @@ _17/05/2023_
 ## Descripcion
 
 ```text
-Lorem fistrum papaar papaar apetecan diodenoo llevame al sircoo fistro. Quietooor amatomaa al ataquerl benemeritaar ese que llega fistro no puedor apetecan. Condemor al ataquerl condemor mamaar. Ese pedazo de caballo blanco caballo negroorl mamaar qué dise usteer pupita pupita jarl de la pradera. Al ataquerl ese que llega me cago en tus muelas ese pedazo de por la gloria de mi madre ese que llega llevame al sircoo
+¡Bienvenidos, fanáticos de la inteligencia artificial! Agarraos fuerte porque hoy nos vamos a montar en nuestra máquina del tiempo para un viaje de regreso a las raíces de los modelos de lenguaje.
 
-Participan en la tertulia: _completar_
+En los últimos tres episodios, hemos estado charlando sobre los pesos pesados de la IA: los modelos GPT. Estoy seguro que te pica la curiosidad por saber de dónde salieron. ¿Cómo hemos llegado a tener estas bestias de la IA?
 
-02:46 Seccion 1 a renombrar
-01:12:13 Seccion 2 a renombrar
+Hoy, vamos a desentrañar ese misterio. Vamos a bucear en la historia y descubrir cómo pasamos de simples herramientas para jugar con palabras a estos genios del lenguaje, versátiles y poderosos, que son los modelos GPT. Así que, ponte cómodo, coge tus palomitas, y prepárate para un viaje épico en el tiempo. ¡Vamos allá!
+
+Participan en la tertulia: Iñigo Olcoz, Paco Zamora y Guillermo Barbadillo
+
+02:39 Preguntas de los oyentes
+08:23 Historia de los modelos de lenguaje
+01:28:54 Recomencaciones
 
 https://ironbar.github.io/tertulia_inteligencia_artificial/
-https://ironbar.github.io/tertulia_inteligencia_artificial/guiones/_completar_
+https://ironbar.github.io/tertulia_inteligencia_artificial/guiones/04-historia-modelos-lenguaje/
 
 Este episodio ha sido patrocinado por Veridas: https://veridas.com/
 ```
