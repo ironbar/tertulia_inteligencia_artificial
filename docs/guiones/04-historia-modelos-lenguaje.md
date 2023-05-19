@@ -5,6 +5,8 @@ _17/05/2023_
 ## Descripcion
 
 ```text
+Breve Historia de los Modelos de lenguaje, los antepasados de ChatGPT
+
 ¡Bienvenidos, fanáticos de la inteligencia artificial! Agarraos fuerte porque hoy nos vamos a montar en nuestra máquina del tiempo para un viaje de regreso a las raíces de los modelos de lenguaje.
 
 En los últimos tres episodios, hemos estado charlando sobre los pesos pesados de la IA: los modelos GPT. Estoy seguro que te pica la curiosidad por saber de dónde salieron. ¿Cómo hemos llegado a tener estas bestias de la IA?
@@ -12,9 +14,15 @@ En los últimos tres episodios, hemos estado charlando sobre los pesos pesados d
 Hoy, vamos a desentrañar ese misterio. Vamos a bucear en la historia y descubrir cómo pasamos de simples herramientas para jugar con palabras a estos genios del lenguaje, versátiles y poderosos, que son los modelos GPT. Así que, ponte cómodo, coge tus palomitas, y prepárate para un viaje épico en el tiempo. ¡Vamos allá!
 
 Participan en la tertulia: Iñigo Olcoz, Paco Zamora y Guillermo Barbadillo
+También ha colaborado Carlos Larriu como locutor.
 
 02:39 Preguntas de los oyentes
-08:23 Historia de los modelos de lenguaje
+08:23 Que es el lenguaje
+28:45 Modelos de lenguaje
+35:10 Inicios de los modelos de lenguaje
+48:45 Ngramas a tope
+59:32 Redes Neuronales
+1:11:45 Transformers
 01:28:54 Recomencaciones
 
 https://ironbar.github.io/tertulia_inteligencia_artificial/
