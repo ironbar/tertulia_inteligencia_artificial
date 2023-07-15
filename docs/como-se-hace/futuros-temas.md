@@ -3,7 +3,6 @@
 Aquí guardaremos los posibles temas a tratar en futuros programas.
 
 - Tensorflow vs Pytorch
-- Historia de la IA
 - Computación cuántica (Elías)
 - Problemas de la IA, (Gary Markus)
 - Singularidad
@@ -27,3 +26,4 @@ Aquí guardaremos los posibles temas a tratar en futuros programas.
 - F Chollet y la definición de IA
 - IA Fuerte. Test de Turing. IA & Inteligencia humana.
 - Emergencia de capacidades con el tamaño del modelo y dataset, Palm. Confrontarlo con la definicion de IA de Chollet
+- Historia de la IA
