@@ -135,41 +135,35 @@ En el primer programa hemos usado [esta canción](https://freemusicarchive.org/m
 
 ### Descripción del programa
 
-Este es un ejemplo de la descripción del 3º programa. Consta de:
-
-- Breve descripción del programa
-- Autores
-- Indice de las secciones
-- Links a la web del programa y a los guiones
-
-Debería estar incluida en el guión del programa
+Este es un ejemplo de descripción del programa.
 
 ```text
-En los últimos años hemos visto como han ido creciendo los modelos de lenguaje: GPT2, GPT3 y ahora GPT4. Cuando los modelos de lenguaje crecen en tamaño desarrollan nuevas habilidades de manera espontánea y no predecible, por ejemplo la capacidad de hacer calculos matemáticos. Hoy vamos a hablar sobre este fenomeno de emergencia de habilidades al aumentar la escala y discutiremos si esta senda de entrenar modelos más grandes en cada vez más datos es suficiente para llegar a la Inteligencia Artificial General.
 
-Participan en la tertulia Íñigo Olcoz, Paco Zamora, Josu Gorostegui y Guillermo Barbadillo.
+Hoy vamos a hablar de la trayectoria de OpenAI. Si quieres saber cómo OpenAI pasó de ser una ONG a una empresa valorada en 30 mil millones de dolares, controlada por Microsoft quédate con nosotros. Debatiremos cómo OpenAI se ha ido volviendo más secretista y cerrada con el tiempo, del valor del código abierto frente al valor de la accesibilidad y muchos temas más.
 
-02:46 Preguntas oyentes
-17:27 Emergencia y Escala
-34:54 Emergencia y Escala en IA
-01:12:13 Futuro de la IA
-01:44:48 Recomendaciones y despedia
+Participan en la tertulia: Íñigo Olcoz, Victor Goñi y Guillermo Barbadillo.
 
-https://ironbar.github.io/tertulia_inteligencia_artificial/
-https://ironbar.github.io/tertulia_inteligencia_artificial/guiones/03-emergencia/
+Recuerda que puedes enviarnos dudas, comentarios y sugerencias en: https://twitter.com/TERTUL_ia
+
+Más info en: https://ironbar.github.io/tertulia_inteligencia_artificial/
+
+Este episodio ha sido patrocinado por Veridas: https://veridas.com/
 ```
 
 ### Miniatura
 
-Lo más sencillo para generar una miniatura es utilizar [Dalle2](https://labs.openai.com/) o incluso mejor [bing](bing.com/chat).
+Lo más sencillo para generar una miniatura es utilizar [Bing](bing.com/chat) que es la que mejor
+resultados me está dando. Otras opciones son [Dalle2](https://labs.openai.com/), midjourney, clipdrop ...
 Utilizar como texto de entrada el título del programa o algun tema que haya salido en el programa.
+
+He creado un overlay con el icono y los colores del programa.
 
 ### Publicación del programa
 
-Para poder publicar en youtube hace falta convertirlo a mp4, para ello usamos esta [web](https://www.onlineconverter.com/audio-to-video)
-
 El programa se sube a Ivoox, y automáticamente se publica en Spotify y Apple Podcasts. También hay que subirlo
 a Youtube.
+
+Para poder publicar en youtube hace falta convertirlo a mp4, para ello usamos esta [web](https://www.onlineconverter.com/audio-to-video)
 
 También estoy haciendo una copia de seguridad en [Google Drive](https://drive.google.com/drive/u/1/folders/1dr8fYZERMS9wd2dRdMhkLSYyPHLI_lrv) por si acaso.
 ## Links
