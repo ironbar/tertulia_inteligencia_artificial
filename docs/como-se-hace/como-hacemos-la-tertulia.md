@@ -99,6 +99,48 @@ shorten_audio('vgoni.wav', offset_ms=9, duration_s=int(30*60 + 45))
 Esto no elimina completamente el eco, ya que el alineamiento es perfecto respecto al centro de la habitación.
 El problema es que el sonido tarda unos 3 ms en recorrer 1 metro de distancia.
 
+### Curate the audio
+
+#### 1. Remove echo caused by other people speaking
+
+On a first step listen to the podcast to see if this step is necessary.
+
+If the speaker is a good one you can simply use `Noise Gate`, choose a good threshold and silence the parts where the speaker does not talk. Be conservative with the threshold to avoid removing voice. For this is very important to talk to the microphone.
+
+In the other hand we can use `Auto Duck` tool that reduces the volume based on the track below. We can mix tracks and use them to remove the noise from the other tracks.
+
+At the same time we can use `Normalize` or `Amplify` to have the same energy in all the audios.
+
+When nothing works manually silencing the parts with `CTRL+L` is an option.
+
+Finally listen to different parts of the audio to verify that the quality is good.
+
+#### 2. Remove silences
+
+Remove the parts of the audio when none is talking. One easy way to visualize this is to mix the tracks and look at the mixed result.
+
+Truncate silence is also a great tool for this. -25, 1, 1
+
+#### 3. Compressor
+
+This will help to have a more uniform volume throughtout the podcast. -20,-60,3:1
+
+### Compose the program
+
+#### Music
+
+- Adjustable fade 0-100%
+- Amplify -30 dB for the background music
+- Verify that the volume is uniform throught the program
+
+### Review
+
+Open the final file with audacity and verify that:
+
+- The sound is good
+- There are no silences
+- Volume is uniform
+
 ### Editar las secciones del programa
 
 1. Open an audio with Audacity
