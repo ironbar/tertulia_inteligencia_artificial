@@ -10,31 +10,48 @@
 - Traer percheros con abrigos y ponerlos en las esquinas para minimizar eco, poner sillas en las esquinas
 - Servir líquidos a los tertulianos
 - Silenciar los moviles
+- No usar sillas con ruedas
 
 ### Equipo de grabación
 
 - Cada tertuliano necesita un portátil silencioso
 - Estamos usando el micrófono [Razer Seiren Mini](https://www.mediamarkt.es/es/product/_micr%C3%B3fono-razer-seiren-mini-mercury-usb-para-pc-mac-ps4-110-db-blanco-1495613.html) y este [brazo](https://amzn.eu/d/3hzRJB3) para grabar.
-- Usamos [zencastr](https://zencastr.com/) para grabar el podcast. Permite centralizar la grabación del podcast pero tiene el gran problema de que los audios no están bien sincronizados y además la sincronía se pierde a los 10-15 minutos por lo que hay que alinearlos con palmadas.
+
+### Software de grabación
+
+#### Arecord
+
+Los últimos programas los hemos grabado con arecord. Utilizando un hub usb hemos conectado todos los
+micrófonos al mismo portátil, y luego la grabación se hace así:
+
+```bash
+arecord -l
+arecord -D plughw:2,0 -r 48000 -f S16_LE alsa2.wav
+arecord -D plughw:3,0 -r 48000 -f S16_LE alsa3.wav
+arecord -D plughw:4,0 -r 48000 -f S16_LE alsa4.wav
+arecord -D plughw:5,0 -r 48000 -f S16_LE alsa5.wav
+```
+
+#### Zencastr
+
+Al principio usabamos [zencastr](https://zencastr.com/) para grabar el podcast.
 
 ### Grabación del programa
 
 - Asegurarse de que el volumen de los micrófonos es el adecuado. Aquí creo que habría que centrarse en que
 el volumen es adecuado y no satura. Luego en la edición es muy fácil equilibrar los micrófonos si hay diferencias.
-Para poder ver esto lo mejor es abrir audacity, grabar un poco de audio y ver el nivel de energía.
-- Es buena práctica dividir el programa en secciones más pequeñas ya que eso facilita la edición.
-- Al inicio de cada sección dar 3 palmadas en el centro de la mesa para poder alinear los audios.
-- También sería útil dar palmadas cada 10 min para corregir la perdida de sincronía
-- Si hay errores en la grabación señalizarlos con palmadas para que sea más fácil localizarlos en la edición
+Para poder ver esto lo mejor es abrir audacity, grabar un poco de audio y ver el nivel de energía. Luego se corrige con los ajustes de sistema de Sonido
+- Hay que dar 3 golpes con la claqueta al inicio y al final del programa. Cuando hagamos esto los micrófonos tienen que estar orientados hacia la claqueta, que estará en el centro de la mesa.
+- Si hay errores en la grabación señalizarlos con la claqueta para editarlos más fácilmente, una claqueta cuando se detecte el error y otra cuando se vaya a corregir.
 - Cuando termina el programa verificar que todos los audios se han grabado bien en zencastr.
-- Durante el programa el técnico de sonido verifica que todo va bien y que nos estamos acordando de desilenciarnos y silenciarnos.
 - Levantar la mano durante el programa para tener un turno ordenado de palabra
+- Hablar muy bajo y con la mano tapando el micrófono si queremos decir algo que no queremos que se grabe
 
 Cosas que hacíamos al principio pero ya no hacemos:
 
-- Una práctica que facilita mucho la edición es silenciarse cuando no estamos hablando. De lo contrario
-se oye eco porque los audios no están perfectamente alineados y además el desalineamiento cambia con el tiempo.
-Ahora hacemos un mejor alineamiento de los audios y los dejamos abiertos para captar risas o favorecer el dinamismo del programa.
+- Una práctica que facilita mucho la edición es silenciarse cuando no estamos hablando. Esto lo hacíamos al
+inicio de los podcasts, luego dejamos de hacerlo para intentar que sean más naturales las conversaciones.
+A día de hoy no tengo claro si es mejor silenciarse o no.
 - Grabar un poco de silencio para eliminar ruido de fondo. Esto se ha visto no necesario porque los micrófonos
 son suficienemente buenos y el ruido de fondo es muy bajo.
 
@@ -42,11 +59,45 @@ son suficienemente buenos y el ruido de fondo es muy bajo.
 
 La edición puede dividirse en los siguientes pasos:
 
+1. Corregir el desalineamiento y la desincronización
 1. Editar las secciones del programa
-2. Componer el programa juntando todas las secciones
-3. Descripción del programa
-4. Miniatura del programa
-5. Publicación del programa
+1. Componer el programa juntando todas las secciones
+1. Descripción del programa
+1. Miniatura del programa
+1. Publicación del programa
+
+### Corregir el desalineamiento y la desincronización
+
+El mayor problema que hemos encontrado al grabar el podcast es que los audios se desincronizan a lo largo
+del tiempo. Aunque alineemos los audios al inicio utilizando una claqueta luego se van desincronizando
+progresivamente.
+
+Esta desincronización hace que aparezca eco. La forma que hemos encontrado de solucionarlo es utilizar
+la claqueta tanto al inicio como al final del programa. Como el desalineamiento es progresivo este
+se puede corregir eliminando samples de audio. Utilizando las claquetas medimos y corregimos el desalineamiento con el siguiente script.
+
+```python
+import os
+import librosa
+import soundfile as sf
+import numpy as np
+
+def shorten_audio(filepath, offset_ms, duration_s):
+    y, sr = librosa.load(filepath, sr=None)
+    samples_to_drop = 1
+    samples_to_keep = duration_s*1000//offset_ms
+    print(f'One sample will be drop every {samples_to_keep}')
+    total_samples = len(y)
+    index = np.delete(np.arange(total_samples), np.arange(0, total_samples, samples_to_keep))
+    y_reduced = y[index]
+    sf.write('_reduced'.join(os.path.splitext(filepath)), y_reduced, sr)
+
+shorten_audio('gbarbadillo.wav', offset_ms=7, duration_s=int(30*60 + 45))
+shorten_audio('vgoni.wav', offset_ms=9, duration_s=int(30*60 + 45))
+```
+
+Esto no elimina completamente el eco, ya que el alineamiento es perfecto respecto al centro de la habitación.
+El problema es que el sonido tarda unos 3 ms en recorrer 1 metro de distancia.
 
 ### Editar las secciones del programa
 
