@@ -46,6 +46,7 @@ Para poder ver esto lo mejor es abrir audacity, grabar un poco de audio y ver el
 - Cuando termina el programa verificar que todos los audios se han grabado bien en zencastr.
 - Levantar la mano durante el programa para tener un turno ordenado de palabra
 - Hablar muy bajo y con la mano tapando el micrófono si queremos decir algo que no queremos que se grabe
+- Anotar en un papel los instantes de tiempo que necesitan edición
 
 Cosas que hacíamos al principio pero ya no hacemos:
 
