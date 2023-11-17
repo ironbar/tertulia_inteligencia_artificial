@@ -16,4 +16,4 @@ Más info en: <https://ironbar.github.io/tertulia_inteligencia_artificial/>
 
 ---
 
-Este podcast está patrocinado por:  [<img src="../../res/veridas_logo.png" alt="Veridas" width="64" style="position: relative; top: 0px;">](https://veridas.com/)
+Este podcast está patrocinado por:  [<img src="https://veridas.com/wp-content/uploads/2021/08/VERIDAS-logo-azul-coral-rgb-592x131-1.png.webp" alt="Veridas" width="64" style="position: relative; top: 0px;">](https://veridas.com/)
