@@ -20,7 +20,7 @@ Déjanos tus preguntas en [ <img src="https://cdn.iconscout.com/icon/free/png-25
 
 ---
 
-Este podcast está patrocinado por:  [<img src="res/veridas_logo.svg" alt="Veridas" width="64" style="position: relative; top: 5px;"> Veridas](https://veridas.com/)
+Este podcast está patrocinado por:  [<img src="res/veridas_logo.png" alt="Veridas" width="64" style="position: relative; top: 0px;">](https://veridas.com/)
 
 <!--
 
