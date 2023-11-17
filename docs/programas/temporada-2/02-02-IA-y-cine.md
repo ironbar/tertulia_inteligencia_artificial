@@ -8,7 +8,7 @@
 
 Todos pensabamos que la IA iba a realizar las tareas rutinarias y aburridas, pero es 2023 y la IA está creando poemas, videos e ilustraciones. En el mundo del cine también está impactando y durante 2023 hemos visto como los actores y guionistas de EEUU han realizado una larga huelga. Algunos de los motivos de la huelga eran salariales pero también se quería limitar el uso de la inteligencia artificial en el cine. Hoy en la tertulia debatimos sobre el conflicto entre IA y cine.
 
-Participan en la tertulia: Íñigo Olcoz, Paco Zamora, Carlos Larriú y Guillermo Barbadillo.
+Participan en la tertulia: Josu Solano, Íñigo Olcoz, Paco Zamora, Carlos Larriú y Guillermo Barbadillo.
 
 Recuerda que puedes enviarnos dudas, comentarios y sugerencias en: <https://twitter.com/TERTUL_ia>
 
