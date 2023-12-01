@@ -1,6 +1,6 @@
 # Inteligencia Artificial y Educación, ¿oportunidad o amenaza?
 
-![](res/2023-12-01-15-34-45.png)
+<img src="res/2023-12-01-15-34-45.png" width="512" style="border-radius: 10px;">
 
 - [<img src="https://i0.wp.com/parqueeste.org/wp-content/uploads/2020/07/ivoox-icon.png?fit=256%2C256&ssl=1" alt="ivoox_logo" width="32" style="position: relative; top: 5px;"> Ivoox](https://go.ivoox.com/rf/120404794)
 - [<img src="https://cdn.iconscout.com/icon/free/png-256/spotify-36-721973.png" alt="spotify_logo" width="32" style="position: relative; top: 5px;"> Spotify](https://open.spotify.com/episode/40v1sjHIIQ4I9q9bKnLntc?si=6OAkiYQYQqaE75AcxzD4YQ)
