@@ -1,5 +1,7 @@
 # Template
 
+_chapter_image_goes_here_CTRL+ALT+V
+
 - [<img src="https://i0.wp.com/parqueeste.org/wp-content/uploads/2020/07/ivoox-icon.png?fit=256%2C256&ssl=1" alt="ivoox_logo" width="32" style="position: relative; top: 5px;"> Ivoox]()
 - [<img src="https://cdn.iconscout.com/icon/free/png-256/spotify-36-721973.png" alt="spotify_logo" width="32" style="position: relative; top: 5px;"> Spotify]()
 - [<img src="https://cdn.iconscout.com/icon/free/png-256/apple-853-675472.png" alt="apple_logo" width="32" style="position: relative; top: 5px;"> Apple Podcasts]()

@@ -1,5 +1,7 @@
 # IA y Cine
 
+![miniature](res/2023-12-01-15-36-07.png)
+
 - [<img src="https://i0.wp.com/parqueeste.org/wp-content/uploads/2020/07/ivoox-icon.png?fit=256%2C256&ssl=1" alt="ivoox_logo" width="32" style="position: relative; top: 5px;"> Ivoox](https://go.ivoox.com/rf/119649980)
 - [<img src="https://cdn.iconscout.com/icon/free/png-256/spotify-36-721973.png" alt="spotify_logo" width="32" style="position: relative; top: 5px;"> Spotify](https://open.spotify.com/episode/4ouZCqdRhlwc2dWTZLP9OL?si=xnmTj6CYR8SGj3LqQmxa5Q)
 - [<img src="https://cdn.iconscout.com/icon/free/png-256/apple-853-675472.png" alt="apple_logo" width="32" style="position: relative; top: 5px;"> Apple Podcasts](https://podcasts.apple.com/us/podcast/inteligencia-artificial-y-cine/id1669083682?i=1000635183830)
