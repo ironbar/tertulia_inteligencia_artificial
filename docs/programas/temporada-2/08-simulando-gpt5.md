@@ -8,7 +8,7 @@
 - [<img src="https://cdn.icon-icons.com/icons2/195/PNG/256/YouTube_23392.png" alt="youtube_logo" width="32" style="position: relative; top: 10px;"> Youtube](https://youtu.be/tD1ksLyUrtw)
 - [<img src="https://cdn.iconscout.com/icon/free/png-256/free-google-podcasts-2038772-1721669.png" alt="google_podcast_logo" width="32" style="position: relative; top: 10px;"> Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuaXZvb3guY29tL3BvZGNhc3QtdGVydHVsaWEtaW50ZWxpZ2VuY2lhLWFydGlmaWNpYWxfZmdfZjExODE1MzExX2ZpbHRyb18xLnhtbA/episode/aHR0cHM6Ly93d3cuaXZvb3guY29tLzEyMzk5ODcxNQ?sa=X&ved=0CAUQkfYCahcKEwjg2IDgz52EAxUAAAAAHQAAAAAQAQ)
 
-Repasamos un estudio donde se muestra como podemos similar a GPT5 utilizando GPT4, comentamos una curiosa historia de como el ejercito de EEUU montó un superordenador utilizando Playstation 3 y finalmente analizamos el rol de la IA en las próximas elecciones de EEUU
+Repasamos un estudio donde se muestra como podemos simular a GPT5 utilizando GPT4, comentamos una curiosa historia de como el ejercito de EEUU montó un superordenador utilizando Playstation 3 y finalmente analizamos el rol de la IA en las próximas elecciones de EEUU
 
 Participan en la tertulia: Paco Zamora, Íñigo Olcoz, Carlos Larríu, Víctor Goñi y Guillermo Barbadillo.
 
