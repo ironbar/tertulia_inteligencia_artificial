@@ -4,13 +4,15 @@
 
 _Paco Zamora, Guillermo Barbadillo, Victor Goñi, Iñigo Olcoz e Iker Gomez en el primer programa_
 
-Han participado en la elaboración del programa (en orden de programas grabados):
+Han participado en la elaboración del programa (en orden de aparición en programas grabados):
 
 - Paco Zamora
 - Íñigo Olcoz
 - Guillermo Barbadillo
 - Victor Goñi
 - Josu Gorostegui
+- Carlos Larríu
+- Leire Arbona
 
 Y nos han ayudado y aconsejado con la parte técnica:
 
