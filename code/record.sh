@@ -2,7 +2,7 @@
 # https://chat.openai.com/share/9bd4c8a3-5dcf-46cd-b881-bf4e6f9c9929
 # https://chat.openai.com/c/19aabed3-64d8-44ce-897c-e2b4775abd65
 # On a first step check where the microphones are
-# arecord -l 
+# arecord -l
 # Then launch the recording
 # ./record.sh 2 3 4 5 6
 
@@ -33,16 +33,19 @@ for mic_number in "$@"; do
     echo "Recording from microphone $mic_number started. Saving to $FILENAME."
 done
 
-echo "Recording... Press CTRL+C to stop."
-
-# Wait for the user to press ENTER
-while IFS= read -r -n1 key
-do
-    # Break if Enter is pressed (ASCII code for Enter is 13)
-    if [[ $key == $'\x0d' ]]; then
+echo "Recording... Press ESC to stop."
+start=$SECONDS
+while true; do
+    # Display the current elapsed time
+    echo -ne "$(date -u -d @$((SECONDS-start)) +%H:%M:%S)\r"
+    # Read input with a timeout of 1 second
+    IFS= read -r -n1 -t 1 key
+    # Break the loop if ESC is pressed
+    if [[ $key == $'\x1b' ]]; then  # Check for the Escape key
         break
     fi
 done
+
 
 # Stop recording
 stop_recording
