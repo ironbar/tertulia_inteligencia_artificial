@@ -16,4 +16,4 @@ Esta web está creada con [Mkdocs](https://www.mkdocs.org/getting-started/)
 - [x] Añadir requirements al repo
 - [x] Hacer que la web se construya automaticamente con cada commit (https://github.com/marketplace/actions/deploy-mkdocs)
 - [x] Arrancar el programa
-- [ ] Lanzar un podcast mensualmente durante todo 2023
+- [x] Lanzar un podcast mensualmente durante todo 2023
