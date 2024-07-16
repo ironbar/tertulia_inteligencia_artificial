@@ -13,6 +13,7 @@ Han participado en la elaboración del programa (en orden de aparición en progr
 - Josu Gorostegui
 - Carlos Larríu
 - Leire Arbona
+- Leonardo de Maeztu
 
 Y nos han ayudado y aconsejado con la parte técnica:
 
