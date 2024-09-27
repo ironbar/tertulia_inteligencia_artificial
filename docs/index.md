@@ -16,11 +16,14 @@ Puedes escucharnos en:
 
 Déjanos tus preguntas en [ <img src="https://cdn.iconscout.com/icon/free/png-256/free-twitter-1865886-1581902.png" width="32" style="position: relative; top: 5px; left: 2px; right: 2px">  Twitter](https://twitter.com/TERTUL_ia) y las responderemos al principio de cada programa!
 
+
+<!--
 <br><br>
 
 ---
 
 Este podcast está patrocinado por:  [<img src="https://veridas.com/wp-content/uploads/2021/08/VERIDAS-logo-azul-coral-rgb-592x131-1.png.webp" alt="Veridas" width="64" style="position: relative; top: 0px;">](https://veridas.com/)
+-->
 
 <!--
 
