@@ -8,3 +8,5 @@ _chapter_image_goes_here_CTRL+ALT+V
 - [<img src="https://cdn.icon-icons.com/icons2/195/PNG/256/YouTube_23392.png" alt="youtube_logo" width="32" style="position: relative; top: 10px;"> Youtube]()
 
 _paste_episode_description_here_
+
+Recuerda que puedes enviarnos dudas, comentarios y sugerencias en: <https://twitter.com/TERTUL_ia>

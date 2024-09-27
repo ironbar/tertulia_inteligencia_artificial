@@ -11,6 +11,4 @@ Cada desarrollador tiene su entorno de desarrollo favorito: vscode, xcode, emacs
 
 Participan en la tertulia: Carlos Larríu, Paco Zamora, Víctor Goñi, Íñigo Olcoz y Guillermo Barbadillo.
 
-Recuerda que puedes enviarnos dudas, comentarios y sugerencias en: https://twitter.com/TERTUL_ia
-
-Más info en: https://ironbar.github.io/tertulia_inteligencia_artificial/
+Recuerda que puedes enviarnos dudas, comentarios y sugerencias en: <https://twitter.com/TERTUL_ia>
