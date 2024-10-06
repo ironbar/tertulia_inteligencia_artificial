@@ -1,6 +1,6 @@
 # La TERTUL**ia** de la Inteligencia Artificial
 
-Podcast en el que hablamos **en profundidad** sobre temas relacionados con la Inteligencia Artificial cada dos semanas.
+Podcast en el que hablamos **en profundidad** sobre temas relacionados con la Inteligencia Artificial.
 
 Puedes escucharnos en:
 
