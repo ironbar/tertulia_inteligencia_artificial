@@ -64,8 +64,14 @@ start=$SECONDS
 while true; do
     echo -ne "$(date -u -d @$((SECONDS - start)) +%H:%M:%S)\r"
     IFS= read -r -n1 -t 1 key
+    # Check if the key pressed is ESC
     if [[ $key == $'\x1b' ]]; then
-        break
+        # Peek at the next input to determine if it's a sequence
+        IFS= read -r -n2 -t 0.01 next_key
+        if [[ -z $next_key ]]; then
+            # If no additional input, it's a standalone ESC key
+            break
+        fi
     fi
 done
 
