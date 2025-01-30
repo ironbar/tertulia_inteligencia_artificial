@@ -5,7 +5,7 @@
 - [<img src="../../../res/ivoox-icon-256.webp" alt="ivoox_logo" width="32" style="position: relative; top: 5px;"> Ivoox](https://go.ivoox.com/rf/139026905)
 - [<img src="../../../res/apple-icon-256.webp" alt="apple_logo" width="32" style="position: relative; top: 5px;"> Apple Podcasts](https://podcasts.apple.com/us/podcast/rstar-math-el-alphago-de-las-matem%C3%A1ticas/id1669083682?i=1000687158065)
 
-![](res/2025-01-30-16-13-13.png)
+![](res/2025-01-30-16-27-05.png)
 
 ¿Pueden los modelos pequeños mostrar capacidades de razonamiento matemático comparables a o1? En Microsoft creen que sí y nos lo demuestran con un método inspirado en AlphaGo, el sistema que venció a Lee Sedol hace ya casi una década. Hoy en la tertulia vemos modelos de lenguaje pequeños que superan a o1.
 
