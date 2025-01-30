@@ -2,10 +2,10 @@
 
 ![waymo](res/2024-05-17-09-51-54.png)
 
-- [<img src="../../res/ivoox-icon-256.webp" alt="ivoox_logo" width="32" style="position: relative; top: 5px;"> Ivoox](https://go.ivoox.com/rf/129046675)
-- [<img src="../../res/spotify-icon-256.webp" alt="spotify_logo" width="32" style="position: relative; top: 5px;"> Spotify](https://open.spotify.com/episode/6rjge7SRCxQmAuZH2DhSr8?si=72Ww3TRaSKaNB9u8-RPssw)
-- [<img src="../../res/apple-icon-256.webp" alt="apple_logo" width="32" style="position: relative; top: 5px;"> Apple Podcasts](https://podcasts.apple.com/us/podcast/waymo-cruise-y-empresas-chinas-desarrollando-el/id1669083682?i=1000655892978)
-- [<img src="../../res/youtube-icon-256.png" alt="youtube_logo" width="32" style="position: relative; top: 10px;"> Youtube](https://youtu.be/CzyLJDOoGTo)
+- [<img src="../../../res/ivoox-icon-256.webp" alt="ivoox_logo" width="32" style="position: relative; top: 5px;"> Ivoox](https://go.ivoox.com/rf/129046675)
+- [<img src="../../../res/spotify-icon-256.webp" alt="spotify_logo" width="32" style="position: relative; top: 5px;"> Spotify](https://open.spotify.com/episode/6rjge7SRCxQmAuZH2DhSr8?si=72Ww3TRaSKaNB9u8-RPssw)
+- [<img src="../../../res/apple-icon-256.webp" alt="apple_logo" width="32" style="position: relative; top: 5px;"> Apple Podcasts](https://podcasts.apple.com/us/podcast/waymo-cruise-y-empresas-chinas-desarrollando-el/id1669083682?i=1000655892978)
+- [<img src="../../../res/youtube-icon-256.png" alt="youtube_logo" width="32" style="position: relative; top: 10px;"> Youtube](https://youtu.be/CzyLJDOoGTo)
 - [<img src="https://cdn.iconscout.com/icon/free/png-256/free-google-podcasts-2038772-1721669.png" alt="google_podcast_logo" width="32" style="position: relative; top: 10px;"> Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuaXZvb3guY29tL3BvZGNhc3QtdGVydHVsaWEtaW50ZWxpZ2VuY2lhLWFydGlmaWNpYWxfZmdfZjExODE1MzExX2ZpbHRyb18xLnhtbA/episode/aHR0cHM6Ly93d3cuaXZvb3guY29tLzEyOTA0NjY3NQ?sa=X&ved=0CAUQkfYCahcKEwiAgr-UoJSGAxUAAAAAHQAAAAAQAQ)
 
 Waymo, una empresa de Google, y Cruise, una empresa de General Motors ofrecen ya servicios de robotaxi en algunas ciudades selectas

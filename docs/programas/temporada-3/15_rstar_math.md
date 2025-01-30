@@ -1,9 +1,9 @@
 # rStar-Math, el AlphaGo de las matemáticas
 
-- [<img src="../../res/spotify-icon-256.webp" alt="spotify_logo" width="32" style="position: relative; top: 5px;"> Spotify](https://open.spotify.com/episode/1CuV1w5rAAcJf5oPjVxCF0?si=sX2Cg9dzTCqbXGVCPioUeA)
-- [<img src="../../res/youtube-icon-256.png" alt="youtube_logo" width="32" style="position: relative; top: 10px;"> Youtube](https://youtu.be/fu0i_E1jQTk)
-- [<img src="../../res/ivoox-icon-256.webp" alt="ivoox_logo" width="32" style="position: relative; top: 5px;"> Ivoox](https://go.ivoox.com/rf/139026905)
-- [<img src="../../res/apple-icon-256.webp" alt="apple_logo" width="32" style="position: relative; top: 5px;"> Apple Podcasts](https://podcasts.apple.com/us/podcast/rstar-math-el-alphago-de-las-matem%C3%A1ticas/id1669083682?i=1000687158065)
+- [<img src="../../../res/spotify-icon-256.webp" alt="spotify_logo" width="32" style="position: relative; top: 5px;"> Spotify](https://open.spotify.com/episode/1CuV1w5rAAcJf5oPjVxCF0?si=sX2Cg9dzTCqbXGVCPioUeA)
+- [<img src="../../../res/youtube-icon-256.png" alt="youtube_logo" width="32" style="position: relative; top: 10px;"> Youtube](https://youtu.be/fu0i_E1jQTk)
+- [<img src="../../../res/ivoox-icon-256.webp" alt="ivoox_logo" width="32" style="position: relative; top: 5px;"> Ivoox](https://go.ivoox.com/rf/139026905)
+- [<img src="../../../res/apple-icon-256.webp" alt="apple_logo" width="32" style="position: relative; top: 5px;"> Apple Podcasts](https://podcasts.apple.com/us/podcast/rstar-math-el-alphago-de-las-matem%C3%A1ticas/id1669083682?i=1000687158065)
 
 ![](res/2025-01-30-16-13-13.png)
 
