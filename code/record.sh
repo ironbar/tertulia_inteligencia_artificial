@@ -56,11 +56,14 @@ for mic_number in "${MIC_LIST[@]}"; do
     PIDS+=($!)
     echo "Recording from microphone $mic_number started. Saving to $FILENAME."
 done
-
-echo "Recording... Press ESC to stop."
 start=$SECONDS
 
+echo "Launching recording monitor..."
+python recording_monitor.py ${TIMESTAMP} &
+PIDS+=($!)
+
 # Main loop to display elapsed time and wait for ESC to stop
+echo "Recording... Press ESC to stop."
 while true; do
     echo -ne "$(date -u -d @$((SECONDS - start)) +%H:%M:%S)\r"
     IFS= read -r -n1 -t 1 key
