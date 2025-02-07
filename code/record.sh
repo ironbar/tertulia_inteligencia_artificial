@@ -45,6 +45,13 @@ if [ "$CHECK_PASSED" = false ]; then
     exit 1
 fi
 
+# adjust microphone volume
+echo "Adjusting microphone volume..."
+for mic_number in "${MIC_LIST[@]}"; do
+    amixer -c $mic_number set Mic 50%
+done
+
+
 # If we reached here, all microphones are OK to use
 echo -e "\033[32mAll microphones are ready. Starting recording...\033[0m"
 
