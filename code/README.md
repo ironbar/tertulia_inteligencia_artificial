@@ -14,7 +14,7 @@ card 2: Mini [Razer Seiren Mini], device 0: USB Audio [USB Audio]
   Subdevices: 1/1
 ```
 
-Then pass the ids of the microphones you want to record as arguments and press `ESC` to stop the recording.
+Then pass the ids of the microphones you want to record as arguments and press `ESC` to stop the recording. The recordings are saved on the same folder as the recording script. Please run the recording script within a python environment with numpy and matplotlib to be able to visualize the recording in real-time. Otherwise the recording will work just fine but you won't be able to visualize that everything is ok.
 
 ```bash
 # just one microphone
@@ -22,3 +22,5 @@ Then pass the ids of the microphones you want to record as arguments and press `
 # multiple microphones
 ./record.sh 2 3 4
 ```
+
+TODO: adjusting the microphone volume might not work in all computers
