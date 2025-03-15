@@ -24,10 +24,11 @@ Han participado en la elaboración del programa (en orden de aparición en progr
 - Carlos Larríu
 - Leire Arbona
 - Leonardo de Maeztu
+- Iñigo Orbegozo
+- Esteban Morrás
+- Imanol Solano
 
 Y nos han ayudado y aconsejado con la parte técnica:
 
 - Iker Gómez
 - Chelus Gonzalez de Suso
-
-
