@@ -2,11 +2,13 @@
 
 _15-04-2025_
 
-¡Hace ya 2 años que grabamos el primer capítulo de la Tertulia de la Inteligencia Artificial! Durante este tiempo hemos grabado 47 programas, alcanzado la cifra de 2000 suscriptores y en los últimos meses tenemos más de 100 oyentes diarios del pódcast.
+¡Hace ya 2 años que grabamos el primer capítulo de la Tertulia de la Inteligencia Artificial! Durante este tiempo hemos grabado 47 programas, alcanzado la cifra de 2000 suscriptores y en los últimos meses tenemos de media más de 100 oyentes diarios del pódcast. Muchas personas han participado o ayudado a que la tertulia sea una realidad durante estos dos años, ¡así que mil gracias para todos ellos!
 
 La tertulia nació como una excusa para juntarnos una vez al mes y hablar de IA, con la hipótesis de que quizá pudiera haber un público al que le interesara un análisis en profundidad de los avances en la IA. Programas como [Radio Skylab](https://x.com/radioskylab_es?lang=en) donde hablan de cohetes y del espacio fueron una fuente de inspiración, quizá podríamos hacer lo mismo y compartir nuestro conocimiento sobre IA.
 
 Ese objetivo se está cumpliendo, estamos grabando todos los meses y nos lo pasamos bien. Mientras esto siga así seguirá habiendo tertulia.
+
+
 
 ## Aprendizajes
 
