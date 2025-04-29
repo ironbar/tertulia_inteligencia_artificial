@@ -2,6 +2,10 @@
 # Improved recording script with synchronous start and pre-check
 # Usage: ./record.sh mic_number1 [mic_number2 ...]
 
+# Activate the conda environment
+eval "$(conda shell.bash hook)"
+conda activate tertulia
+
 # Function to stop recording
 stop_recording() {
     echo "Stopping recording..."
