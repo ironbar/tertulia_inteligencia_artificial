@@ -72,7 +72,8 @@ PIDS+=($!)
 # Main loop to display elapsed time and wait for ESC to stop
 echo "Recording... Press ESC to stop."
 while true; do
-    echo -ne "$(date -u -d @$((SECONDS - start)) +%H:%M:%S)\r"
+    elapsed_time=$(date -u -d @$((SECONDS - start)) +%H:%M:%S)
+    echo -ne "$elapsed_time\r"
     IFS= read -r -n1 -t 1 key
     # Check if the key pressed is ESC
     if [[ $key == $'\x1b' ]]; then
@@ -80,6 +81,7 @@ while true; do
         IFS= read -r -n2 -t 0.01 next_key
         if [[ -z $next_key ]]; then
             # If no additional input, it's a standalone ESC key
+            echo -e "\n$elapsed_time"
             break
         fi
     fi

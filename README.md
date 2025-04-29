@@ -17,3 +17,11 @@ Esta web está creada con [Mkdocs](https://www.mkdocs.org/getting-started/)
 - [x] Hacer que la web se construya automaticamente con cada commit (https://github.com/marketplace/actions/deploy-mkdocs)
 - [x] Arrancar el programa
 - [x] Lanzar un podcast mensualmente durante todo 2023
+
+## Environment
+
+```bash
+conda create -n tertulia python=3.10
+conda activate tertulia
+pip install numpy matplotlib
+```
