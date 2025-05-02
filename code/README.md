@@ -24,3 +24,12 @@ Then pass the ids of the microphones you want to record as arguments and press `
 ```
 
 TODO: adjusting the microphone volume might not work in all computers
+
+### Environment
+
+```
+conda create -n tertulia python=3.10
+conda activate tertulia
+pip install numpy matplotlib ipykernel ipywidgets scikit-image librosa tqdm samplerate
+conda install -c conda-forge 'libgcc-ng>=13' 'libstdcxx-ng>=13'
+```
