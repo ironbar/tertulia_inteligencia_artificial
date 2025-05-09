@@ -1,4 +1,4 @@
-# Yann Lecun: Obstaculos matemáticos en el camino a la AGI
+# Yann Lecun: Obstáculos matemáticos en el camino a la AGI
 
 - [<img src="../../../res/spotify-icon-256.webp" alt="spotify_logo" width="32" style="position: relative; top: 5px;"> Spotify](https://open.spotify.com/episode/0Rt9TkA8BDZXnEEXkl8Zf9?si=tJtc6xp6QVevOAvbSNTZNg)
 - [<img src="../../../res/youtube-icon-256.png" alt="youtube_logo" width="32" style="position: relative; top: 10px;"> Youtube](https://youtu.be/LkUqpqmdp04)
