@@ -43,7 +43,7 @@ for card in "$@"; do
     echo "Adding mic on hw:${card},0 as JACK client ‘${client}’..."
     # force this device to a single (mono) channel
     pw-jack alsa_in \
-        -d "hw:${card},0" \
+        -d "plughw:${card},0" \
         -r "$SR" \
         -p "$PERIOD_SIZE" \
         -n "$PERIODS" \
@@ -58,7 +58,7 @@ sleep 2
 
 # 3) record all ports into one multi-channel WAV
 echo "Recording $# channels to $OUT"
-pw-jack jack_capture --channels "$#" "${PORT_ARGS[@]}" "$OUT"
+pw-jack jack_capture -b 16 --channels "$#" "${PORT_ARGS[@]}" "$OUT"
 
 # 4) cleanup on finish or Ctrl+C
 cleanup
