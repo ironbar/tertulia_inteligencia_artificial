@@ -32,8 +32,7 @@ export PIPEWIRE_LOG_LEVEL=0
 pw-jack jackd -R -d dummy \
     -r "$SR" \
     -p "$PERIOD_SIZE" \
-    -n "$PERIODS" \
-    > /dev/null 2>&1 &
+    -n "$PERIODS" &
 PIDS+=($!)
 sleep 2
 
@@ -49,8 +48,7 @@ for card in "$@"; do
         -p "$PERIOD_SIZE" \
         -n "$PERIODS" \
         -c 1 \
-        -j "$client" \
-        > /dev/null 2>&1 &
+        -j "$client" &
     PIDS+=($!)
 
     # explicitly capture only channel 1 from this client
