@@ -26,27 +26,41 @@ cleanup() {
 }
 trap cleanup INT TERM
 
-# 1) start JACK server under PipeWire
+# 1) start JACK server under PipeWire (suppress jackctl warnings)
 echo "Starting JACK server..."
-pw-jack jackd -R -d dummy -r "$SR" -p "$PERIOD_SIZE" -n "$PERIODS" &
+export PIPEWIRE_LOG_LEVEL=0
+pw-jack jackd -R -d dummy \
+    -r "$SR" \
+    -p "$PERIOD_SIZE" \
+    -n "$PERIODS" \
+    > /dev/null 2>&1 &
 PIDS+=($!)
 sleep 2
 
-# 2) spawn alsa_in for each mic card
+# 2) spawn alsa_in for each mic card, forcing mono (-c 1)
 PORT_ARGS=()
 for card in "$@"; do
     client="mic${card}"
     echo "Adding mic on hw:${card},0 as JACK client ‘${client}’..."
-    pw-jack alsa_in -d "hw:${card},0" -r "$SR" -j "$client" &
+    # force this device to a single (mono) channel
+    pw-jack alsa_in \
+        -d "hw:${card},0" \
+        -r "$SR" \
+        -p "$PERIOD_SIZE" \
+        -n "$PERIODS" \
+        -c 1 \
+        -j "$client" \
+        > /dev/null 2>&1 &
     PIDS+=($!)
-    PORT_ARGS+=(--port "${client}:capture_*")
+
+    # explicitly capture only channel 1 from this client
+    PORT_ARGS+=(--port "${client}:capture_1")
 done
 sleep 2
 
 # 3) record all ports into one multi-channel WAV
-echo "Recording ${#PORT_ARGS[@]} channels to $OUT"
+echo "Recording $# channels to $OUT"
 pw-jack jack_capture --channels "$#" "${PORT_ARGS[@]}" "$OUT"
 
 # 4) cleanup on finish or Ctrl+C
 cleanup
-
