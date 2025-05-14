@@ -11,6 +11,10 @@ SR=48000            # sample rate
 PERIOD_SIZE=1024    # frames per period
 PERIODS=2           # periods per buffer
 
+# Grant it CAP_SYS_NICE (so it can call setpriority(…, -20))
+sudo setcap cap_sys_nice+ep "$(which jackd)"
+
+
 # timestamped output
 TS=$(date +%Y%m%d-%H%M%S)
 OUT="recording_${TS}.wav"
@@ -31,8 +35,7 @@ echo "Starting JACK server..."
 export PIPEWIRE_LOG_LEVEL=0
 pw-jack jackd -R -d dummy \
     -r "$SR" \
-    -p "$PERIOD_SIZE" \
-    -n "$PERIODS" &
+    -p "$PERIOD_SIZE" &
 PIDS+=($!)
 sleep 2
 
