@@ -33,3 +33,8 @@ conda activate tertulia
 pip install numpy matplotlib ipykernel ipywidgets scikit-image librosa tqdm samplerate
 conda install -c conda-forge 'libgcc-ng>=13' 'libstdcxx-ng>=13'
 ```
+
+## Experiments
+
+recording_20250514-103952, 5 microphones, 130 min, 3.8GB, 3ms delay
+recording_20250515-074454, 4 microphones, 120 min, 2.8GB, 1-2ms delay

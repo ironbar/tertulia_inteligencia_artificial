@@ -11,6 +11,12 @@ SR=48000            # sample rate
 PERIOD_SIZE=1024    # frames per period
 PERIODS=2           # periods per buffer
 
+# adjust microphone volume
+echo "Adjusting microphone volume..."
+for mic_number in "$@"; do
+    amixer -c $mic_number set Mic 50%
+done
+
 # Grant it CAP_SYS_NICE (so it can call setpriority(…, -20))
 sudo setcap cap_sys_nice+ep "$(which jackd)"
 
