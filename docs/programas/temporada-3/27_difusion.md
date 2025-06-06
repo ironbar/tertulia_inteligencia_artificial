@@ -9,4 +9,6 @@
 
 La semana pasada Google presentó su nuevo modelo de lenguaje Gemini Difusión. La novedad de este modelo es que no genera tokens uno a uno, sino que es capaz de generar párrafos enteros de golpe y esto desbloquea algunas habilidades nuevas. Hoy en la tertulia te contamos las diferencias entre los modelos autorregresivos como ChatGPT y los nuevos modelos de difusión como Gemini.
 
+Participan en la tertulia: Josu Gorostegui, Carlos Larriú, Íñigo Olcoz y Guillermo Barbadillo.
+
 Recuerda que puedes enviarnos dudas, comentarios y sugerencias en: <https://twitter.com/TERTUL_ia>
