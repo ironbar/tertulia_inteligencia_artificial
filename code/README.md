@@ -23,9 +23,10 @@ Then pass the ids of the microphones you want to record as arguments and press `
 
 TODO: adjusting the microphone volume might not work in all computers
 
-### Environment
+## Environment
 
 ```
+sudo apt install cmake pipewire-jack jackd2 alsa-tools jack-capture
 conda create -n tertulia python=3.10
 conda activate tertulia
 pip install numpy matplotlib ipykernel ipywidgets scikit-image librosa tqdm samplerate
