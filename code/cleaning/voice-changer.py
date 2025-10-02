@@ -32,7 +32,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Transform audio using ElevenLabs STS")
     parser.add_argument("input_path", help="Path to input audio file")
     parser.add_argument("output_path", help="Path to save the transformed audio file")
-    parser.add_argument("voice_id", help="Voice ID to use for transformation")
+    parser.add_argument("--voice_id", required=False, help="Voice ID to use for transformation", default="Nh2zY9kknu6z4pZy6FhD")
 
     args = parser.parse_args()
     transform_audio(args.input_path, args.output_path, args.voice_id)
