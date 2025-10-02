@@ -21,3 +21,9 @@ python voice_changer_batch.py \
 /mnt/data/other/data/TERTULia/episodios_tertulia/temporada_4/grabacion_01/curated_audios/part1_segments \
 /mnt/data/other/data/TERTULia/episodios_tertulia/temporada_4/grabacion_01/curated_audios/part1_segments_voice_changed
 ```
+
+Then combine all the audio splits into a single audio:
+
+```
+ffmpeg -f concat -safe 0 -i <(for f in *.mp3; do echo "file '$PWD/$f'"; done) -c copy output.mp3
+```
