@@ -3,7 +3,7 @@
 - [<img src="../../../res/spotify-icon-256.webp" alt="spotify_logo" width="32" style="position: relative; top: 5px;"> Spotify]()
 - [<img src="../../../res/youtube-icon-256.png" alt="youtube_logo" width="32" style="position: relative; top: 10px;"> Youtube](https://youtu.be/nQAHR0zIV8E)
 - [<img src="../../../res/ivoox-icon-256.webp" alt="ivoox_logo" width="32" style="position: relative; top: 5px;"> Ivoox](https://go.ivoox.com/rf/160063588)
-- [<img src="../../../res/apple-icon-256.webp" alt="apple_logo" width="32" style="position: relative; top: 5px;"> Apple Podcasts]()
+- [<img src="../../../res/apple-icon-256.webp" alt="apple_logo" width="32" style="position: relative; top: 5px;"> Apple Podcasts](https://podcasts.apple.com/us/podcast/la-habitaci%C3%B3n-china-de-searle/id1669083682?i=1000729961927)
 
 ![alt text](res/1759505679308_part1_youtube.png)
 
