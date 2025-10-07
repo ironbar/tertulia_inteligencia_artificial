@@ -9,7 +9,7 @@ fi
 # audio settings
 SR=48000            # sample rate
 PERIOD_SIZE=1024    # frames per period
-PERIODS=2           # periods per buffer
+PERIODS=3           # periods per buffer
 
 # adjust microphone volume
 echo "Adjusting microphone volume..."
@@ -37,13 +37,13 @@ cleanup() {
 trap cleanup INT TERM
 
 # 1) start JACK server under PipeWire (suppress jackctl warnings)
-echo "Starting JACK server..."
-export PIPEWIRE_LOG_LEVEL=0
-pw-jack jackd -R -d dummy \
-    -r "$SR" \
-    -p "$PERIOD_SIZE" &
-PIDS+=($!)
-sleep 2
+# echo "Starting JACK server..."
+# export PIPEWIRE_LOG_LEVEL=0
+# pw-jack jackd -R -d dummy \
+#     -r "$SR" \
+#     -p "$PERIOD_SIZE" &
+# PIDS+=($!)
+# sleep 2
 
 # 2) spawn alsa_in for each mic card, forcing mono (-c 1)
 PORT_ARGS=()

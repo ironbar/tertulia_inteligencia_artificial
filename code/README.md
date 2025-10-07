@@ -32,3 +32,25 @@ conda activate tertulia
 pip install numpy matplotlib ipykernel ipywidgets scikit-image librosa tqdm samplerate
 conda install -c conda-forge 'libgcc-ng>=13' 'libstdcxx-ng>=13'
 ```
+
+### Realtime recording
+
+The following are configurations to enable realtime recording. Not sure if they are necessary.
+
+On `/etc/security/limits.d/audio.conf`:
+
+```
+@audio  -  rtprio   95
+@audio  -  memlock  unlimited
+@audio  -  nice     -11
+```
+
+Then `sudo usermod -aG audio $USER`.
+
+After rebooting verify that it worked:
+
+```
+ulimit -r   # expect 95 (or similar, >0)
+ulimit -l   # expect unlimited
+```
+
