@@ -29,7 +29,7 @@ TODO: adjusting the microphone volume might not work in all computers
 sudo apt install cmake pipewire-jack jackd2 alsa-tools jack-capture
 conda create -n tertulia python=3.10
 conda activate tertulia
-pip install numpy matplotlib ipykernel ipywidgets scikit-image librosa tqdm samplerate
+pip install numpy matplotlib ipykernel ipywidgets scikit-image librosa tqdm samplerate pydub
 conda install -c conda-forge 'libgcc-ng>=13' 'libstdcxx-ng>=13'
 ```
 

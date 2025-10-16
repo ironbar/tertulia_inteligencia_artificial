@@ -1,9 +1,15 @@
 from pydub import AudioSegment, silence
 import os
+import sys
 
-# Paths
-input_path = "/mnt/data/other/data/TERTULia/episodios_tertulia/temporada_4/grabacion_01/curated_audios/part2_v1_cleaned.mp3"
-output_dir = "/mnt/data/other/data/TERTULia/episodios_tertulia/temporada_4/grabacion_01/curated_audios/part2_segments"
+# Check command line arguments
+if len(sys.argv) != 3:
+    print("Usage: python crop_audio.py <input_path> <output_dir>")
+    sys.exit(1)
+
+# Paths from command line arguments
+input_path = sys.argv[1]
+output_dir = sys.argv[2]
 
 # Create output directory
 os.makedirs(output_dir, exist_ok=True)

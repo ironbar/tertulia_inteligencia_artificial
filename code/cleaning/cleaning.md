@@ -19,6 +19,10 @@ We used the voice from `David Martin 1`, voice id: `Nh2zY9kknu6z4pZy6FhD`.
 Elevenlabs only supports audio of less than 5 minutes, so we had to first split the audio into multiple
 parts. This was done using the following script that chooses a good point for splitting the audios (with silence).
 
+```bash
+python crop_audio.py /mnt/data/other/data/TERTULia/episodios_tertulia/temporada_4/grabacion_01/curated_audios/part2_v1_cleaned.mp3 /mnt/data/other/data/TERTULia/episodios_tertulia/temporada_4/grabacion_01/curated_audios/part2_segments
+```
+
 ### Convert voice
 
 
