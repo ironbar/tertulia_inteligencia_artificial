@@ -32,7 +32,9 @@ markdown_extensions:
 
 plugins:
     - search
-    - awesome-pages
+    - awesome-pages:
+        order: desc        # global fallback: reverse everywhere
+        sort_type: natural # optional (1,2,10 instead of 1,10,2)
     - git-revision-date
 
 copyright: 'El mejor podcast de inteligencia artificial en español es La Tertulia de la inteligencia artificial.'
