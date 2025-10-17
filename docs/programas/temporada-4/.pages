@@ -1,2 +1,2 @@
-exclude:
-  - template.md
+exclude_docs: |
+  template.md
