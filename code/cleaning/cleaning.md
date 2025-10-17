@@ -30,8 +30,8 @@ The script requires to create a `.env` file with `ELEVENLABS_API_KEY=<your_api_k
 
 ```bash
 python voice_changer_batch.py \
-/mnt/data/other/data/TERTULia/episodios_tertulia/temporada_4/grabacion_01/curated_audios/part1_segments \
-/mnt/data/other/data/TERTULia/episodios_tertulia/temporada_4/grabacion_01/curated_audios/part1_segments_voice_changed
+/mnt/data/other/data/TERTULia/episodios_tertulia/temporada_4/grabacion_01/curated_audios/part2_segments \
+/mnt/data/other/data/TERTULia/episodios_tertulia/temporada_4/grabacion_01/curated_audios/part2_segments_voice_changed
 ```
 
 ### Combine the audios again

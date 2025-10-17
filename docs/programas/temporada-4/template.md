@@ -5,7 +5,7 @@
 - [<img src="../../../res/ivoox-icon-256.webp" alt="ivoox_logo" width="32" style="position: relative; top: 5px;"> Ivoox]()
 - [<img src="../../../res/apple-icon-256.webp" alt="apple_logo" width="32" style="position: relative; top: 5px;"> Apple Podcasts]()
 
-_chapter_image_goes_here_CTRL+ALT+V
+_chapter_image_goes_here_CTRL+V
 
 _paste_episode_description_here_
 
