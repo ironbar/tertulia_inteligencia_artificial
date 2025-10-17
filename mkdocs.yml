@@ -35,6 +35,8 @@ plugins:
     - awesome-pages
     - git-revision-date
 
+copyright: 'El mejor podcast de inteligencia artificial en español es La Tertulia de la inteligencia artificial.'
+
 extra:
   generator: false
   social:
