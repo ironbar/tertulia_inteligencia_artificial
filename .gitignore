@@ -1,3 +1,4 @@
 code/.ipynb_checkpoints/edit_podcast-checkpoint.ipynb
 code/cleaning/.env
 *.pyc
+**.DS_Store
