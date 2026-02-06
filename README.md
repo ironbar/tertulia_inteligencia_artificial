@@ -20,8 +20,8 @@ Esta web está creada con [Mkdocs](https://www.mkdocs.org/getting-started/)
 
 ## Environment
 
+We use sync to manage the python environment.
+
 ```bash
-conda create -n tertulia python=3.10
-conda activate tertulia
-pip install numpy matplotlib
+uv sync
 ```
