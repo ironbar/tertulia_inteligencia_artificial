@@ -1,9 +1,9 @@
 #  Lejepa, la receta maestra de Yann Lecun
 
-- [<img src="../../../res/spotify-icon-256.webp" alt="spotify_logo" width="32" style="position: relative; top: 5px;"> Spotify]()
+- [<img src="../../../res/spotify-icon-256.webp" alt="spotify_logo" width="32" style="position: relative; top: 5px;"> Spotify](https://open.spotify.com/episode/4FaC2RJk3p8lt787J3LDlP?si=2oVyeOFuQoOMDRQxgp_TNA)
 - [<img src="../../../res/youtube-icon-256.png" alt="youtube_logo" width="32" style="position: relative; top: 10px;"> Youtube](https://youtu.be/xIFcr7hozEU)
 - [<img src="../../../res/ivoox-icon-256.webp" alt="ivoox_logo" width="32" style="position: relative; top: 5px;"> Ivoox](https://go.ivoox.com/rf/170078680)
-- [<img src="../../../res/apple-icon-256.webp" alt="apple_logo" width="32" style="position: relative; top: 5px;"> Apple Podcasts]()
+- [<img src="../../../res/apple-icon-256.webp" alt="apple_logo" width="32" style="position: relative; top: 5px;"> Apple Podcasts](https://podcasts.apple.com/us/podcast/lejepa-la-receta-maestra-de-yann-lecun/id1669083682?i=1000755109183)
 
 ![alt text](images/1773411412758_image.png)
 
