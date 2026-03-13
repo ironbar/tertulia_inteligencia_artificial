@@ -5,7 +5,7 @@
 - [<img src="../../../res/ivoox-icon-256.webp" alt="ivoox_logo" width="32" style="position: relative; top: 5px;"> Ivoox](https://go.ivoox.com/rf/170078680)
 - [<img src="../../../res/apple-icon-256.webp" alt="apple_logo" width="32" style="position: relative; top: 5px;"> Apple Podcasts]()
 
-_chapter_image_goes_here_CTRL+V
+![alt text](images/1773411412758_image.png)
 
 LeJEPA es una evolución de la arquitectura JEPA que aprende el significado profundo de los datos prediciendo 
 representaciones en lugar de píxeles, pero eliminando la necesidad de usar inestables parches históricos 
