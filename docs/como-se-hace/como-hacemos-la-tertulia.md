@@ -19,6 +19,8 @@
 
 ### Software de grabación
 
+[record-multiple-usb-microphones](https://github.com/ironbar/record-multiple-usb-microphones)
+
 #### Arecord
 
 Los últimos programas los hemos grabado con arecord. Utilizando un hub usb hemos conectado todos los
