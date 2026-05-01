@@ -1,5 +1,11 @@
 # How to edit the podcast
 
+Go to `code/edit_podcast.ipynb` to learn how to edit the program. [Github link](https://github.com/ironbar/tertulia_inteligencia_artificial/blob/master/code/edit_podcast.ipynb)
+
+<details>
+<summary>Click to see old content</summary>
+
+
 ## Step 1. align the audios
 
 Rename the audios to the name of the people talking for easier edit.
@@ -116,3 +122,6 @@ Create a landing page on the website to share the episode.
 ## Step 11. Collect stats about the podcast
 
 <https://docs.google.com/spreadsheets/d/1rT_tqf2MN8p5VNHsaxPrNQTT-IkxjzchQKbhbH84Esw/edit#gid=0>
+
+
+</details>
